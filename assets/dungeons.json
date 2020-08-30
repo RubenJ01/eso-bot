@@ -40,7 +40,19 @@
           "Kill the pet after the Songstress dies.",
           "Tank should block the heavy melee attacks."
         ]
-      }
+      },
+    {"name" :  "Matron Ixniaa",
+      "mechanics": [
+        "Randomly places 2 circles (1 big and 1 small) underneath a player.",
+        "Bunch of ads"
+       ],
+       "strategy" : [
+         "Deal with the ads first as they can be overwhelming if not taken care of from the start.",
+         "The inner circle (smaller one) must be avoided as it can deal large amounts of damage and even kill you if you're not at full health. The outer circle (bigger one) does damage from which you can recover.",
+         "Healer should try to keep the player targeted with the 2 circles at full health as a precaution"
+       ]
+      },
+      
     ],
     "link" : "https://elderscrollsonline.wiki.fextralife.com/Arx+Corinium"
   }
