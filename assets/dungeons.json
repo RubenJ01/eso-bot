@@ -85,5 +85,80 @@
       
     ],
     "link" : "https://elderscrollsonline.wiki.fextralife.com/Arx+Corinium"
-  }
+  },
+  {
+  "dungeon" : "Blackheart Haven",
+  "description" : "Blackheart Haven is pirate-infested dungeon that will keep the Tanks and Healers busy with the large amounts of damage and heavy attacks going about.",
+  "sets" : ["Pirate Skeleton", "Undaunted Unweaver", "Bone Pirate's Tatters", "Knight-Errant's Mail"],
+  "bosses" : ["Atarus", "Roost Mother", "Iron-Heel", "First Mate Wavecutter", "Hollow Heart", "Captain Blackheart"
+    {"name" :  "Iron-Heel",
+      "mechanics": [
+        "Heavy melee attacks that can knock you down if not blocked.",
+        "AOE whirlwinds around himself that are easy to escape.",
+        "Bunch of ads."      
+      ],
+      "strategy" : [
+        "Kill the ads quickly. After that it is a straightforward fight."
+      ]
+     },
+    {"name" :  "Atarus",
+      "mechanics": [
+        "Cone AOE that spews poisonous acid at the players.",
+       "Stomp AOE knockdown (360 degrees).",
+       "Charges towards the tank occasionally (indicated by red path).",
+       "Heals himself back to 50% once after his health drops below 30%."
+      ],
+      "strategy" : [
+       "Avoid the AOE attacks by simply walking away.",
+        "Move out of the path of the charge.",
+       "Continue to attack after he regains his health back to 50%."    
+      ]
+      },
+    {"name" :  "First Mate Wavecutter",
+    "mechanics": [
+     "Harpies (ads) that deal ranged attacks which can damage you severely.",
+     "Shadow Volley that deals severe magic damage to all players (up to 50% loss of health).",
+      "Heavy attack that can knock you down if not blocked.",
+      "AOE whirlwinds (360 degrees) around himself that are easy to escape."
+   ],
+   "strategy" : [
+      "There are 2 ways to handle this boss. The First is to ignore the ads and just go all out Rambo on the boss. The Second is to kill the ads one by one (however there is high risk of wiping out in the process this way)."    
+    ]
+   },
+   {"name" :  "Roost Mother",
+   "mechanics": [
+    "Fiery tornado targeting the Tank that can deal heavy damage.",
+    "Rain of Fireballs that fall on expanding red circles on the ground. (Heavy damage).",
+    "Frontal Cone AOE fire-breathing that can be difficult to avoid if you are standing in front of the Roost Mother.",
+    "Random teleportation around the room."
+   ],
+   "strategy" : [
+    "The Fiery Tornado attack can be expected when the Roost Mother becomes surrounded by bats. The tank should step away from the boss when this happens to avoid being hit by this attack.",
+    "Stay away from the red circles on the ground as fireballs will drop from the sky into those areas. You do not want to be hit by one of them.",
+    "Keep moving around the room to deal damage to the boss (preferably from behind her so as to avoid the Frontal Cone AOE)."
+   ]
+  },
+  {"name" :  "Hollow Heart",
+  "mechanics": [
+    "Ice projectiles that are fired in front of her and leave behind icy patches that slowly deal damage over time."
+  ],
+  "strategy" : [
+    "The boss is not difficult to handle. Tank should keep the boss focused away from the rest of the group to ensure the others are not hit by the Ice Projectiles."
+  ]
+ },
+ {"name" :  "Captain Blackheart",
+  "mechanics": [
+    "6 Skeleton ads which includes archers.",
+    "360 degree slash attack that is very quick but does little damage.",
+    "boss charging to random group member and start converting him to skeleton (cannot be interrupted). Skeleton debuff lasts for 20-30 seconds."
+  ],
+  "strategy" : [
+    "Kill all the ads, prioritise the archers to avoid being overwhelmed."
+  ]
+}
+
+
+  ],
+  "link" : "https://elderscrollsonline.wiki.fextralife.com/Blackheart+Haven"
+}
 ]
