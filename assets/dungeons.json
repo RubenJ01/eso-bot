@@ -1,0 +1,35 @@
+[
+  {
+    "dungeon" : "Arx Corinium",
+    "description" : "Arx Corinium is a dungeon filled with snakes and Lamia.",
+    "bosses" : [
+      {"name" :  "Fanged Menace",
+        "mechanics": [
+          "Frontal cone attack that causes knockback and damages severely any player caught in it.",
+          "AOE Poison attack that absorbs health from those hit by it to the Boss. The red circle made underneat him while he curls up can damage heavily and also heal the boss.",
+          "Other ads surrounding the boss",
+          "Heavy melee attacks"
+        ],
+        "strategy" : [
+          "Deal with the ads first.",
+          "The tank should block the heavy Melee attack and keep the boss focused away from the group.",
+          "Avoid the large AOE red circle as it can instantly wipeout any player within its reach."
+        ]
+      },
+      {"name" :  "Ganakton the Tempest",
+        "mechanics": [
+          "Lightning Wave that is emitted towards a random player. The wave can cause high amounts of Shock damage and stun anyone close-by.",
+          "Immediately after the wave, the Boss will send a lightning bolt at the same player causing Shock damage and stunning them again.",
+          "Ganakton can also electrify all players with a shock pulse every now and then. This does medium levels of damage but is unavoidable.",
+          "Frontal cone lightning breath"
+        ],
+        "strategy" : [
+          "Due to all the shock waves that can stun players, it is best to spread out across the room to give yourself plenty of room to avoid the Waves and ensure you don't hurt another player in the process.",
+          "If you get hit by the Wave, you can escape the Stun element by using an Interrupt or break free ability using your stamina.",
+          "The shock pulses are difficult to avoid so it is best to just heal through them."
+        ]
+      }
+    ],
+    "link" : "https://elderscrollsonline.wiki.fextralife.com/Arx+Corinium"
+  }
+]
