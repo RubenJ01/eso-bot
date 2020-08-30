@@ -52,6 +52,36 @@
          "Healer should try to keep the player targeted with the 2 circles at full health as a precaution"
        ]
       },
+    {"name" :  "Ancient Lurcher",
+      "mechanics": [
+        "Randomly targets a player with a green beam that does severe poison damage.",
+        "Red circles underneath the Boss that damage those caught inside.",
+        "Enrage and Lightning charge that strengthens his AOE ability once his health is below 50%",
+        "Bunch of ads"
+      ],
+      "strategy" : [
+        "Attack the ads first before you focus on the boss.",
+        "Avoid the green beams as they can be fatal."
+      ]
+     },
+   {"name" :  "Sellistrix the Lamia Queen",
+     "mechanics": [
+       "Charges at players at random doing small amounts of damage.",
+       "Lightning strikes channelled at certain islands in the room marked by red circles. During this attack, if the Queen is in the water, the water becomes electrified and any players standing in the water will be electrocuted.",
+       "Frontal cone scream that does heavy damage."
+     ],
+     "strategy" : [
+       "Tank should focus the Queen facing away from the rest of the group to ensure your group is not hit by the nasty frontal scream.",
+       "Avoid being in the water as you risk being electrocuted if the lightning strike takes place while the Queen is standing in water.",
+       "The islands are a safe bet but they get targeted by the lightning AOE from time to time.",
+       "It may be better to just stay on the island and endure the AOE hit rather than stepping in the electrified water if you have a dedicated healer on your group.",
+       "Jumping around from island to island can be safer but prove to be more dangerous for the group as you risk them running into a frontal cone attack aimed at you as you move about.",
+       "On land she gets a damage shield, the tank should get her in the water to do spell criticals and normal damage. When she electrocutes, get the tank out of the water.",
+       "The screams are random and cannot be taunted.",
+       "It appears that only the range taunts work, the piercing strike has trouble taunting her",
+       "After scream, boss need to be taunt 5 time or boss attack random person"
+     ]
+    }    
       
     ],
     "link" : "https://elderscrollsonline.wiki.fextralife.com/Arx+Corinium"
