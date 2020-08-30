@@ -30,7 +30,7 @@ def main():
         except:
             print(f"could not load {extension}")
 
-    bot.run("NTcyMzY1NzQ5NzgwMzQ4OTI4.XMbPJA.Ex_989qmEGggns8X0FyZpsCtPmM")
+    bot.run("NTcyMzY1NzQ5NzgwMzQ4OTI4.XMbPJA.-59DN6IT6eE9HhfvvhjxmvvToAI")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,7 @@
   {
     "dungeon" : "Arx Corinium",
     "description" : "Arx Corinium is a dungeon filled with snakes and Lamia.",
+    "sets" : ["Sellistrix", "Lamia's Song", "Undaunted Infiltrator", "Medusa"],
     "bosses" : [
       {"name" :  "Fanged Menace",
         "mechanics": [
@@ -75,7 +76,6 @@
        "Avoid being in the water as you risk being electrocuted if the lightning strike takes place while the Queen is standing in water.",
        "The islands are a safe bet but they get targeted by the lightning AOE from time to time.",
        "It may be better to just stay on the island and endure the AOE hit rather than stepping in the electrified water if you have a dedicated healer on your group.",
-       "Jumping around from island to island can be safer but prove to be more dangerous for the group as you risk them running into a frontal cone attack aimed at you as you move about.",
        "On land she gets a damage shield, the tank should get her in the water to do spell criticals and normal damage. When she electrocutes, get the tank out of the water.",
        "The screams are random and cannot be taunted.",
        "It appears that only the range taunts work, the piercing strike has trouble taunting her",

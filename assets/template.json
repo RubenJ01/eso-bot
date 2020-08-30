@@ -1,0 +1,14 @@
+{
+  "dungeon" : "",
+  "description" : "",
+  "sets" : [],
+  "bosses" : [
+    {"name" :  "",
+      "mechanics": [
+      ],
+      "strategy" : [
+      ]
+    }
+  ],
+  "link" : ""
+}
