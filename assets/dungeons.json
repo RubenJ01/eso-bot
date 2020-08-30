@@ -28,6 +28,18 @@
           "If you get hit by the Wave, you can escape the Stun element by using an Interrupt or break free ability using your stamina.",
           "The shock pulses are difficult to avoid so it is best to just heal through them."
         ]
+      },
+     {"name" :  "Sliklenia the Songstress",
+        "mechanics": [
+          "A pet ad that you should not kill until the boss is dead.",
+          "Sound pulse that does high amounts of damage when the boss sings.",
+          "Heavy melee attack"
+        ],
+        "strategy" : [
+          "DON'T kill the pet before killing the boss. The ad is actually beneficial to the players in order to minimize the damage taken from the singing. When the boss sings, the pet will create a sonic shield in a random location in the room and retreat to it. You should follow the pet into that shield to avoid taking the crazy amounts of damage the Sound pulses can deal.(She must be a horrible singer because you can die from her singing!)",
+          "Kill the pet after the Songstress dies.",
+          "Tank should block the heavy melee attacks."
+        ]
       }
     ],
     "link" : "https://elderscrollsonline.wiki.fextralife.com/Arx+Corinium"
