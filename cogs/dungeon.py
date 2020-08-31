@@ -3,6 +3,8 @@ import discord
 import datetime
 import asyncio
 
+from backend.helpers import command_invoked
+
 import pytz
 from discord.ext.commands import Cog, command
 from discord.ext import buttons
@@ -19,7 +21,9 @@ class Lookup(Cog, name='Lookup commands'):
 
     @command(name="dungeon")
     async def dungeon_command(self, ctx, *dungeon):
-        with open('assets/dungeons.json', 'r') as dungeons:
+        user = ctx.author.name
+        await command_invoked(self.bot, "dungeon", user)
+        with open('assets/dungeons.json', 'r', encoding='utf-8') as dungeons:
             data = json.load(dungeons)
         result = False
         dungeon = " ".join(dungeon)

@@ -323,7 +323,7 @@
         "The boss will slam his mace into the ground and open up a hole in the ground. This hole will emit fireballs that will fly onto all players. This deals a ton of damage and will wipe the group!",
         "The boss will slam into the ground and kill anyone standing on the island. The only way to avoid this is to jump onto one of the small rocks that surround the island.",
         "After he is done, on veteran difficulty there will be a firewall for a few seconds around the island, make sure you wait for this to go away before jumping back on the main island! It will take you out instantly.",
-        "There will be shalks spawning throughout the fight. Focus them down as soon as they appear, and jump onto a rock if you get targeted by their homing fireball. Wait for the fireball to merge with the lava, then you are safe to jump back onto the main island.",
+        "There will be shalks spawning throughout the fight. Focus them down as soon as they appear, and jump onto a rock if you get targeted by their homing fireball. Wait for the fireball to merge with the lava, then you are safe to jump back onto the main island."
       ],
       "strategy" : [
         "The tank has to “plug” the lava geyser to avoid a group wipe, more on this below.",
@@ -341,9 +341,9 @@
         "To activate hard mode in Bloodroot Forge you need to read the Scroll of Glorious Battle located by the chest that appears after beating the Bullblood Trio. The main difference is that now you are not allowed to use the Altars."
       ],
       "strategy" : [
-        "Tank- Once you have 3 copies of the boss hammering you, you HAVE to pay attention to incoming heavy attacks! If you miss one block, you are down! Do NOT lose aggro on any of them at any point!  Maintaining resources in this last stage will be very difficult. Make sure you have potions ready for the third copy of the boss, ultimate, everything you’ve got!",
-        "Healer- the tank will need every resource help possible, feed shards and bubbles!",
-        "Damage-The boss will split itself into 3 versions of himself, you should always focus on the smallest copy!",
+        "**Tank:** Once you have 3 copies of the boss hammering you, you HAVE to pay attention to incoming heavy attacks! If you miss one block, you are down! Do NOT lose aggro on any of them at any point!  Maintaining resources in this last stage will be very difficult. Make sure you have potions ready for the third copy of the boss, ultimate, everything you’ve got!",
+        "**Healer:** the tank will need every resource help possible, feed shards and bubbles!",
+        "**Damage:** The boss will split itself into 3 versions of himself, you should always focus on the smallest copy!",
         "Manage the lava with the Blood Altar.",
         "Manage the falling rocks with the Fire Altar."
       ]
