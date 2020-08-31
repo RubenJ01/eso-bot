@@ -160,5 +160,83 @@
 
   ],
   "link" : "https://elderscrollsonline.wiki.fextralife.com/Blackheart+Haven"
+},  
+{
+  "dungeon" : "Blessed Crucible",
+  "description" : "Blessed Crucible is a dungeon that has a nordic feel to it.",
+  "sets" : ["Troll King", "Sword Dancer", "Nikulas' Heavy Armor", "Noble Duelist's Silks"],
+  "bosses" : [
+    {"name" :  "Grunt the Clever",
+      "mechanics": [
+        "AOE Fear shout that periodically fears everyone.",
+        "Massive frontal AOE melee attack."
+      ],
+      "strategy" : [
+        "Break free of the Fear using your Stamina.",
+        "Avoid the frontal AOE by running away or rolling away if you must."
+      ]
+    },
+    {"name" :  "The Pack",
+  "mechanics": [
+    "Consists of a number of bosses ( Fire mage, Dual Wielding Rogue, Heavy Armor Orc, Caster)",
+    "Snagg Gro-Mashul (Armored Orc) does whirlwind AOE attacks with his two handed weapon.",
+    "Nusana (Fire mage) casts beam of fire in front damaging everyone in its path.",
+    "Dynus Aralas (Healer) who casts fire and ice spells",
+    "Kayd at-Sal (Rogue) who should be tanked.",
+    "Each boss turns into a werewolf at 30% health."
+  ],
+  "strategy" : [
+    "Go for the healer first as he can make the fight a pain.",
+    "Then prioritise the Rogue as he can also be annoying with his quick attacks.",
+    "After a certain time, health potions may appear in the middle of the room which can be used."
+  ]
+},
+    {"name" :  "Teranya the Faceless",
+  "mechanics": [
+    "360 degree AOE attack that does mild damage and can be easily avoided.",
+    "Heavy melee attack that does heavy damage and knockdown if not blocked by the tank.",
+    "Frigid Banekins that spawns at the Boss' original location and charge at players to explode and cause large AOE damage."
+  ],
+  "strategy" : [
+    "The boss itself is very simple. However the 2 Enraged Durzog ads that come with The Faceless can be very damaging and should be killed on priority."
+  ]
+},
+  {"name" :  "The Stinger & The Troll King",
+  "mechanics": [
+    "The Stinger periodically targets a player and then creates a poisonous cloud underneath them. This attack can be fatal if you don't move out of the cloud immediately.",
+    "The Troll King can deal loads of damage with all his attacks. He will periodically jump towards a random target dealing damage to the entire group.",
+    "The Troll also uses AOE attacks that can also cause heavy damage",
+    "Frontal Tremor is an attack that the Troll uses to create waves around him that should be avoided."
+  ],
+  "strategy" : [
+    "Tank should keep the boss facing away from the group."
+  ]
+},
+    {"name" :  "Captain Thoran",
+  "mechanics": [
+    "Fire Runes that are cast on the ground causing moderate damage to those who step on them.",
+    "Purple clouds that randomly appear around the room causing damage to anyone in them.",
+    "At low health, a Lava Atronach is spawned, giving a big shield to the Captain. The shield disappears after killing the Atronach."
+  ],
+  "strategy" : [
+    "Kill the ads around before focusing on the boss.",
+    "Keep moving around to avoid being caught in the purple clouds."
+  ]
+},
+    {"name" :  "Lava Queen",
+  "mechanics": [
+    "Periodically summons Lava Atronachs that shield the boss through their beams.",
+    "Random lava eruptions marked by red circles.",
+    "Large lava eruptions underneath the Queen when she swings her sword at the ground that can do damage in multiple directions.",
+    "Fire attack on distant targets.",
+    "Heavy melee attack."
+  ],
+  "strategy" : [
+    "Take it easy. Slow and steady wins the race. This fight is all about fighting the Lava Atronachs, avoiding the pools of lava being thrown at you and pulling back into the fight after the eruption stops.",
+    "Heavy melle attacks should be blocked by the tank."
+  ]
+}
+  ],
+  "link" : ""
 }
 ]
