@@ -1,242 +1,272 @@
 [
   {
-    "dungeon" : "Arx Corinium",
-    "description" : "Arx Corinium is a dungeon filled with snakes and Lamia.",
-    "sets" : ["Sellistrix", "Lamia's Song", "Undaunted Infiltrator", "Medusa"],
-    "bosses" : [
-      {"name" :  "Fanged Menace",
+    "dungeon": "Arx Corinium",
+    "description": "Arx Corinium is a dungeon filled with snakes and Lamia.",
+    "sets": [
+      "Sellistrix",
+      "Lamia's Song",
+      "Undaunted Infiltrator",
+      "Medusa"
+    ],
+    "bosses": [
+      {
+        "name": "Fanged Menace",
         "mechanics": [
           "Frontal cone attack that causes knockback and damages severely any player caught in it.",
           "AOE Poison attack that absorbs health from those hit by it to the Boss. The red circle made underneat him while he curls up can damage heavily and also heal the boss.",
           "Other ads surrounding the boss",
           "Heavy melee attacks"
         ],
-        "strategy" : [
+        "strategy": [
           "Deal with the ads first.",
           "The tank should block the heavy Melee attack and keep the boss focused away from the group.",
           "Avoid the large AOE red circle as it can instantly wipeout any player within its reach."
         ]
       },
-      {"name" :  "Ganakton the Tempest",
+      {
+        "name": "Ganakton the Tempest",
         "mechanics": [
           "Lightning Wave that is emitted towards a random player. The wave can cause high amounts of Shock damage and stun anyone close-by.",
           "Immediately after the wave, the Boss will send a lightning bolt at the same player causing Shock damage and stunning them again.",
           "Ganakton can also electrify all players with a shock pulse every now and then. This does medium levels of damage but is unavoidable.",
           "Frontal cone lightning breath"
         ],
-        "strategy" : [
+        "strategy": [
           "Due to all the shock waves that can stun players, it is best to spread out across the room to give yourself plenty of room to avoid the Waves and ensure you don't hurt another player in the process.",
           "If you get hit by the Wave, you can escape the Stun element by using an Interrupt or break free ability using your stamina.",
           "The shock pulses are difficult to avoid so it is best to just heal through them."
         ]
       },
-     {"name" :  "Sliklenia the Songstress",
+      {
+        "name": "Sliklenia the Songstress",
         "mechanics": [
           "A pet ad that you should not kill until the boss is dead.",
           "Sound pulse that does high amounts of damage when the boss sings.",
           "Heavy melee attack"
         ],
-        "strategy" : [
+        "strategy": [
           "DON'T kill the pet before killing the boss. The ad is actually beneficial to the players in order to minimize the damage taken from the singing. When the boss sings, the pet will create a sonic shield in a random location in the room and retreat to it. You should follow the pet into that shield to avoid taking the crazy amounts of damage the Sound pulses can deal.(She must be a horrible singer because you can die from her singing!)",
           "Kill the pet after the Songstress dies.",
           "Tank should block the heavy melee attacks."
         ]
       },
-    {"name" :  "Matron Ixniaa",
-      "mechanics": [
-        "Randomly places 2 circles (1 big and 1 small) underneath a player.",
-        "Bunch of ads"
-       ],
-       "strategy" : [
-         "Deal with the ads first as they can be overwhelming if not taken care of from the start.",
-         "The inner circle (smaller one) must be avoided as it can deal large amounts of damage and even kill you if you're not at full health. The outer circle (bigger one) does damage from which you can recover.",
-         "Healer should try to keep the player targeted with the 2 circles at full health as a precaution"
-       ]
+      {
+        "name": "Matron Ixniaa",
+        "mechanics": [
+          "Randomly places 2 circles (1 big and 1 small) underneath a player.",
+          "Bunch of ads"
+        ],
+        "strategy": [
+          "Deal with the ads first as they can be overwhelming if not taken care of from the start.",
+          "The inner circle (smaller one) must be avoided as it can deal large amounts of damage and even kill you if you're not at full health. The outer circle (bigger one) does damage from which you can recover.",
+          "Healer should try to keep the player targeted with the 2 circles at full health as a precaution"
+        ]
       },
-    {"name" :  "Ancient Lurcher",
-      "mechanics": [
-        "Randomly targets a player with a green beam that does severe poison damage.",
-        "Red circles underneath the Boss that damage those caught inside.",
-        "Enrage and Lightning charge that strengthens his AOE ability once his health is below 50%",
-        "Bunch of ads"
-      ],
-      "strategy" : [
-        "Attack the ads first before you focus on the boss.",
-        "Avoid the green beams as they can be fatal."
-      ]
-     },
-   {"name" :  "Sellistrix the Lamia Queen",
-     "mechanics": [
-       "Charges at players at random doing small amounts of damage.",
-       "Lightning strikes channelled at certain islands in the room marked by red circles. During this attack, if the Queen is in the water, the water becomes electrified and any players standing in the water will be electrocuted.",
-       "Frontal cone scream that does heavy damage."
-     ],
-     "strategy" : [
-       "Tank should focus the Queen facing away from the rest of the group to ensure your group is not hit by the nasty frontal scream.",
-       "Avoid being in the water as you risk being electrocuted if the lightning strike takes place while the Queen is standing in water.",
-       "The islands are a safe bet but they get targeted by the lightning AOE from time to time.",
-       "It may be better to just stay on the island and endure the AOE hit rather than stepping in the electrified water if you have a dedicated healer on your group.",
-       "On land she gets a damage shield, the tank should get her in the water to do spell criticals and normal damage. When she electrocutes, get the tank out of the water.",
-       "The screams are random and cannot be taunted.",
-       "It appears that only the range taunts work, the piercing strike has trouble taunting her",
-       "After scream, boss need to be taunt 5 time or boss attack random person"
-     ]
-    }    
-      
+      {
+        "name": "Ancient Lurcher",
+        "mechanics": [
+          "Randomly targets a player with a green beam that does severe poison damage.",
+          "Red circles underneath the Boss that damage those caught inside.",
+          "Enrage and Lightning charge that strengthens his AOE ability once his health is below 50%",
+          "Bunch of ads"
+        ],
+        "strategy": [
+          "Attack the ads first before you focus on the boss.",
+          "Avoid the green beams as they can be fatal."
+        ]
+      },
+      {
+        "name": "Sellistrix the Lamia Queen",
+        "mechanics": [
+          "Charges at players at random doing small amounts of damage.",
+          "Lightning strikes channelled at certain islands in the room marked by red circles. During this attack, if the Queen is in the water, the water becomes electrified and any players standing in the water will be electrocuted.",
+          "Frontal cone scream that does heavy damage."
+        ],
+        "strategy": [
+          "Tank should focus the Queen facing away from the rest of the group to ensure your group is not hit by the nasty frontal scream.",
+          "Avoid being in the water as you risk being electrocuted if the lightning strike takes place while the Queen is standing in water.",
+          "The islands are a safe bet but they get targeted by the lightning AOE from time to time.",
+          "It may be better to just stay on the island and endure the AOE hit rather than stepping in the electrified water if you have a dedicated healer on your group.",
+          "On land she gets a damage shield, the tank should get her in the water to do spell criticals and normal damage. When she electrocutes, get the tank out of the water.",
+          "The screams are random and cannot be taunted.",
+          "It appears that only the range taunts work, the piercing strike has trouble taunting her",
+          "After scream, boss need to be taunt 5 time or boss attack random person"
+        ]
+      }
     ],
-    "link" : "https://elderscrollsonline.wiki.fextralife.com/Arx+Corinium"
+    "link": "https://elderscrollsonline.wiki.fextralife.com/Arx+Corinium"
   },
   {
-  "dungeon" : "Blackheart Haven",
-  "description" : "Blackheart Haven is pirate-infested dungeon that will keep the Tanks and Healers busy with the large amounts of damage and heavy attacks going about.",
-  "sets" : ["Pirate Skeleton", "Undaunted Unweaver", "Bone Pirate's Tatters", "Knight-Errant's Mail"],
-  "bosses" : ["Atarus", "Roost Mother", "Iron-Heel", "First Mate Wavecutter", "Hollow Heart", "Captain Blackheart"
-    {"name" :  "Iron-Heel",
-      "mechanics": [
-        "Heavy melee attacks that can knock you down if not blocked.",
-        "AOE whirlwinds around himself that are easy to escape.",
-        "Bunch of ads."      
-      ],
-      "strategy" : [
-        "Kill the ads quickly. After that it is a straightforward fight."
-      ]
-     },
-    {"name" :  "Atarus",
-      "mechanics": [
-        "Cone AOE that spews poisonous acid at the players.",
-       "Stomp AOE knockdown (360 degrees).",
-       "Charges towards the tank occasionally (indicated by red path).",
-       "Heals himself back to 50% once after his health drops below 30%."
-      ],
-      "strategy" : [
-       "Avoid the AOE attacks by simply walking away.",
-        "Move out of the path of the charge.",
-       "Continue to attack after he regains his health back to 50%."    
-      ]
+    "dungeon": "Blackheart Haven",
+    "description": "Blackheart Haven is pirate-infested dungeon that will keep the Tanks and Healers busy with the large amounts of damage and heavy attacks going about.",
+    "sets": [
+      "Pirate Skeleton",
+      "Undaunted Unweaver",
+      "Bone Pirate's Tatters",
+      "Knight-Errant's Mail"
+    ],
+    "bosses": [
+      {
+        "name": "Iron-Heel",
+        "mechanics": [
+          "Heavy melee attacks that can knock you down if not blocked.",
+          "AOE whirlwinds around himself that are easy to escape.",
+          "Bunch of ads."
+        ],
+        "strategy": [
+          "Kill the ads quickly. After that it is a straightforward fight."
+        ]
       },
-    {"name" :  "First Mate Wavecutter",
-    "mechanics": [
-     "Harpies (ads) that deal ranged attacks which can damage you severely.",
-     "Shadow Volley that deals severe magic damage to all players (up to 50% loss of health).",
-      "Heavy attack that can knock you down if not blocked.",
-      "AOE whirlwinds (360 degrees) around himself that are easy to escape."
-   ],
-   "strategy" : [
-      "There are 2 ways to handle this boss. The First is to ignore the ads and just go all out Rambo on the boss. The Second is to kill the ads one by one (however there is high risk of wiping out in the process this way)."    
-    ]
-   },
-   {"name" :  "Roost Mother",
-   "mechanics": [
-    "Fiery tornado targeting the Tank that can deal heavy damage.",
-    "Rain of Fireballs that fall on expanding red circles on the ground. (Heavy damage).",
-    "Frontal Cone AOE fire-breathing that can be difficult to avoid if you are standing in front of the Roost Mother.",
-    "Random teleportation around the room."
-   ],
-   "strategy" : [
-    "The Fiery Tornado attack can be expected when the Roost Mother becomes surrounded by bats. The tank should step away from the boss when this happens to avoid being hit by this attack.",
-    "Stay away from the red circles on the ground as fireballs will drop from the sky into those areas. You do not want to be hit by one of them.",
-    "Keep moving around the room to deal damage to the boss (preferably from behind her so as to avoid the Frontal Cone AOE)."
-   ]
+      {
+        "name": "Atarus",
+        "mechanics": [
+          "Cone AOE that spews poisonous acid at the players.",
+          "Stomp AOE knockdown (360 degrees).",
+          "Charges towards the tank occasionally (indicated by red path).",
+          "Heals himself back to 50% once after his health drops below 30%."
+        ],
+        "strategy": [
+          "Avoid the AOE attacks by simply walking away.",
+          "Move out of the path of the charge.",
+          "Continue to attack after he regains his health back to 50%."
+        ]
+      },
+      {
+        "name": "First Mate Wavecutter",
+        "mechanics": [
+          "Harpies (ads) that deal ranged attacks which can damage you severely.",
+          "Shadow Volley that deals severe magic damage to all players (up to 50% loss of health).",
+          "Heavy attack that can knock you down if not blocked.",
+          "AOE whirlwinds (360 degrees) around himself that are easy to escape."
+        ],
+        "strategy": [
+          "There are 2 ways to handle this boss. The First is to ignore the ads and just go all out Rambo on the boss. The Second is to kill the ads one by one (however there is high risk of wiping out in the process this way)."
+        ]
+      },
+      {
+        "name": "Roost Mother",
+        "mechanics": [
+          "Fiery tornado targeting the Tank that can deal heavy damage.",
+          "Rain of Fireballs that fall on expanding red circles on the ground. (Heavy damage).",
+          "Frontal Cone AOE fire-breathing that can be difficult to avoid if you are standing in front of the Roost Mother.",
+          "Random teleportation around the room."
+        ],
+        "strategy": [
+          "The Fiery Tornado attack can be expected when the Roost Mother becomes surrounded by bats. The tank should step away from the boss when this happens to avoid being hit by this attack.",
+          "Stay away from the red circles on the ground as fireballs will drop from the sky into those areas. You do not want to be hit by one of them.",
+          "Keep moving around the room to deal damage to the boss (preferably from behind her so as to avoid the Frontal Cone AOE)."
+        ]
+      },
+      {
+        "name": "Hollow Heart",
+        "mechanics": [
+          "Ice projectiles that are fired in front of her and leave behind icy patches that slowly deal damage over time."
+        ],
+        "strategy": [
+          "The boss is not difficult to handle. Tank should keep the boss focused away from the rest of the group to ensure the others are not hit by the Ice Projectiles."
+        ]
+      },
+      {
+        "name": "Captain Blackheart",
+        "mechanics": [
+          "6 Skeleton ads which includes archers.",
+          "360 degree slash attack that is very quick but does little damage.",
+          "boss charging to random group member and start converting him to skeleton (cannot be interrupted). Skeleton debuff lasts for 20-30 seconds."
+        ],
+        "strategy": [
+          "Kill all the ads, prioritise the archers to avoid being overwhelmed."
+        ]
+      }
+    ],
+    "link": "https://elderscrollsonline.wiki.fextralife.com/Blackheart+Haven"
   },
-  {"name" :  "Hollow Heart",
-  "mechanics": [
-    "Ice projectiles that are fired in front of her and leave behind icy patches that slowly deal damage over time."
-  ],
-  "strategy" : [
-    "The boss is not difficult to handle. Tank should keep the boss focused away from the rest of the group to ensure the others are not hit by the Ice Projectiles."
-  ]
- },
- {"name" :  "Captain Blackheart",
-  "mechanics": [
-    "6 Skeleton ads which includes archers.",
-    "360 degree slash attack that is very quick but does little damage.",
-    "boss charging to random group member and start converting him to skeleton (cannot be interrupted). Skeleton debuff lasts for 20-30 seconds."
-  ],
-  "strategy" : [
-    "Kill all the ads, prioritise the archers to avoid being overwhelmed."
-  ]
-}
-
-
-  ],
-  "link" : "https://elderscrollsonline.wiki.fextralife.com/Blackheart+Haven"
-},  
-{
-  "dungeon" : "Blessed Crucible",
-  "description" : "Blessed Crucible is a dungeon that has a nordic feel to it.",
-  "sets" : ["Troll King", "Sword Dancer", "Nikulas' Heavy Armor", "Noble Duelist's Silks"],
-  "bosses" : [
-    {"name" :  "Grunt the Clever",
-      "mechanics": [
-        "AOE Fear shout that periodically fears everyone.",
-        "Massive frontal AOE melee attack."
-      ],
-      "strategy" : [
-        "Break free of the Fear using your Stamina.",
-        "Avoid the frontal AOE by running away or rolling away if you must."
-      ]
-    },
-    {"name" :  "The Pack",
-  "mechanics": [
-    "Consists of a number of bosses ( Fire mage, Dual Wielding Rogue, Heavy Armor Orc, Caster)",
-    "Snagg Gro-Mashul (Armored Orc) does whirlwind AOE attacks with his two handed weapon.",
-    "Nusana (Fire mage) casts beam of fire in front damaging everyone in its path.",
-    "Dynus Aralas (Healer) who casts fire and ice spells",
-    "Kayd at-Sal (Rogue) who should be tanked.",
-    "Each boss turns into a werewolf at 30% health."
-  ],
-  "strategy" : [
-    "Go for the healer first as he can make the fight a pain.",
-    "Then prioritise the Rogue as he can also be annoying with his quick attacks.",
-    "After a certain time, health potions may appear in the middle of the room which can be used."
-  ]
-},
-    {"name" :  "Teranya the Faceless",
-  "mechanics": [
-    "360 degree AOE attack that does mild damage and can be easily avoided.",
-    "Heavy melee attack that does heavy damage and knockdown if not blocked by the tank.",
-    "Frigid Banekins that spawns at the Boss' original location and charge at players to explode and cause large AOE damage."
-  ],
-  "strategy" : [
-    "The boss itself is very simple. However the 2 Enraged Durzog ads that come with The Faceless can be very damaging and should be killed on priority."
-  ]
-},
-  {"name" :  "The Stinger & The Troll King",
-  "mechanics": [
-    "The Stinger periodically targets a player and then creates a poisonous cloud underneath them. This attack can be fatal if you don't move out of the cloud immediately.",
-    "The Troll King can deal loads of damage with all his attacks. He will periodically jump towards a random target dealing damage to the entire group.",
-    "The Troll also uses AOE attacks that can also cause heavy damage",
-    "Frontal Tremor is an attack that the Troll uses to create waves around him that should be avoided."
-  ],
-  "strategy" : [
-    "Tank should keep the boss facing away from the group."
-  ]
-},
-    {"name" :  "Captain Thoran",
-  "mechanics": [
-    "Fire Runes that are cast on the ground causing moderate damage to those who step on them.",
-    "Purple clouds that randomly appear around the room causing damage to anyone in them.",
-    "At low health, a Lava Atronach is spawned, giving a big shield to the Captain. The shield disappears after killing the Atronach."
-  ],
-  "strategy" : [
-    "Kill the ads around before focusing on the boss.",
-    "Keep moving around to avoid being caught in the purple clouds."
-  ]
-},
-    {"name" :  "Lava Queen",
-  "mechanics": [
-    "Periodically summons Lava Atronachs that shield the boss through their beams.",
-    "Random lava eruptions marked by red circles.",
-    "Large lava eruptions underneath the Queen when she swings her sword at the ground that can do damage in multiple directions.",
-    "Fire attack on distant targets.",
-    "Heavy melee attack."
-  ],
-  "strategy" : [
-    "Take it easy. Slow and steady wins the race. This fight is all about fighting the Lava Atronachs, avoiding the pools of lava being thrown at you and pulling back into the fight after the eruption stops.",
-    "Heavy melle attacks should be blocked by the tank."
-  ]
-}
-  ],
-  "link" : ""
-}
+  {
+    "dungeon": "Blessed Crucible",
+    "description": "Blessed Crucible is a dungeon that has a nordic feel to it.",
+    "sets": [
+      "Troll King",
+      "Sword Dancer",
+      "Nikulas' Heavy Armor",
+      "Noble Duelist's Silks"
+    ],
+    "bosses": [
+      {
+        "name": "Grunt the Clever",
+        "mechanics": [
+          "AOE Fear shout that periodically fears everyone.",
+          "Massive frontal AOE melee attack."
+        ],
+        "strategy": [
+          "Break free of the Fear using your Stamina.",
+          "Avoid the frontal AOE by running away or rolling away if you must."
+        ]
+      },
+      {
+        "name": "The Pack",
+        "mechanics": [
+          "Consists of a number of bosses ( Fire mage, Dual Wielding Rogue, Heavy Armor Orc, Caster)",
+          "Snagg Gro-Mashul (Armored Orc) does whirlwind AOE attacks with his two handed weapon.",
+          "Nusana (Fire mage) casts beam of fire in front damaging everyone in its path.",
+          "Dynus Aralas (Healer) who casts fire and ice spells",
+          "Kayd at-Sal (Rogue) who should be tanked.",
+          "Each boss turns into a werewolf at 30% health."
+        ],
+        "strategy": [
+          "Go for the healer first as he can make the fight a pain.",
+          "Then prioritise the Rogue as he can also be annoying with his quick attacks.",
+          "After a certain time, health potions may appear in the middle of the room which can be used."
+        ]
+      },
+      {
+        "name": "Teranya the Faceless",
+        "mechanics": [
+          "360 degree AOE attack that does mild damage and can be easily avoided.",
+          "Heavy melee attack that does heavy damage and knockdown if not blocked by the tank.",
+          "Frigid Banekins that spawns at the Boss' original location and charge at players to explode and cause large AOE damage."
+        ],
+        "strategy": [
+          "The boss itself is very simple. However the 2 Enraged Durzog ads that come with The Faceless can be very damaging and should be killed on priority."
+        ]
+      },
+      {
+        "name": "The Stinger & The Troll King",
+        "mechanics": [
+          "The Stinger periodically targets a player and then creates a poisonous cloud underneath them. This attack can be fatal if you don't move out of the cloud immediately.",
+          "The Troll King can deal loads of damage with all his attacks. He will periodically jump towards a random target dealing damage to the entire group.",
+          "The Troll also uses AOE attacks that can also cause heavy damage",
+          "Frontal Tremor is an attack that the Troll uses to create waves around him that should be avoided."
+        ],
+        "strategy": [
+          "Tank should keep the boss facing away from the group."
+        ]
+      },
+      {
+        "name": "Captain Thoran",
+        "mechanics": [
+          "Fire Runes that are cast on the ground causing moderate damage to those who step on them.",
+          "Purple clouds that randomly appear around the room causing damage to anyone in them.",
+          "At low health, a Lava Atronach is spawned, giving a big shield to the Captain. The shield disappears after killing the Atronach."
+        ],
+        "strategy": [
+          "Kill the ads around before focusing on the boss.",
+          "Keep moving around to avoid being caught in the purple clouds."
+        ]
+      },
+      {
+        "name": "Lava Queen",
+        "mechanics": [
+          "Periodically summons Lava Atronachs that shield the boss through their beams.",
+          "Random lava eruptions marked by red circles.",
+          "Large lava eruptions underneath the Queen when she swings her sword at the ground that can do damage in multiple directions.",
+          "Fire attack on distant targets.",
+          "Heavy melee attack."
+        ],
+        "strategy": [
+          "Take it easy. Slow and steady wins the race. This fight is all about fighting the Lava Atronachs, avoiding the pools of lava being thrown at you and pulling back into the fight after the eruption stops.",
+          "Heavy melle attacks should be blocked by the tank."
+        ]
+      }
+    ],
+    "link": "https://elderscrollsonline.wiki.fextralife.com/Blessed+Crucible"
+  }
 ]
