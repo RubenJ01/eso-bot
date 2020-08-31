@@ -268,5 +268,87 @@
       }
     ],
     "link": "https://elderscrollsonline.wiki.fextralife.com/Blessed+Crucible"
-  }
+  },
+  {
+    "dungeon" : "Bloodroot Forge",
+    "description" : " This is a challenging dungeon in Veteran modes. Players should form a well-geared party at endgame level.",
+    "sets" : ["Flame Blossom", "Blooddrinker", "Hagraven's Garden", "Earthgore"],
+    "bosses" : [
+    {"name" :  "Mathgamain",
+      "mechanics": [
+        "The boss will spawn little mini adds, try and taunt these best you can tank. If it means you turning around the boss towards the group, it’s not worth it. Try to range taunt and CC (crowd control) them. Chain pull works great as well.",
+        "Stranglers will spawn randomly, they will put up AOEs everywhere which hurt a LOT! As soon as a Strangler appears, immediately focus on it! You can tell that a Strangler is present by the AOEs it puts out. As soon as you see an AOE, look for a Strangler and get it! Tank – No need to taunt these.",
+        "The boss will get up on its hind legs and slam into the ground. Any group member hit by this will go down. Tank – you have to block or evade this, it’s very powerful."
+      ],
+      "strategy" : [
+        "The tank needs to make sure to pick up the adds as best as possible.",
+        "Keep the boss faced away from the group – the cone AOE will one-shot squishy players.",
+        "Kill stranglers first! Always kill stranglers first!",
+        "Make sure to deal with the adds, don’t ignore them. CC if you can and get them before focusing on the boss."
+      ]
+    },
+      
+    {"name" :  "Caillaoife",
+      "mechanics": [
+        "The boss will put up a forest around her that will shield and deflect any attacks targeted at her. Don’t attack when she is in this state! You will always have adds when she is in forest mode so deal with those while she is in there.",
+        "Make sure to keep an eye out for Stranglers ALL the time! As soon as you see one, deal with it immediately! Even if you have adds, Stranglers first! Always!",
+        "When she is in forest mode, the tank will lose aggro, there is no way to taunt her. So she will start dispatching these ice balls at random players. Make sure to stay on your guard during the forest phase when dealing with adds. The ice balls will come out of nowhere and one-shot you!",
+        "Adds will show up whenever the boss enters forest shield mode. The tank should CC, taunt these and clump them up. Damage dealers – give it your best with AOEs, focus should be on the bigger add."
+      ],
+      "strategy" : [
+        "Stranglers first! Always deal with stranglers as soon as you spot them no matter what else is going on.",
+        "Watch out for the boss’ iceball attacks that trace the ground – they will one-shot you.",
+        "The boss will surround herself with a forest and adds will spawn – deal with the adds first!",
+        "Don’t attack the boss when she has the forest around her, it will reflect your attack back onto you!",
+        "Face the boss away from the group! She does cone attacks and nasty ice balls."
+      ]
+    },
+      
+    {"name" :  "Stoneheart",
+      "mechanics": [
+        "The boss will animate Stone Atronachs, you can see this by watching the boss, he will wave his hand and emit red magic. The red magic will flow to the Atronach about to be animated.",
+        "The boss will keep putting out fire AOEs at his target’s feet. Tank, you can back away when this happens so that the AOEs don’t end up near the boss. Range taunt him to keep aggro.",
+        "The boss will root all players and immediately start shooting out little fireballs in all directions that will trace the ground. These hurt quite a lot so back off and do your best at avoiding these!",
+        "When the boss reaches 20% he will animate ALL Stone Atronachs. This is a DPS (damage per second) race, it’s time to ignore all the Stone Atronachs and max out your damage on the boss."
+      ],
+      "strategy" : [
+        "The boss will animate Stone Atronachs – these are the number one priority for damage dealers.",
+        "At 20% the boss will animate all Stone Atronachs, this is an execute phase, ignore all Atronachs and burn the boss down with Ultimates.",
+        "The boss’ fire AOEs are bad for squishy players, stay away from them as much as you can!"
+      ]
+    },
+      
+    {"name" :  "Galchobhar",
+      "mechanics": [
+        "The boss will slam his mace into the ground and open up a hole in the ground. This hole will emit fireballs that will fly onto all players. This deals a ton of damage and will wipe the group!",
+        "The boss will slam into the ground and kill anyone standing on the island. The only way to avoid this is to jump onto one of the small rocks that surround the island.",
+        "After he is done, on veteran difficulty there will be a firewall for a few seconds around the island, make sure you wait for this to go away before jumping back on the main island! It will take you out instantly.",
+        "There will be shalks spawning throughout the fight. Focus them down as soon as they appear, and jump onto a rock if you get targeted by their homing fireball. Wait for the fireball to merge with the lava, then you are safe to jump back onto the main island.",
+      ],
+      "strategy" : [
+        "The tank has to “plug” the lava geyser to avoid a group wipe, more on this below.",
+        "During the big AOE that covers the entire island, jump onto a rock, no sharing!",
+        "Face the boss away from the group, he shoots out fireballs in the direction he is facing."
+      ]
+    },
+      
+    {"name" :  "Earthgore Amalgam",
+      "mechanics": [
+        "At each end of the room, you will find two altars. These will need to be used through this fight and one person should be appointed to each altar. Generally, the damage dealers will be responsible for these.",
+        "The Blood Altar will create a rain of blood wherever you aim at the point of synergizing. This can be used to remove the flowing lava that the boss sends out.",
+        "The Fire Altar will hurl a fireball at your target upon synergizing with the altar. This will stun the boss. Use the fire altar when the boss is slamming the ground and rocks are falling from the sky.",
+        "The boss will spawn a smaller version of itself. This will happen twice so you will have a total of 3 bosses to deal with. The boss will split at 70% – 40%  health percentages.",
+        "To activate hard mode in Bloodroot Forge you need to read the Scroll of Glorious Battle located by the chest that appears after beating the Bullblood Trio. The main difference is that now you are not allowed to use the Altars."
+      ],
+      "strategy" : [
+        "Tank- Once you have 3 copies of the boss hammering you, you HAVE to pay attention to incoming heavy attacks! If you miss one block, you are down! Do NOT lose aggro on any of them at any point!  Maintaining resources in this last stage will be very difficult. Make sure you have potions ready for the third copy of the boss, ultimate, everything you’ve got!",
+        "Healer- the tank will need every resource help possible, feed shards and bubbles!",
+        "Damage-The boss will split itself into 3 versions of himself, you should always focus on the smallest copy!",
+        "Manage the lava with the Blood Altar.",
+        "Manage the falling rocks with the Fire Altar."
+      ]
+    }
+  ],
+  "link" : "https://esoplanet.com/bloodroot-forge-dungeon-guide/"
+}
 ]
