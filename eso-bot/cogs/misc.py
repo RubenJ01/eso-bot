@@ -1,7 +1,5 @@
 from backend.helpers import command_invoked
 
-from backend.helpers import command_invoked
-
 from discord import Colour, Embed
 from discord.ext import buttons
 from discord.ext.commands import Cog, command
