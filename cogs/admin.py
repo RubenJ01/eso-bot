@@ -13,8 +13,7 @@ class Admin(Cog, name='Admin commands'):
 
     @command(name="stop")
     async def restart_command(self, ctx):
-        user = ctx.message.author
-        await command_invoked(self.bot, "stop", user)
+        await command_invoked(self.bot, "stop", ctx.message.author)
         user = ctx.message.author.id
         if user in self.admins:
             await ctx.send("Goodbye cruel world :(")

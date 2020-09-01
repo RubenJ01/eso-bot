@@ -1,14 +1,24 @@
-{
-  "dungeon" : "",
-  "description" : "",
-  "sets" : [],
-  "bosses" : [
-    {"name" :  "",
-      "mechanics": [
-      ],
-      "strategy" : [
-      ]
-    }
-  ],
-  "link" : ""
-}
+[
+  {
+    "dungeon" : "",
+    "description" : "",
+    "sets" : [],
+    "bosses" : [
+      {"name" :  "",
+        "mechanics": [
+        ],
+        "strategy" : [
+        ]
+      }
+    ],
+    "link" : ""
+  },
+  {
+    "name" : "",
+    "effects" : [
+
+    ],
+    "image" : "",
+    "link" : ""
+  }
+]

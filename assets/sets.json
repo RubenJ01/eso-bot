@@ -1,0 +1,107 @@
+[
+  {
+    "name" : "Adept Rider",
+    "effects" : [
+      "Adds 1487 Armor",
+      "Adds 1487 Armor",
+      "Adds 1206 Maximum Health",
+      "While mounted you gain Major Evasion, reducing damage from area attacks by 25%. Dismounting spawns a dust cloud at your position for 12 seconds that deals 1436 Physical Damage every 1 second to enemies who stand inside it. You and group members inside the dust cloud gain Major Evasion. Dust cloud can be created once every 12 seconds."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_breton_medium_head_d.png",
+    "link" : "https://eso-sets.com/set/adept-rider"
+  },
+  {
+    "name" : "Aegis Caller",
+    "effects" : [
+      "Adds 129 Weapon Damage",
+      "Adds 129 Stamina Recovery",
+      "Adds 129 Weapon Damage",
+      "When you deal critical melee damage, summon a Lesser Aegis for 11 seconds. After 2.5 seconds, the Lesser Aegis spins its blades, dealing 3730 Bleed Damage every 1 second. This effect can occur once every 12 seconds."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_pyrewatchmed_head_a.png",
+    "link" : "https://eso-sets.com/set/aegis-caller"
+  },
+  {
+    "name" : "Aegis of Galenwe",
+    "effects" : [
+      "Adds 1206 Maximum Health",
+      "Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.",
+      "Adds 4% Healing Taken",
+      "After successfully blocking, you grant Empower to 11 allies within 15 meters for 5 seconds, increasing the damage of their next Light Attack by 40%. This effect can occur once every 2 seconds."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_welkynar_heavy_head_a.png",
+    "link" : "https://eso-sets.com/set/aegis-of-galenwe"
+  },
+  {
+    "name" : "Affliction",
+    "effects" : [
+      "Adds 129 Weapon Damage",
+      "Adds 1096 Maximum Stamina",
+      "Adds 129 Stamina Recovery",
+      "When you deal damage, you deal 1830 Disease Damage to the target. This damage immediately applies the Diseased status effect, applying Minor Defile to the target, reducing their Healing Received and Health Recovery by 15% for 4 seconds. This set can occur once every 4 seconds."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_breton_heavy_head_d.png",
+    "link" : "https://eso-sets.com/set/affliction"
+  },
+  {
+    "name" : "Agility",
+    "effects" : [
+      "Adds 1752 Maximum Stamina",
+      "Adds 206 Weapon Damage"
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_breton_staff_d.png",
+    "link" : "https://eso-sets.com/set/agility"
+  },
+  {
+    "name" : "Akaviri Dragonguard",
+    "effects" : [
+      "Adds 129 Magicka Recovery",
+      "Adds 4% Healing Taken",
+      "Adds 1206 Maximum Health",
+      "Adds 158 Health Recovery, Reduces the cost of your Ultimate abilities by 15%."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_nord_heavy_head_d.png",
+    "link" : "https://eso-sets.com/set/akaviri-dragonguard"
+  },
+  {
+    "name" : "Alessia's Bulwark",
+    "effects" : [
+      "Adds 1487 Armor",
+      "Adds 1206 Maximum Health",
+      "Adds 1487 Armor",
+      "When you take damage from a melee attack, you have a 15% chance to reduce the attacker's Weapon Damage by 300 for 5 seconds."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_breton_medium_head_d.png",
+    "link" : "https://eso-sets.com/set/alessias-bulwark"
+  },{
+    "name" : "Alessian Order",
+    "effects" : [
+      "Adds 1487 Armor",
+      "Adds 1487 Armor",
+      "Adds 1206 Maximum Health",
+      "Increase your Health Recovery by 2% of your sum total Physical Resistance and Spell Resistance. Current Bonus Health Recovery: 0."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_nord_medium_head_c.png",
+    "link" : "https://eso-sets.com/set/alessian-order"
+  },{
+    "name" : "Almalexia's Mercy",
+    "effects" : [
+      "Adds 1206 Maximum Health",
+      "Adds 1487 Armor",
+      "Adds 1487 Armor",
+      "When you take damage, you heal you and your group members within 7 meters of you for 4000 Health over 3 seconds. This effect can occur once every 3 seconds."
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_breton_light_head_d.png",
+    "link" : "https://eso-sets.com/set/almalexias-mercy"
+  },{
+    "name" : "Amber Plasm",
+    "effects" : [
+      "Adds 1096 Maximum Magicka",
+      "Adds 833 Spell Critical",
+      "Adds 129 Spell Damage",
+      "Adds 276 Magicka Recovery, Adds 276 Stamina Recovery, Adds 276 Health Recovery"
+    ],
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_mazzatun_light_head_a.png",
+    "link" : "https://eso-sets.com/set/amber-plasm"
+  }
+]

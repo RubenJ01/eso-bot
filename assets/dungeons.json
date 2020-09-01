@@ -270,157 +270,173 @@
     "link": "https://elderscrollsonline.wiki.fextralife.com/Blessed+Crucible"
   },
   {
-    "dungeon" : "Bloodroot Forge",
-    "description" : " This is a challenging dungeon in Veteran modes. Players should form a well-geared party at endgame level.",
-    "sets" : ["Flame Blossom", "Blooddrinker", "Hagraven's Garden", "Earthgore"],
-    "bosses" : [
-    {"name" :  "Mathgamain",
-      "mechanics": [
-        "The boss will spawn little mini adds, try and taunt these best you can tank. If it means you turning around the boss towards the group, it’s not worth it. Try to range taunt and CC (crowd control) them. Chain pull works great as well.",
-        "Stranglers will spawn randomly, they will put up AOEs everywhere which hurt a LOT! As soon as a Strangler appears, immediately focus on it! You can tell that a Strangler is present by the AOEs it puts out. As soon as you see an AOE, look for a Strangler and get it! Tank – No need to taunt these.",
-        "The boss will get up on its hind legs and slam into the ground. Any group member hit by this will go down. Tank – you have to block or evade this, it’s very powerful."
-      ],
-      "strategy" : [
-        "The tank needs to make sure to pick up the adds as best as possible.",
-        "Keep the boss faced away from the group – the cone AOE will one-shot squishy players.",
-        "Kill stranglers first! Always kill stranglers first!",
-        "Make sure to deal with the adds, don’t ignore them. CC if you can and get them before focusing on the boss."
-      ]
-    },
-      
-    {"name" :  "Caillaoife",
-      "mechanics": [
-        "The boss will put up a forest around her that will shield and deflect any attacks targeted at her. Don’t attack when she is in this state! You will always have adds when she is in forest mode so deal with those while she is in there.",
-        "Make sure to keep an eye out for Stranglers ALL the time! As soon as you see one, deal with it immediately! Even if you have adds, Stranglers first! Always!",
-        "When she is in forest mode, the tank will lose aggro, there is no way to taunt her. So she will start dispatching these ice balls at random players. Make sure to stay on your guard during the forest phase when dealing with adds. The ice balls will come out of nowhere and one-shot you!",
-        "Adds will show up whenever the boss enters forest shield mode. The tank should CC, taunt these and clump them up. Damage dealers – give it your best with AOEs, focus should be on the bigger add."
-      ],
-      "strategy" : [
-        "Stranglers first! Always deal with stranglers as soon as you spot them no matter what else is going on.",
-        "Watch out for the boss’ iceball attacks that trace the ground – they will one-shot you.",
-        "The boss will surround herself with a forest and adds will spawn – deal with the adds first!",
-        "Don’t attack the boss when she has the forest around her, it will reflect your attack back onto you!",
-        "Face the boss away from the group! She does cone attacks and nasty ice balls."
-      ]
-    },
-      
-    {"name" :  "Stoneheart",
-      "mechanics": [
-        "The boss will animate Stone Atronachs, you can see this by watching the boss, he will wave his hand and emit red magic. The red magic will flow to the Atronach about to be animated.",
-        "The boss will keep putting out fire AOEs at his target’s feet. Tank, you can back away when this happens so that the AOEs don’t end up near the boss. Range taunt him to keep aggro.",
-        "The boss will root all players and immediately start shooting out little fireballs in all directions that will trace the ground. These hurt quite a lot so back off and do your best at avoiding these!",
-        "When the boss reaches 20% he will animate ALL Stone Atronachs. This is a DPS (damage per second) race, it’s time to ignore all the Stone Atronachs and max out your damage on the boss."
-      ],
-      "strategy" : [
-        "The boss will animate Stone Atronachs – these are the number one priority for damage dealers.",
-        "At 20% the boss will animate all Stone Atronachs, this is an execute phase, ignore all Atronachs and burn the boss down with Ultimates.",
-        "The boss’ fire AOEs are bad for squishy players, stay away from them as much as you can!"
-      ]
-    },
-      
-    {"name" :  "Galchobhar",
-      "mechanics": [
-        "The boss will slam his mace into the ground and open up a hole in the ground. This hole will emit fireballs that will fly onto all players. This deals a ton of damage and will wipe the group!",
-        "The boss will slam into the ground and kill anyone standing on the island. The only way to avoid this is to jump onto one of the small rocks that surround the island.",
-        "After he is done, on veteran difficulty there will be a firewall for a few seconds around the island, make sure you wait for this to go away before jumping back on the main island! It will take you out instantly.",
-        "There will be shalks spawning throughout the fight. Focus them down as soon as they appear, and jump onto a rock if you get targeted by their homing fireball. Wait for the fireball to merge with the lava, then you are safe to jump back onto the main island."
-      ],
-      "strategy" : [
-        "The tank has to “plug” the lava geyser to avoid a group wipe, more on this below.",
-        "During the big AOE that covers the entire island, jump onto a rock, no sharing!",
-        "Face the boss away from the group, he shoots out fireballs in the direction he is facing."
-      ]
-    },
-      
-    {"name" :  "Earthgore Amalgam",
-      "mechanics": [
-        "At each end of the room, you will find two altars. These will need to be used through this fight and one person should be appointed to each altar. Generally, the damage dealers will be responsible for these.",
-        "The Blood Altar will create a rain of blood wherever you aim at the point of synergizing. This can be used to remove the flowing lava that the boss sends out.",
-        "The Fire Altar will hurl a fireball at your target upon synergizing with the altar. This will stun the boss. Use the fire altar when the boss is slamming the ground and rocks are falling from the sky.",
-        "The boss will spawn a smaller version of itself. This will happen twice so you will have a total of 3 bosses to deal with. The boss will split at 70% – 40%  health percentages.",
-        "To activate hard mode in Bloodroot Forge you need to read the Scroll of Glorious Battle located by the chest that appears after beating the Bullblood Trio. The main difference is that now you are not allowed to use the Altars."
-      ],
-      "strategy" : [
-        "**Tank:** Once you have 3 copies of the boss hammering you, you HAVE to pay attention to incoming heavy attacks! If you miss one block, you are down! Do NOT lose aggro on any of them at any point!  Maintaining resources in this last stage will be very difficult. Make sure you have potions ready for the third copy of the boss, ultimate, everything you’ve got!",
-        "**Healer:** the tank will need every resource help possible, feed shards and bubbles!",
-        "**Damage:** The boss will split itself into 3 versions of himself, you should always focus on the smallest copy!",
-        "Manage the lava with the Blood Altar.",
-        "Manage the falling rocks with the Fire Altar."
-      ]
-    }
-     ],
-     "link" : "https://esoplanet.com/bloodroot-forge-dungeon-guide/"
-   },
-   {
-  "dungeon" : "City of Ash I",
-  "description" : "City of Ash is another 4-man dungeon in Elder Scrolls Online. It is found in Greenshade.",
-  "sets" : ["Infernal Guardian", "Burning Spellweave", "Sunderflame", "Embershield"],
-  "bosses" : [
-    {"name" :  "Infernal Guardian",
-      "mechanics": [
-        "**Double Slam** - This is a pretty simple melee attack that should only hit the person with agro and can be blocked, it shouldn’t cause much of a problem.",
-        "**Thorny Backhand** – This is a backhand animation and adds a bleed to the target so this should hopefully ONLY be hitting the tank meaning others don’t receive this damage.",
-        "**Fiery Explosion** – The boss will shake violently throwing fireballs all around landing on the ground making aoe splash effects, you need to avoid these as dps/healer as much as possible. one or two hits can kill anything that is not a tank so watch your feet. Also during this phase he does close aoe fire damage from his location so stand back a bit.",
-        "**Tunneling Roots** – When he stomps the ground he will make roots stream across the floor and whoever is caught in this will be immobilized on the spot (rooted) simple avoid this by moving left or right when you see it coming, OR dodge roll out of it if you get caught. it does a decent amount of physical damage so be careful not to get caught out if you are not the tank."
-      ],
-      "strategy" : [
-        "The tank should basically hold it still, as central to the room as possible and facing away from the group. He can however still hurt the group with various affects which if not paid attention to can one shot a squishy and/or wipe a group. So watch your feet!"
-      ]
-    },
-        {"name" :  "Golor The Banekin Handler",
-      "mechanics": [
-        "This boss is extremely easy to kill however has some high damage if not controlled. Make sure your tank holds him STILL, do NOT run around the room and keep the banekins controlled if your group doesn’t have much damage."
-      ],
-      "strategy" : [
-        "**Crushing Blow** – Apart from his basic light attacks, the boss occasionally he will fire off a heavy attack, if you do not block this you will be knocked down and if the baneklins are still alive you can get overwhelmed with damage so make sure you BLOCK this.",
-        "**Cleave** – he will spin her sword around her head, anyone caught in it will take physical damage over time. This is very obvious and easy to see, simply stay out of it and you will be fine.",
-        "**Summon Banekin/daedra** – Throughout the fight he will summon 3 banekins (he starts with 3 also when you initiate the fight). Get your tank to pull them together and hold them in place while the dps do aoe damage to gradually kill them."
-      ]
-    }
-        {"name" :  "Warden of the Shrine",
-      "mechanics": [
-        "**Heavy Attack** – The boss occasionally will fire off a nasty dual wield heavy attack with a MASSIVE knock back. You as the tank MUST block this or the fight is going to get messy fast! If a dps or healer has it they MUST also block it or they will most likely die, but above all your tank needs to be sure that this attack is ON the tank and not the squishies.",
-        "**Blazing Fire** – The boss will spin and put a ring of small fire AoEs around him on the ground. Sometimes it will be clustered up, in which case stay away from it. Other times it can have a gap in the middle which you can stand in and take no damage. Keep an eye on which one it is and position yourself accordingly. Do NOT stand in the fire.",
-        "**Teleport strike** – IF someone decides to run away from the boss, he WILL punish you. Stay close don’t panic and pay attention to his mechanics. IF you are the furthest away, he will strike you in the back. If you see this coming, you must block."
-      ],
-      "strategy" : [
-        "You are in a confined space on top of a cliff of sorts and one false move will wipe your group. **Tank** should try to keep him on his starting platform as much as possible and turn him AWAY from the group. Do not run around the place you do not have room."
-      ]
-    },
-        {"name" :  "Dark Ember",
-      "mechanics": [
-        "**Lava Geyser** – This is an extremely easy to spot mechanic. Small spreading AoEs on the ground which erupt like a geyser of lava! The tank can with stand this if blocking but this is primarily cast on people that do NOT have agro. This is a very simple mechanic to avoid and all you need to do is simply, step out of it, wait for it to blow up, and then get back in position again.",
-        "**Combustion** – When she dies she emits a Small AoE around her body and then it will explode. This will one shot a dps or healer."
-      ],
-      "strategy" : [
-        "She spawns with a few adds once the gate is clear and the tank should grab these right away, stack them on top of her and turn her away from the group. Her basic fireball attacks can be blocked and should only hit whoever has agro."
-      ]
-   },
-      {"name" :  "Rothariel Flameheart",
-      "mechanics": [
-        "**Heavy attack** – She has a heavy attack that will knock you flying and do a nasty amount of damage especially if she follows up with a light attack afterwards. This will ONLY hit the person who has agro.",
-        "**Berserker Frenzy** – She will spin her sword around her head, anyone caught in it will take physical damage over time. This is very obvious and easy to see, simply stay out of it and you will be fine.",
-        "**Burning Field** – She will summon pools of fire on the ground which you must stay out of, these are VERY easy to see as they are big burst of fire on the ground. The damage isn’t too high but you don’t want to be in there for long.",
-        "**Summon Clones** – Straight after the above mechanic she will spawn 3 clones of her self. They take MASSIVE damage in comparison to her so this is how you spot which one is which. They deal the same damage as the boss so should be killed fast."
-      ],
-      "strategy" : [
-        "This boss is fairly fast due to her low health but things can go horribly wrong if not controlled especially during her clone phase. Your tank should position her in the center and the dps should focus her down while preparing for each phase. The area you fight in is small and if you run down the stairs she will reset."
-      ]
-    },
-      {"name" :  "Razor Master Erthas",
-      "mechanics": [
-        "**Fire burst** – Occasionally the boss will fire a projectile in the air and when it lands it will burst causing a 4 way cross affect of fire trailing along the floor. This won’t one shot you but this will do a LOT of damage so avoid it as much as possible.",
-        "**Minions** – Whenever he says “rise minion” he will summon a flame atronach. These deal nasty flame attacks from range and explode when they die. Your tank should range taunt these to keep the damage off the group while the dps try to dispatch them quickly. Not killing them will result in having way too many of them towards the end of the fight.",
-        "**Teleport** – Throughout the fight Razor will teleport to a random location. You can simply run to where he is and continue as your were while he repeats his rotation. THIS is your opportunity to throw down ultimates. save ultimates until he moves and drop them on him when he gets there. The reason for this is if you throw them down mid rotation he COULD teleport out of it and you loose overall dps.",
-        "**Flame Shot** – Your group should be standing in somewhat of a formation. This is because periodically he will aim at a chosen member of the group and fire a heavy attack type shot at them. The ability can be blocked and/or dodged BUT if it physically hits you the dot will still stay with you. The fire dot is of a LONG duration. To clear this effect jump in the water.",
-        "**Enrage** – The final phase under 25% he instead of spawning 1 atronach, will in fact spawn 3! Get your tank on point with the taunts and kill all of the atronachs before focusing the boss."
-      ],
-      "strategy" : [
-        "This boss is a ranged attacker but there is Lots of fire and there are LOTS of additional minions, so your tank will need a close ranged and long ranged taunt for this. Hold the boss as still as possible."
-      ]
-    }
-  ],
-      
-  "link" : "https://xynodegaming.com/cityofash1/"
-}
+    "dungeon": "Bloodroot Forge",
+    "description": " This is a challenging dungeon in Veteran modes. Players should form a well-geared party at endgame level.",
+    "sets": [
+      "Flame Blossom",
+      "Blooddrinker",
+      "Hagraven's Garden",
+      "Earthgore"
+    ],
+    "bosses": [
+      {
+        "name": "Mathgamain",
+        "mechanics": [
+          "The boss will spawn little mini adds, try and taunt these best you can tank. If it means you turning around the boss towards the group, it’s not worth it. Try to range taunt and CC (crowd control) them. Chain pull works great as well.",
+          "Stranglers will spawn randomly, they will put up AOEs everywhere which hurt a LOT! As soon as a Strangler appears, immediately focus on it! You can tell that a Strangler is present by the AOEs it puts out. As soon as you see an AOE, look for a Strangler and get it! Tank – No need to taunt these.",
+          "The boss will get up on its hind legs and slam into the ground. Any group member hit by this will go down. Tank – you have to block or evade this, it’s very powerful."
+        ],
+        "strategy": [
+          "The tank needs to make sure to pick up the adds as best as possible.",
+          "Keep the boss faced away from the group – the cone AOE will one-shot squishy players.",
+          "Kill stranglers first! Always kill stranglers first!",
+          "Make sure to deal with the adds, don’t ignore them. CC if you can and get them before focusing on the boss."
+        ]
+      },
+      {
+        "name": "Caillaoife",
+        "mechanics": [
+          "The boss will put up a forest around her that will shield and deflect any attacks targeted at her. Don’t attack when she is in this state! You will always have adds when she is in forest mode so deal with those while she is in there.",
+          "Make sure to keep an eye out for Stranglers ALL the time! As soon as you see one, deal with it immediately! Even if you have adds, Stranglers first! Always!",
+          "When she is in forest mode, the tank will lose aggro, there is no way to taunt her. So she will start dispatching these ice balls at random players. Make sure to stay on your guard during the forest phase when dealing with adds. The ice balls will come out of nowhere and one-shot you!",
+          "Adds will show up whenever the boss enters forest shield mode. The tank should CC, taunt these and clump them up. Damage dealers – give it your best with AOEs, focus should be on the bigger add."
+        ],
+        "strategy": [
+          "Stranglers first! Always deal with stranglers as soon as you spot them no matter what else is going on.",
+          "Watch out for the boss’ iceball attacks that trace the ground – they will one-shot you.",
+          "The boss will surround herself with a forest and adds will spawn – deal with the adds first!",
+          "Don’t attack the boss when she has the forest around her, it will reflect your attack back onto you!",
+          "Face the boss away from the group! She does cone attacks and nasty ice balls."
+        ]
+      },
+      {
+        "name": "Stoneheart",
+        "mechanics": [
+          "The boss will animate Stone Atronachs, you can see this by watching the boss, he will wave his hand and emit red magic. The red magic will flow to the Atronach about to be animated.",
+          "The boss will keep putting out fire AOEs at his target’s feet. Tank, you can back away when this happens so that the AOEs don’t end up near the boss. Range taunt him to keep aggro.",
+          "The boss will root all players and immediately start shooting out little fireballs in all directions that will trace the ground. These hurt quite a lot so back off and do your best at avoiding these!",
+          "When the boss reaches 20% he will animate ALL Stone Atronachs. This is a DPS (damage per second) race, it’s time to ignore all the Stone Atronachs and max out your damage on the boss."
+        ],
+        "strategy": [
+          "The boss will animate Stone Atronachs – these are the number one priority for damage dealers.",
+          "At 20% the boss will animate all Stone Atronachs, this is an execute phase, ignore all Atronachs and burn the boss down with Ultimates.",
+          "The boss’ fire AOEs are bad for squishy players, stay away from them as much as you can!"
+        ]
+      },
+      {
+        "name": "Galchobhar",
+        "mechanics": [
+          "The boss will slam his mace into the ground and open up a hole in the ground. This hole will emit fireballs that will fly onto all players. This deals a ton of damage and will wipe the group!",
+          "The boss will slam into the ground and kill anyone standing on the island. The only way to avoid this is to jump onto one of the small rocks that surround the island.",
+          "After he is done, on veteran difficulty there will be a firewall for a few seconds around the island, make sure you wait for this to go away before jumping back on the main island! It will take you out instantly.",
+          "There will be shalks spawning throughout the fight. Focus them down as soon as they appear, and jump onto a rock if you get targeted by their homing fireball. Wait for the fireball to merge with the lava, then you are safe to jump back onto the main island."
+        ],
+        "strategy": [
+          "The tank has to “plug” the lava geyser to avoid a group wipe, more on this below.",
+          "During the big AOE that covers the entire island, jump onto a rock, no sharing!",
+          "Face the boss away from the group, he shoots out fireballs in the direction he is facing."
+        ]
+      },
+      {
+        "name": "Earthgore Amalgam",
+        "mechanics": [
+          "At each end of the room, you will find two altars. These will need to be used through this fight and one person should be appointed to each altar. Generally, the damage dealers will be responsible for these.",
+          "The Blood Altar will create a rain of blood wherever you aim at the point of synergizing. This can be used to remove the flowing lava that the boss sends out.",
+          "The Fire Altar will hurl a fireball at your target upon synergizing with the altar. This will stun the boss. Use the fire altar when the boss is slamming the ground and rocks are falling from the sky.",
+          "The boss will spawn a smaller version of itself. This will happen twice so you will have a total of 3 bosses to deal with. The boss will split at 70% – 40%  health percentages.",
+          "To activate hard mode in Bloodroot Forge you need to read the Scroll of Glorious Battle located by the chest that appears after beating the Bullblood Trio. The main difference is that now you are not allowed to use the Altars."
+        ],
+        "strategy": [
+          "**Tank:** Once you have 3 copies of the boss hammering you, you HAVE to pay attention to incoming heavy attacks! If you miss one block, you are down! Do NOT lose aggro on any of them at any point!  Maintaining resources in this last stage will be very difficult. Make sure you have potions ready for the third copy of the boss, ultimate, everything you’ve got!",
+          "**Healer:** the tank will need every resource help possible, feed shards and bubbles!",
+          "**Damage:** The boss will split itself into 3 versions of himself, you should always focus on the smallest copy!",
+          "Manage the lava with the Blood Altar.",
+          "Manage the falling rocks with the Fire Altar."
+        ]
+      }
+    ],
+    "link": "https://esoplanet.com/bloodroot-forge-dungeon-guide/"
+  },
+  {
+    "dungeon": "City of Ash I",
+    "description": "City of Ash is another 4-man dungeon in Elder Scrolls Online. It is found in Greenshade.",
+    "sets": [
+      "Infernal Guardian",
+      "Burning Spellweave",
+      "Sunderflame",
+      "Embershield"
+    ],
+    "bosses": [
+      {
+        "name": "Infernal Guardian",
+        "mechanics": [
+          "**Double Slam** - This is a pretty simple melee attack that should only hit the person with agro and can be blocked, it shouldn’t cause much of a problem.",
+          "**Thorny Backhand** – This is a backhand animation and adds a bleed to the target so this should hopefully ONLY be hitting the tank meaning others don’t receive this damage.",
+          "**Fiery Explosion** – The boss will shake violently throwing fireballs all around landing on the ground making aoe splash effects, you need to avoid these as dps/healer as much as possible. one or two hits can kill anything that is not a tank so watch your feet. Also during this phase he does close aoe fire damage from his location so stand back a bit.",
+          "**Tunneling Roots** – When he stomps the ground he will make roots stream across the floor and whoever is caught in this will be immobilized on the spot (rooted) simple avoid this by moving left or right when you see it coming, OR dodge roll out of it if you get caught. it does a decent amount of physical damage so be careful not to get caught out if you are not the tank."
+        ],
+        "strategy": [
+          "The tank should basically hold it still, as central to the room as possible and facing away from the group. He can however still hurt the group with various affects which if not paid attention to can one shot a squishy and/or wipe a group. So watch your feet!"
+        ]
+      },
+      {
+        "name": "Golor The Banekin Handler",
+        "mechanics": [
+          "This boss is extremely easy to kill however has some high damage if not controlled. Make sure your tank holds him STILL, do NOT run around the room and keep the banekins controlled if your group doesn’t have much damage."
+        ],
+        "strategy": [
+          "**Crushing Blow** – Apart from his basic light attacks, the boss occasionally he will fire off a heavy attack, if you do not block this you will be knocked down and if the baneklins are still alive you can get overwhelmed with damage so make sure you BLOCK this.",
+          "**Cleave** – he will spin her sword around her head, anyone caught in it will take physical damage over time. This is very obvious and easy to see, simply stay out of it and you will be fine.",
+          "**Summon Banekin/daedra** – Throughout the fight he will summon 3 banekins (he starts with 3 also when you initiate the fight). Get your tank to pull them together and hold them in place while the dps do aoe damage to gradually kill them."
+        ]
+      },
+      {
+        "name": "Warden of the Shrine",
+        "mechanics": [
+          "**Heavy Attack** – The boss occasionally will fire off a nasty dual wield heavy attack with a MASSIVE knock back. You as the tank MUST block this or the fight is going to get messy fast! If a dps or healer has it they MUST also block it or they will most likely die, but above all your tank needs to be sure that this attack is ON the tank and not the squishies.",
+          "**Blazing Fire** – The boss will spin and put a ring of small fire AoEs around him on the ground. Sometimes it will be clustered up, in which case stay away from it. Other times it can have a gap in the middle which you can stand in and take no damage. Keep an eye on which one it is and position yourself accordingly. Do NOT stand in the fire.",
+          "**Teleport strike** – IF someone decides to run away from the boss, he WILL punish you. Stay close don’t panic and pay attention to his mechanics. IF you are the furthest away, he will strike you in the back. If you see this coming, you must block."
+        ],
+        "strategy": [
+          "You are in a confined space on top of a cliff of sorts and one false move will wipe your group. **Tank** should try to keep him on his starting platform as much as possible and turn him AWAY from the group. Do not run around the place you do not have room."
+        ]
+      },
+      {
+        "name": "Dark Ember",
+        "mechanics": [
+          "**Lava Geyser** – This is an extremely easy to spot mechanic. Small spreading AoEs on the ground which erupt like a geyser of lava! The tank can with stand this if blocking but this is primarily cast on people that do NOT have agro. This is a very simple mechanic to avoid and all you need to do is simply, step out of it, wait for it to blow up, and then get back in position again.",
+          "**Combustion** – When she dies she emits a Small AoE around her body and then it will explode. This will one shot a dps or healer."
+        ],
+        "strategy": [
+          "She spawns with a few adds once the gate is clear and the tank should grab these right away, stack them on top of her and turn her away from the group. Her basic fireball attacks can be blocked and should only hit whoever has agro."
+        ]
+      },
+      {
+        "name": "Rothariel Flameheart",
+        "mechanics": [
+          "**Heavy attack** – She has a heavy attack that will knock you flying and do a nasty amount of damage especially if she follows up with a light attack afterwards. This will ONLY hit the person who has agro.",
+          "**Berserker Frenzy** – She will spin her sword around her head, anyone caught in it will take physical damage over time. This is very obvious and easy to see, simply stay out of it and you will be fine.",
+          "**Burning Field** – She will summon pools of fire on the ground which you must stay out of, these are VERY easy to see as they are big burst of fire on the ground. The damage isn’t too high but you don’t want to be in there for long.",
+          "**Summon Clones** – Straight after the above mechanic she will spawn 3 clones of her self. They take MASSIVE damage in comparison to her so this is how you spot which one is which. They deal the same damage as the boss so should be killed fast."
+        ],
+        "strategy": [
+          "This boss is fairly fast due to her low health but things can go horribly wrong if not controlled especially during her clone phase. Your tank should position her in the center and the dps should focus her down while preparing for each phase. The area you fight in is small and if you run down the stairs she will reset."
+        ]
+      },
+      {
+        "name": "Razor Master Erthas",
+        "mechanics": [
+          "**Fire burst** – Occasionally the boss will fire a projectile in the air and when it lands it will burst causing a 4 way cross affect of fire trailing along the floor. This won’t one shot you but this will do a LOT of damage so avoid it as much as possible.",
+          "**Minions** – Whenever he says “rise minion” he will summon a flame atronach. These deal nasty flame attacks from range and explode when they die. Your tank should range taunt these to keep the damage off the group while the dps try to dispatch them quickly. Not killing them will result in having way too many of them towards the end of the fight.",
+          "**Teleport** – Throughout the fight Razor will teleport to a random location. You can simply run to where he is and continue as your were while he repeats his rotation. THIS is your opportunity to throw down ultimates. save ultimates until he moves and drop them on him when he gets there. The reason for this is if you throw them down mid rotation he COULD teleport out of it and you loose overall dps.",
+          "**Flame Shot** – Your group should be standing in somewhat of a formation. This is because periodically he will aim at a chosen member of the group and fire a heavy attack type shot at them. The ability can be blocked and/or dodged BUT if it physically hits you the dot will still stay with you. The fire dot is of a LONG duration. To clear this effect jump in the water.",
+          "**Enrage** – The final phase under 25% he instead of spawning 1 atronach, will in fact spawn 3! Get your tank on point with the taunts and kill all of the atronachs before focusing the boss."
+        ],
+        "strategy": [
+          "This boss is a ranged attacker but there is Lots of fire and there are LOTS of additional minions, so your tank will need a close ranged and long ranged taunt for this. Hold the boss as still as possible."
+        ]
+      }
+    ],
+    "link": "https://xynodegaming.com/cityofash1/"
+  }
 ]
