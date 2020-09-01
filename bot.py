@@ -14,7 +14,7 @@ bot = Bot(
     pm_help=True
 )
 
-extensions = ['cogs.dungeon', 'cogs.admin']
+extensions = ['cogs.dungeon', 'cogs.admin', 'cogs.misc']
 
 bot.remove_command('help')
 
@@ -35,6 +35,7 @@ async def on_command_error(ctx, error):
     timezone = pytz.timezone("Europe/Amsterdam")
     time = timezone.localize(datetime.datetime.now())
     embed = discord.Embed(title="on_command_error()", description=f"`{error}`", timestamp=time)
+    print(error)
     await ctx.send(f"Sorry something went wrong.")
     return await logging_channel.send(embed=embed)
 

@@ -16,11 +16,17 @@ class Paginator(buttons.Paginator):
 
 
 class Lookup(Cog, name='Lookup commands'):
+    """
+    Lookup information on our eso database.
+    """
     def __init__(self, bot):
         self.bot = bot
 
     @command(name="dungeon")
     async def dungeon_command(self, ctx, *dungeon):
+        """
+        Request information on a specific dungeon.
+        """
         user = ctx.author.name
         await command_invoked(self.bot, "dungeon", user)
         with open('assets/dungeons.json', 'r', encoding='utf-8') as dungeons:
