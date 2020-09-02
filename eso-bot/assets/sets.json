@@ -73,7 +73,8 @@
     ],
     "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_breton_medium_head_d.png",
     "link" : "https://eso-sets.com/set/alessias-bulwark"
-  },{
+  },
+  {
     "name" : "Alessian Order",
     "effects" : [
       "Adds 1487 Armor",
@@ -83,7 +84,8 @@
     ],
     "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_nord_medium_head_c.png",
     "link" : "https://eso-sets.com/set/alessian-order"
-  },{
+  },
+  {
     "name" : "Almalexia's Mercy",
     "effects" : [
       "Adds 1206 Maximum Health",
@@ -93,7 +95,8 @@
     ],
     "image" : "https://beast.pathfindermediagroup.com/storage/icons/gear_breton_light_head_d.png",
     "link" : "https://eso-sets.com/set/almalexias-mercy"
-  },{
+  },
+  {
     "name" : "Amber Plasm",
     "effects" : [
       "Adds 1096 Maximum Magicka",
