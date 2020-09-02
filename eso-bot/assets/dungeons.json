@@ -438,5 +438,85 @@
       }
     ],
     "link": "https://xynodegaming.com/cityofash1/"
-  }
+  },
+  {
+  "dungeon" : "City of Ash II",
+  "description" : "Veteran City of Ash presents some very challenging but fun boss fights for Veterans. The City of Ash is engulfed in flames, loads of them!",
+  "sets" : ["Valkyn Skoria", "Burning Spellweave", "Sunderflame", "Embershield"],
+  "bosses" : [
+    {"name" :  "Xivilai Rukhan",
+      "mechanics": [
+        "This boss is assisted by two ranged Dremora friends, a Mage and an Archer.",
+        "The boss typically deals a heavy attack which can be blocked.",
+        "Upon the death of his companions, the boss will spawn series of Flame Atronachs who typically can be ignored."
+      ],
+      "strategy" : [
+        "Deal with the two ranged assistants first as quickly as possible because the Mage and the Archer can randomly teleport in front of or behind you.",
+        "**Tank** should keep the boss facing away from the rest of the group, and deal some AOE when possible.",
+        "**Healer** should position himself between the tank and DPS to provide constant healing to low healthed allies or employ 'healing over time' effects at the earliest instance possible.",
+        "Fight the boss from atleast an 8 meter range if possible to avoid the damaging red circles."
+      ]
+    },
+    {"name" :  "Urata the Legion",
+      "mechanics": [
+        "Urata spawns 20 additional mobs which have to be cleared in order to fight him.",
+        "She constantly spawns red circles on players to penalize those who stay still too long."
+      ],
+      "strategy" : [
+        "Attack the ads first and use them to attain ultimates faster. Avoid the red circles and continually attack at the same time.",
+        "**Tank** should use taunts from range and stun the ads as much as possible.",
+        "**Healer** should have an easier job of just keeping an eye on players getting damaged from the red circles.",
+      ]
+    },
+    {"name" :  "Xivilai Boltaic & Xivilai Fulminator",
+      "mechanics": [
+        "These two bosses are very alike and simple to strike down."
+      ],
+      "strategy" : [
+        "Just nuke the two of them and move on."
+      ]
+    },
+    {"name" :  "Horvantud the Fire Maw",
+      "mechanics": [
+        "This boss often spews hot lava that shall vaporize players if not agro'd away from the team.",
+        "He starts with earthquakes that cause rocks to spring out of the floor, which if not blocked can deal a lot of damage.",
+        "Boss also stomps to cause red circles which are best avoided by spreading out."
+      ],
+      "strategy" : [
+        "**Tank** face the boss away from the group and roll out of the cleave attacks.",
+        "Stay spread out from each other during the stomping and watch the ground for the red circles. Step out of them but stay near, as you will immediately have to go back to them to protect yourself from the damage.",
+        "Use ultimates when possible to deal as much damage to ads and the boss."
+      ]
+    },
+    {"name" :  "Ash Titan",
+      "mechanics": [
+        "The aggro will cause the boss to throw fire circles at your feet.",
+        "The boss will also occasionally jump to cause waves of fire to push you back.",
+        "There will be ads but they deal very little damage."
+      ],
+      "strategy" : [
+        "**Tank** should taunt the ads but keep the boss agro'd as much as possible. ",
+        " Avoid the big red circles and heal through smaller ones. Always be ready to roll to avoid double red circles spawning at your feet.",
+        "**Healer** must keep the tank alive to avoid losing to the boss.",
+        "**Damage dealers** should just charge in and attack as much as possible while avoiding the waves and big red circles."      
+      ]
+    },
+    {"name" :  "Valkyn Skoria",
+      "mechanics": [
+        "This fight is very tough if you don’t have the dps for it, because it has something which we used to call “Enrage Timer”. Meaning that there’s only so much time that you have to kill it before it becomes impossible and you all die."
+      ],
+      "strategy" : [
+        " You will have 5 platforms available, which will be destroyed by the Dremora general after some time and Valkyn Skoria teleports to the next platform. Just run to the next platform as soon as possible and remember to stay together!",
+        "**Flame Strike** - An exploding fire that emanates into various directions. It can be entirely avoided. The more you are on the move, the less damage you get and you shouldn’t get hit too often.",
+        "**Tank** should definitely keep an eye out for his Heavy Attack, otherwise might lose control of him and/or be pushed into the lava.",
+        "After having destroyed a platform and having teleported to a new one, Valkyn Skoria lifts his sword up high and shoot fire balls from it. Additionally, he will gain a damage shield and you need to destroy this before he stops doing his attack.",
+        "Aimed at a random group member, the boss will imprison someone into a stone prison from which you have to break free. You can dodge roll it, but only if you notice it in time.",
+        "During the fight the Boss can charge a Flame Bolt at a random group member, meaning you will be tossed backwards into the lava if you don’t block or dodge roll this attack.",
+        "Upon destroying the platform and teleporting to a new one, as soon as he raises his shield and sword, Flame Atronachs will spawn. Best is to take them to the center and kill them in the DDs’ AoE, as they will die relatively quickly.",
+        "**Hardmode** differs from the normal mode pretty much in having 2 platforms removed, which in turns means that you have less time to beat Valkyn Skoria. Only do this if you bring a lot of dps to the table, because otherwise this might be an impossible task. You can active the Hardmode in the far right and upper corner. On an altar you can find the scroll."
+      ]
+    }
+  ],
+  "link" : "https://alcasthq.com/eso-city-of-ash-2-dungeon-guide/"
+}
 ]
