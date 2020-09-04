@@ -2,6 +2,7 @@
   {
     "dungeon": "Arx Corinium",
     "description": "Arx Corinium is a dungeon filled with snakes and Lamia.",
+    "image": "https://imgur.com/CwP9AxB.png",
     "sets": [
       "Sellistrix",
       "Lamia's Song",
@@ -99,6 +100,7 @@
   {
     "dungeon": "Blackheart Haven",
     "description": "Blackheart Haven is pirate-infested dungeon that will keep the Tanks and Healers busy with the large amounts of damage and heavy attacks going about.",
+    "image": "https://imgur.com/n4XWMWT.png",
     "sets": [
       "Pirate Skeleton",
       "Undaunted Unweaver",
@@ -183,6 +185,7 @@
   {
     "dungeon": "Blessed Crucible",
     "description": "Blessed Crucible is a dungeon that has a nordic feel to it.",
+    "image": "https://imgur.com/HCnunA7.png",
     "sets": [
       "Troll King",
       "Sword Dancer",
@@ -272,6 +275,7 @@
   {
     "dungeon": "Bloodroot Forge",
     "description": " This is a challenging dungeon in Veteran modes. Players should form a well-geared party at endgame level.",
+    "image": "https://imgur.com/sxw9Vtn.png",
     "sets": [
       "Flame Blossom",
       "Blooddrinker",
@@ -360,6 +364,7 @@
   {
     "dungeon": "City of Ash I",
     "description": "City of Ash is another 4-man dungeon in Elder Scrolls Online. It is found in Greenshade.",
+    "image": "https://imgur.com/pV5HmZ8.png",
     "sets": [
       "Infernal Guardian",
       "Burning Spellweave",
@@ -442,6 +447,7 @@
   {
   "dungeon" : "City of Ash II",
   "description" : "Veteran City of Ash presents some very challenging but fun boss fights for Veterans. The City of Ash is engulfed in flames, loads of them!",
+    "image": "https://imgur.com/oN9jHpw.png",
   "sets" : ["Valkyn Skoria", "Burning Spellweave", "Sunderflame", "Embershield"],
   "bosses" : [
     {"name" :  "Xivilai Rukhan",
@@ -498,7 +504,7 @@
         "**Tank** should taunt the ads but keep the boss agro'd as much as possible. ",
         " Avoid the big red circles and heal through smaller ones. Always be ready to roll to avoid double red circles spawning at your feet.",
         "**Healer** must keep the tank alive to avoid losing to the boss.",
-        "**Damage dealers** should just charge in and attack as much as possible while avoiding the waves and big red circles."      
+        "**Damage dealers** should just charge in and attack as much as possible while avoiding the waves and big red circles."
       ]
     },
     {"name" :  "Valkyn Skoria",

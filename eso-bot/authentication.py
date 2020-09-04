@@ -1,0 +1,10 @@
+bot_token = "NTcyMzY1NzQ5NzgwMzQ4OTI4.XMbPJA.-59DN6IT6eE9HhfvvhjxmvvToAI"
+logsChannel = 749940498885509190
+
+""" If you don't know where to get your bot tokens, go to https://discord.com/developers/applications 
+    Create an application > Bot > Add Bot > Reveal Token
+
+    To invite your bot to a server, OAuth2 > tick Bot > Select the permissions you want > Then copy the invite link in the middle """
+
+""" You want to put your bot token in another separate file like this and import them over to the main script so you can 
+    exclude all sensitive information if you are ever going to upload them on GitHub by adding this script to a .gitignore file. """

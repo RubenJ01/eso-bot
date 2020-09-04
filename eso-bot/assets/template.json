@@ -2,6 +2,7 @@
   {
     "dungeon" : "",
     "description" : "",
+    "image" : "",
     "sets" : [],
     "bosses" : [
       {"name" :  "",
