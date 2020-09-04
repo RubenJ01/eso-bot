@@ -524,5 +524,77 @@
     }
   ],
   "link" : "https://alcasthq.com/eso-city-of-ash-2-dungeon-guide/"
+},
+  {
+  "dungeon" : "Cradle of Shadows",
+  "description" : "Cradle of Shadows is a group dungeon located in Shadowfen in The Elder Scrolls Online. It is part of the Shadows of the Hist DLC. It features Normal and Veteran modes.",
+  "sets" : ["Gossamer", "Hand of Mephala", "Velidreth", "Widowmaker"],
+  "bosses" : [
+    {"name" :  "Sithera",
+      "mechanics": [
+        "The tank needs to keep the boss and the adds with him/her at all times and keep her IN the light. You have every right to be scared of the dark here! If you try to attack her in the dark she will only receive 10% of all damage, so she must always be in the circle."
+      ],
+      "strategy" : [
+        "**Power up** – The boss will try channel an ability between her random poison spits which will make her stronger. This is extremely easy to spot and can be interrupted. So long as you interrupt every time, this mechanic will never actually happen!",
+        "**Spiders** – The spiders are the same as the ones you encountered in the tunnel. The same rules apply. Keep them together, kill them with as much aoe as possible and keep them IN THE LIGHT!",
+        "**Braziers** – Throughout the fight the braziers will go out! Be sure to move to the middle one at 50% and turn it on taking the boss with you. Then light the final one and take the boss to it at 30%. It helps if you can have one member keep an eye on the health of the boss and make an early run for the brazier to get a bit of a head start so that people are not in the dark so long.",
+        "**Poison spits** – The boss will spit poison randomly during the fight at the person with agro, simply block these when they hit you, their damage is not too difficult to manage."
+      ]
+    },
+    {"name" :  "Khephidaen The Spiderkith",
+      "mechanics": [
+        "This boss is simple to dispatch but can be made to be a lot more difficult than necessary. If ONE person doesn’t understand the mechanics with this and/or at least co-ordinate with the group it becomes a complete mess. The **tank** needs to taunt at ALL times and keep the boss in the light!"
+      ],
+      "strategy" : [
+        "**Heavy attack** – The boss will hit with a DEVASTATING heavy attack. The tank should be the only one getting hit by this and you MUST block!",
+        "**Burst** – The boss will create a large spreading AoE and when it reaches full size it will explode. You as **dps and healers must stay OUT** of this. If it touches you, you are dead. Tanks can block it but it's not recommended, simply step out of it and get back in again when it is gone.",
+        "**Spiders** – The spiders you have seen 100 times before already, keep them in the lights, control them and kill them. Do NOT run away or run around in circles, this will make things really difficult for the tank. The fight must be controlled.",
+        "**Teleport** – After every Burst AoE she will teleport to a random brazier in the room and turn it off. During this phase shadows will appear and start shooting at the group. Get your team to turn the braziers back on asap else you will eventually run the risk of running out of lights. The shadows don’t last long but the light will get rid of them.",
+        "**Shadow bolts** – Every time she teleports she will also cast an attack which will cast 4 shadow bolts at the ground, one at each player. This deals HUGE damage and knocks down. For some players this can be a guaranteed one shot. To prevent this, when she teleports you MUST keep your eyes open and look for the channeling of this ability and interrupt it asap!",      
+      ]
+    },
+    {"name" :  "Votary Of Velidreth",
+      "mechanics": [
+        "This boss is as simple as they get… BUT can kill even the most experienced group if they are not paying attention or get too comfortable. **The tank** should hold this boss in the MIDDLE of the room, NOT the corner."
+      ],
+      "strategy" : [
+        "**Spider adds** – During the fight very small spider adds will enter the room from the ceiling. These should die very fast to passive AoE damage on the ground if you have any. They need to die fast else they can cause a problem with small negative aoes and projectiles hitting the group.",
+        "**Heavy attack** – Very simple here, a heavy attack should be something you are very familiar with by now, BLOCK when it is about to hit you. This should only be aimed at the tank unless a taunt has fallen off. If this aims at a dps or healer role be sure again to BLOCK.",
+        "**Poison Circles** – During the fight the boss will place multiple poison circles on the ground which cause HUGE damage to anyone standing in them.",
+        "**Feeding** – If the boss channels and tries to feed off of dead spiders, you MUST interrupt it. The boss can heal more than 10% per second and this fight will be a really long one if not paid attention too.",
+        "**BOOM!** – The boss will make a MASSIVE spreading aoe which explodes when it reaches full size. This must be avoided at all costs! As soon as you see these, get OUT of it! THIS is why you use the middle of the room and not the corner. If you are in the corner, you have NO WHERE to go!"
+      ]
+    },
+    {"name" :  "Dranos Velandor",
+      "mechanics": [
+        "This boss is every P.U.G’s nightmare, it is actually pretty simple but it is fast paced so people have to react quickly. The boss has several phases and there is a lot of AoE in the room so you must watch your feet. The tank should hold the boss still as much as possible and NEVER drop taunt."
+      ],
+      "strategy" : [
+        "**Shadows** – The boss will go immune to all damage. During this phase the statue in the middle will emit red waves of damage across the floor and 3 shadows will be placed around the room. You need to kill these as fast as possible and then pick up the red orbs that they drop. Once 3 orbs have been picked up the boss is able to be attacked again and will be stunned for a brief moment giving you a dps window.",
+        "**Mortar** – The boss raise his hand in the air occasionally and a red blot will leave his hand and land on the floor with a large round aoe. Once it hits the floor it will split and do additional damage in different directions as it disappears. Be sure to ALWAYS stay out of this. When it is coming your way, move!",
+        "**Tick Tick SPIN!** – The boss will spawn 2 adds with very low health and they are pinning whoever has agro to the ground, there is NOTHING the person pinned can do. This is why you must not ever let the tank taunt fall off. During the pinned phase the boss will wind up a HUGE heavy attack. If your group doesnt interrupt the TWO adds, the heavy attack will hit the target and kill them outright, guaranteed one shot!",
+        "If your group are successful and they manage to release the target, **the player MUST BLOCK**! The heavy attack is still coming and you must defend yourself.",
+        "**Teleport strike** – The boss will teleport strike from one group member to the next until all 4 have been hit, then he will go back to his original spot. The way to mitigate this is to simply BLOCK. Each player blocks and then he will move to the next! However the slight twist is that once he has connected with each player he will leave an aoe under the players so be sure to step out of this and not take any additional damage."
+      ]
+    },
+    {"name" :  "Velidreth",
+      "mechanics": [
+        "This boss is a tricky one!! LOTS of mechanics, lots of unforgiving situations and random twists making the difference between a pass and a fail. The tank needs to keep hold of this boss at all times and if possible **hold her to one side of the room.**"
+      ],
+      "strategy" : [
+        "**Heavy attack** – The boss will fire off a simple heavy attack during the fight. It isn’t particularly powerful but should be blocked by whoever she is targeting. ",
+        "**Flurry** – The boss cast a very small frontal cone aoe in the form of a flurry, simply block this and all will be fine but because of this the tank should NOT spin the boss on the group. A dps or healer can die fast to this.",
+        "**Adds** – During the fight melee and ranged adds will spawn. These must be focused! The ranged need interrupting when they channel abilities and the melee must be watched carefully else they will uppercut you. If the tank can grab these and hold them on the boss without spinning her around this makes things a lot easier. Kill the adds first and then move on to her!",
+        "**Don’t Move A Muscle!** – If she starts to climb into the ceiling, she will shout “don’t move a muscle” **Do NOT MOVE!** No matter what happens, do NOT move! Once the room starts to go light again she will jump down to the floor again. Look up at the celing, as soon as you see her wiggle, dodge roll immediately! If you dodge roll or move early, you are dead. Same goes for when you dodge too late",
+        "**Devour** – Do not save your ultimates. Velidreth will look for the person saving up ultimate and draw them in. She will devour your ultimate pool rendering whatever ultimate you thought you were holding on to, USELESS. So the tip for this is, use your ultimates as soon as they are ready and/or use the cheapest ultimates you possibly can.",
+        "**Draining orbs** – There are orbs flying around the room which sometimes change colour. Basically each ball will drain the resources relevant to the colour they are if you touch them. Green will drain your stamina, blue will drain you magicka, and red will of course drain your health. Avoid these at all costs!",
+        "**Atronachs** – These are KEY for the catacombs. When the atronachs spawn 81% and around 51% you MUST focus them. Don’t push the boss, kill them fast. Each one will drop a light on the floor. Asign two members of your group to pick on up each. You will be split into two groups at random and one person of each group will be holding the light. If you don’t pick these up you are very unlikely to complete the next phase.",
+        "**Banished to the catacombs** – The boss will banish the group to the catacombs and this will happen TWICE in the fight. Once at 66% and again at 31%. Both groups of two will be sent off, each with 1 light. What you need to do here is stay together and find your way through the map back to the middle. Find the open door ways and make your way to safety.",
+        "The light is to save you from the dark so do not run away from your teammate else they will be snared and eventually die. There are some adds in the catacombs. Don’t try to focus these down because you WILL get OVERWHELMED. Keep down snares/roots to CC while they are chasing you. Each connecting path between each room has traps on the floor but the light will reveal them, so watch your feet and don’t stand on the red pads.",
+        "If you are a really meaty tank and you are trying to save your group (last man standing) START a res then cancel it and interrupt the boss… THEN go back to the res and she won't try it giving you a window for recovery."
+      ]
+    }
+    
+  "link" : "https://xynodegaming.com/cradle-of-shadows/"
 }
 ]
