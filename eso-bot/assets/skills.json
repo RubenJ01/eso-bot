@@ -1,0 +1,133 @@
+[
+  {
+    "name" : "Absorb",
+    "effect" : "Restores 540 Magicka when you block a spell.",
+    "link": "https://eso-skillbook.com/skill/absorb",
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/ability_weapon_010.png"
+  },
+  {
+    "name" : "Absorb Missile",
+    "effect" : "Bolster your defenses, gaining a damage shield that absorbs up to 2709 damage for 6 seconds. While the shield persists, you are healed for 1398 Health the next time a harmful Direct Damage projectile hits you. This effect can occur once per cast. This ability scales off your Maximum Health.",
+    "link": "https://eso-skillbook.com/skill/absorb-missile",
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/ability_1handed_004_b.png"
+  },
+  {
+    "name" : "Absorption Field",
+    "effect" : "Create a globe of magic suppression for 12 seconds, removing and preventing all enemy area of effect abilities from occurring in the area. Enemies within the globe are stunned, while enemy players will be silenced rather than stunned. The globe also heals you and your allies for 204 Health every 0.5 seconds.",
+    "link": "https://eso-skillbook.com/skill/absorption-field",
+    "image" : "https://beast.pathfindermediagroup.com/storage/icons/ability_sorcerer_rushing_winds.png"
+  },
+  {
+    "name" : "",
+    "effect" : "",
+    "link": "",
+    "image" : ""
+  },
+  {
+    "name" : "",
+    "effect" : "",
+    "link": "",
+    "image" : ""
+  },
+  {
+    "name" : "",
+    "effect" : "",
+    "link": "",
+    "image" : ""
+  },
+  {
+    "name" : "",
+    "effect" : "",
+    "link": "",
+    "image" : ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },{
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "effect": "",
+    "link": "",
+    "image": ""
+  }
+]

@@ -36,16 +36,11 @@ async def determine_prefix(bot, message):
 bot = commands.Bot(command_prefix=determine_prefix, help_command=None)
 
 if __name__ == "__main__":
-
     for extension in startup_extensions:
-
         try:
-
             bot.load_extension(extension)
             print(f'{extension}.py successfully loaded!')
-
         except Exception as e:
-
             exc = f'{type(e).__name__}: {e}'
             print(f'Failed to load extension {extension}\n{exc}')
             traceback.print_exc()
@@ -55,14 +50,10 @@ if __name__ == "__main__":
 @commands.is_owner()
 async def load(ctx, extension_name: str):
     try:
-
         bot.load_extension(extension_name)
-
     except (AttributeError, ImportError) as e:
-
         await ctx.send(f"```py\n{type(e).__name__}: {str(e)}\n```")
         return
-
     await ctx.send(f"{extension_name} loaded.")
 
 
@@ -78,9 +69,7 @@ async def unload(ctx, extension_name: str):
 async def setprefix(ctx, new):
     guild = ctx.message.guild.id
     name = bot.get_guild(guild)
-
     for key, value in c.execute('SELECT guild_id, prefix FROM prefix'):
-
         if key == guild:
             c.execute(''' UPDATE prefix SET prefix = ? WHERE guild_id = ? ''', (new, guild))
             conn.commit()
@@ -92,7 +81,6 @@ async def setprefix(ctx, new):
 async def myprefix(ctx):
     c.execute(f'SELECT prefix FROM prefix WHERE guild_id = {ctx.message.guild.id}')
     currentPrefix = c.fetchall()[0][0]
-
     name = bot.get_guild(ctx.message.guild.id)
     embed = discord.Embed(description=f"{name}'s Prefix currently is `{currentPrefix}`.")
     await ctx.send(embed=embed)
@@ -124,10 +112,8 @@ async def on_ready():
 @bot.event
 async def on_guild_join(guild):
     guild_id_database = []
-
     for row in c.execute('SELECT guild_id FROM prefix'):
         guild_id_database.append(row[0])
-
     if guild.id not in guild_id_database:
         c.execute(''' INSERT OR REPLACE INTO prefix VALUES (?, ?)''', (guild.id, '!'))
         conn.commit()

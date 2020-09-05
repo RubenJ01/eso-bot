@@ -16,7 +16,7 @@ Bloodroot Forge :white_check_mark: \
 City of Ash I :white_check_mark: \
 City of Ash II :white_check_mark: \
 Cradle of Shadows :white_check_mark: \
-Crypt of Hearts I\
+Crypt of Hearts I :white_check_mark: \
 Crypt of Hearts II\
 Darkshade Caverns I\
 Darkshade Caverns II\

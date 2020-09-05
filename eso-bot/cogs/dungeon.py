@@ -16,20 +16,17 @@ class Paginator(buttons.Paginator):
         super().__init__(*args, **kwargs)
 
 
-class Lookup(Cog, name='Lookup commands'):
-    """
-    Lookup information on our eso database.
-    """
+class Lookup(Cog, name="🌴 Lookup"):
 
     def __init__(self, bot):
         self.bot = bot
 
-    @command(description="`!dungeon`\n\nShows the dungeon list and boss' strategies!")
+    @command(description="`!dungeon`\n\nShows the dungeon list and boss' strategies.")
     async def dungeon(self, ctx, *, dungeon=None):
         with open('eso-bot/assets/dungeons.json', 'r', encoding='utf-8') as dungeons:
             data = json.load(dungeons)
         if not dungeon:
-            reacts = ['🇦', '🇧', '🇨', '🇩', '🇪', '🇫']
+            reacts = ['🇦', '🇧', '🇨', '🇩', '🇪', '🇫', '🇬', '🇭']
             dungeonsList = ""
             i = 0
             for dungeon in data:
@@ -45,7 +42,7 @@ class Lookup(Cog, name='Lookup commands'):
                 await msg.add_reaction(number)
 
             def check(reaction, user):
-                reactCheck = ['🇦', '🇧', '🇨', '🇩', '🇪', '🇫', '📖']
+                reactCheck = ['🇦', '🇧', '🇨', '🇩', '🇪', '🇫', '🇬', '🇭', '📖']
                 return str(
                     reaction.emoji) in reactCheck and user == ctx.message.author and reaction.message.id == msg.id
 
@@ -59,7 +56,8 @@ class Lookup(Cog, name='Lookup commands'):
                 if str(reaction.emoji) == reacts[reactionIndex] and not str(reaction.emoji) == '📖':
                     editEmbed = discord.Embed(title=f"{data[reactionIndex]['dungeon']}",
                                               url=f"{data[reactionIndex]['link']}",
-                                              description=f"{data[reactionIndex]['description']}\n\nFor more information on the bosses, please react on the book!",
+                                              description=f"{data[reactionIndex]['description']}\n\nFor more "
+                                                          f"information on the bosses, please react on the book!",
                                               colour=functions.embedColour(ctx.guild.id))
                     setList = ''
                     nameList = ''
@@ -325,8 +323,8 @@ class Lookup(Cog, name='Lookup commands'):
                 reaction, user = await self.bot.wait_for('reaction_add', check=check3)
                 await handle_rotate3(reaction, msg, check, j)
 
-    @command(name="set")
-    async def set_command(self, ctx, *set):
+    @command(description="`!set`\n\nDisplays information on a specific set.")
+    async def set(self, ctx, *set):
         """
         Lookup information on any set.
         """
@@ -343,7 +341,8 @@ class Lookup(Cog, name='Lookup commands'):
                 description = ""
                 for index, effect in enumerate(x["effects"]):
                     description += f"**{index + 2} items:** {effect}\n"
-                embed = discord.Embed(title=x["name"], description=description, url=x["link"])
+                embed = discord.Embed(title=x["name"], description=description, url=x["link"],
+                                      colour=functions.embedColour(ctx.guild.id))
                 embed.set_thumbnail(url=x["image"])
                 embed.set_footer(text="Sets and icons © by ZeniMax Online Studios")
                 return await ctx.send(embed=embed)
@@ -356,7 +355,7 @@ class Lookup(Cog, name='Lookup commands'):
                 if set_.lower() in x["name"].lower():
                     reference_sets.append(x["name"])
             if len(reference_sets) == 1:
-                return await ctx.invoke(self.set_command, reference_sets[0])
+                return await ctx.invoke(self.set, reference_sets[0])
             elif len(reference_sets) > 0:
                 loaded_sets = reference_sets
             elif len(reference_sets) == 0:
@@ -369,6 +368,7 @@ class Lookup(Cog, name='Lookup commands'):
                                   description=f"`{set_}` was not found.\nDid you mean one of the following "
                                               f"dungeons:\n{results}\nReply "
                                               f"with a number for more information.",
+                                  colour=functions.embedColour(ctx.guild.id),
                                   timestamp=time)
             await ctx.send(embed=embed)
 
@@ -384,7 +384,7 @@ class Lookup(Cog, name='Lookup commands'):
                 set = f'{loaded_sets[int(choice.content) - 1].lower()}'
                 await ctx.send(f'!set {set}')
                 async with ctx.typing():
-                    return await ctx.invoke(self.set_command, set)
+                    return await ctx.invoke(self.set, set)
 
 
 def setup(bot):

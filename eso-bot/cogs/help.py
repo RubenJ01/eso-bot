@@ -23,7 +23,7 @@ class Help(commands.Cog, name="Help"):
     @commands.command()
     async def help(self, ctx):
         reactions = ['🛠️', "🌴"]
-        reactionsCogs = ["🛠️ Settings", "🌴 Dungeon"]
+        reactionsCogs = ["🛠️ Settings", "🌴 Lookup"]
         cogs = [cog for cog in self.bot.cogs.keys()]
         prefixDictionary = {}
         for prefix in c.execute(f'SELECT guild_id, prefix FROM prefix'):
@@ -66,6 +66,7 @@ class Help(commands.Cog, name="Help"):
                 for comm in cog_commands:
                     commands_list += f'**{comm.name}** - {comm.description}\n'
                     help_embed.add_field(name=comm, value=comm.description, inline=True)
+                print(commands_list)
                 await msg.edit(embed=help_embed)
             else:
                 return
