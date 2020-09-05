@@ -15,7 +15,7 @@ Blessed Crucible :white_check_mark: \
 Bloodroot Forge :white_check_mark: \
 City of Ash I :white_check_mark: \
 City of Ash II :white_check_mark: \
-Cradle of Shadows\
+Cradle of Shadows :white_check_mark: \
 Crypt of Hearts I\
 Crypt of Hearts II\
 Darkshade Caverns I\
