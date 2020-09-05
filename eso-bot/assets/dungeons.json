@@ -596,5 +596,67 @@
     }
     
   "link" : "https://xynodegaming.com/cradle-of-shadows/"
-}
+},
+    {
+    "dungeon" : "Crypt of Hearts",
+    "description" : "This is one of the first dungeons you have access to at level 22 or if you travel to the opening yourself at lower levels.",
+    "image" : "https://i.imgur.com/lVtBtxo.jpg",
+    "sets" : ["Ilambris", "Shroud of the Lich", "Leviathan", "Ebon Armory"],
+    "bosses" : [
+      {"name" :  "The Mage Master",
+        "mechanics": [
+          "This boss is very simple. He has 4 mage type enemies with him which must be controlled by the tank from the very beginning so they don’t run around. The dps and healer also need to pay attention to interrupts. The **tank** should hold everything as still as possible through out the fight and chain in any adds that try to run away."
+        ],
+        "strategy" : [
+          "**Heavy attack** – This is a pretty simple melee attack in the form of an uppercut and must be blocked. Any role can block this but it will only hit whoever is agroed. It does a lot of damage if NOT blocked.",
+          "**Elemental Ring** – This is donut shaped AoE on the floor usually making the tank sit in the middle. Inside of it and outside of it is the safe area but if you touch the edges you will take a fair amount of damage, so avoid standing in this for long periods of time.",
+          "**Negate** – Usually after the previous effect he will drop a negate bubble on top of the same AoE. If you are dps or healer make sure you are out of it, but as the tank, if you tough the edges, you take damage, in the middle is safe but NOW you are in a bubble. Stay inside, hold a taunt and block. The reason you will now be relying on your healer is because INSIDE the bubble you CANNOT use any magicka abilities until it has gone."
+        ]
+      },
+      {"name" :  "Death's Leviathan",
+        "mechanics": [
+          "This boss is so much fun but can get incredibly chaotic if people do not pay attention. This fight is all about the tank controlling the boss. If the tank looses control of this boss it is all out mayhem and very hard to get damage on the boss let alone survive his enrage mechanics. This can be really simple or really difficult."
+        ],
+        "strategy" : [
+          "**Charge** – This is where your tank has to position the boss so that he can stay in the damage and not run around the room. When he charges he will go in a straight line aiming in the direction he is FACING at the time. So get your tank to position their back into a corner so that he runs straight at the wall. Every time he has finished charging move to another corner close by and repeat the process.",
+          "**Burst** – After the charge ability he will stamp the ground and creat a fast growing large BURTS aoe. This can be blocked or dodge rolled and is very easy to spot. The damage is not so bad at this stage but you need to avoid it none the less. for dps, simply dodge roll out and then get back in when it is gone.",
+          "**Enraged** – At low health the boss will buff himself with FIRE! His charge ability now emits a massive fire trail wherever he ran from and to, so do NOT stand in this. Also his burst ability now has an added fire damage burst to it. You can still block and dodge the initial damage BUT the second tick of damage will still hit you and you will be knocked over regardless."
+        ]
+      },
+      {"name" :  "Uulkar Bonehand",
+        "mechanics": [
+          "The Boss is very but CAN wipe a group if you are not paying attention to BASIC mechanics of the game. The tank should turn the boss away from the group and hold on to the two adds while the group burn the adds with AoE damage."
+        ],
+        "strategy" : [
+          "**Whirlwind** – Every so often the boss will spin his weapon around his head in a small aoe damaging people inside of the circle. This is a very simple mechanic, stand out of it and you will not be harmed.",
+          "**Heavy Attack** – The simplest mechanic in the game for a tank to put into practice. This heavy attack requires you to BLOCK. If you do not block you are dead! The wind up to this heavy attack can actually hit JUST before the attack connects so be sure to look out for this and block early. If you fail to block it is a guaranteed one shot!"
+        ]
+      },
+      {"name" :  "Dogas The Berserker",
+        "mechanics": [
+          "A high dps group will make mince meat of this guy but we are here to learn about mechanics. Your tank has to be on his/her toes on this one since there are a lot of enemies to manage. Grab all the adds and hold a taunt on the boss. Keep the boss central so the group can kill everything in AoE as fast as possible while focusing single target stuff on the boss."
+        ],
+        "strategy" : [
+          "**Heavy attack** – Very so often the boss will aim a heavy attack at the tank this has a nasty knock down and a lot of damage so make sure you block it! Also this can sometimes be done from stealth so be sure to keep your eyes open for the heavy attack sparks effect in thin air if he vanishes and block EARLY.",
+          "**Soul Teather** – Very much like the nightblade ability, the boss will occasionally stun the group and then life steal each member for 4-5 seconds. The stun can be broken free and you can block the initial damage."
+        ]
+      },
+      {"name" :  "Ilambris Twins - Zaven & Athor",
+        "mechanics": [
+          "The final boss in Crypt of hearts I is actually two bosses at once. Killing one will enrage the other so you CAN kill them both together if you have a lot of damage but this is about mechanics. **Tank** should hold the blue boss out of the center circle, and keep a ranged taunt on the red mage boss. **The dps** should focus the mage and then once it is dead, put the blue one in his place and hold him in the middle."
+        ],
+        "strategy" : [
+          "__For Athor (blue boss)__: ",
+          "**Heavy attack** – The heavy attack is HUGE, does a lot of damage, a massive knock down and is delayed. This MUST be blocked BUT block the second you see it. It will connect with the target before the visual for the swing actually happens so keep your eyes peeled and block as soon as you see this. This should always be on the tank but if something goes wrong the dps can survive it IF they block.",
+          "**Bubbles** – Occasionally during the fight Athor will cast tiny lightning AoEs on the ground with a small dome covering them. Do NOT stand in these they hit you with a nasty amount of lightning damage. Just stay out of them.",
+          "**Enrage** – Both bosses have enrage mechanics. **Kill zaven (red mage) first**, else the room will get filled with fire and it is hard to manage. When Zaven is dead Athor will enrage. The tank should take the boss to the center and your dps and healers should find their own space and gradually burn him down. Occasionally Athor will call down a rain of lightning. Just step away from it.",
+          "__For Zaven (red boss)__:",
+          "**Flame Burst** – Zaven will cast a MASSIVE AoE in the room, it will spread and explode. If you are in this you will be knocked down even if blocking. You need to get out of this asap and then get back in position once it is gone.",
+          "**Fire Trail** – Occasionally Zaven will raise his hand aiming at whoever has agro. He will cast a straight line of flames across the ground. So if it is aiming at YOU, simply move to one side and let it pass. If this hits a dps or a healer, it is pretty much a one shot.",
+          "**The wheel** – Spokes of flames will fire from the bosses feet. These are low damage, avoidable and not too much of a problem. Just keep your eyes peeled and either avoid them or have a heal to hand."
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/cryptofhearts1/"
+  }
 ]
