@@ -762,5 +762,77 @@
       }
     ],
     "link" : "https://xynodegaming.com/cryptofhearts2/"
+  },
+  {
+    "dungeon" : "Darkshade Caverns I",
+    "description" : "This is one of the first dungeons you have access to at level 42  or if you travel to the opening yourself at lower levels.",
+    "image" : "https://imgur.com/iAFPj32",
+    "sets" : ["Netch’s Touch", "Armor of Truth", "Strength of Automantons", "Sentinel of Rkugamz"],
+    "bosses" : [
+      {"name" :  "Head Shepherd Neloren",
+        "mechanics": [
+          "This boss is very simple and has very little health but she heals a LOT so the key point to this fight is making sure that each time she tries to do so, you INTERRUPT. The heals are incredibly strong and to a group with low damage who forget to interrupt her, this can be a pain."
+        ],
+        "strategy" : [
+          "**Fireball** – This is a pretty basic attack but it does have a splash/spread affect to it, so try not to stack up to much and stay out of it when it lands. Apart from that her basic flame attacks especially while the tank has proper agro, is a minor issue and really doesn’t hurt that much at all. However if you do get caught, you should shield/block and just watch where you stand.",
+          "**Healing** – This boss heals more than she does attacks! She has two major heals, one which will heal someone else and one which will heal herself. The single target one resembles that of traditional targets with a stream like affect and CAN be interrupted. Make sure you stay on top of this in order to prevent her healing her allies.",
+          "The other heal is very similar to that of the templar healing skill line. She animates into a short duration prayer state and when it has finished channeling she receives a HUGE heal (also ticks over time). You MUST interrupt this else it will cause some big problems to groups with lower damage than most. The way to pass this boss, is to STOP her from healing."
+        ]
+      },
+      {"name" :  "Foreman Llothan",
+        "mechanics": [
+          "This boss is relatively simple with some punishing effects if you don’t simple stick to the rules. It is a fairly mobile fight and people need to be on their toes, while dealing with places and cast AOEs as well as multiple waves of adds depending on how fast you dispatch the boss!"
+        ],
+        "strategy" : [
+          "**Move** – Periodically the boss will swap position. This is every few seconds and his initial movement is triggered once the first player gets too close. He moves every 10-12 seconds and spawns anything UP TO 6 kwamas. They all have very low health and can die fast to general AOE damage but make sure your tank controls them.",
+          "**Burst** – When he is about to run each time, he will cast a spreading AOE shock blast, if you are caught in this you will take a LOT of damage. When you see that mechanic, dodge roll OUT of it and let him reposition himself.",
+          "**Poison Vials** – Throughout the fight he will throw poison vials onto the floor aiming randomly to someone. These do nasty AOE damage to whoever is caught in them. Do NOT get caught by these and if you do, get out of them as soon as you can. A tank will be able to stand in them although there is no need, but a dps or a healer unless healing a LOT will die in only a few ticks."
+        ]
+      },
+      {"name" :  "The Hive Lord",
+        "mechanics": [
+          "The basic rule for this boss is to KEEP HIM STILL, get everyone in close and watch your feet!"
+        ],
+        "strategy" : [
+          "**Lunge** – A very simple RULE rather than mechanic. IF you run away from the boss rather than standing about 5-10meters away he will jump on your head! Simple. Stay close and he won’t do it!",
+          "**Spawn Kwama** – A very small AOE effect will appear at the bosses feet. Get out of the affect (it snares and hurts) then 3x kwama will spawn. They are very weak and can be killed fast with AOE. Your tank should control them and NO ONE should be running away.",
+          "**Slam** – A small cone attack slam, in the direction of whoever has agro. This is avoidable and blockable so be sure to block if it is aimed at you. It doesn’t hit too hard though.",
+          "**Ground Pound** – He pounds the ground repeatedly hurting everyone inside the massive AOE every time he hits the ground until he stops. BASH/INTERRUPT him and he WILL stop."
+        ]
+      },
+      {"name" :  "Cavern Patriarch",
+        "mechanics": [
+          "This boss one of the easiest in the dungeon. A big squid looking netch with bad breath basically. He will always attack whoever has agro so your tank should simply hold him still on the spot while your dps and healers stay behind him spread out."
+        ],
+        "strategy" : [
+          "**Heavy Attack** – As simple as it sounds, the boss has a heavy attack. Whoever has the agro simply block it. It barely scratches and you don’t need to run around the room.",
+          "**Poison** – This ability is pretty huge and does quite a bit of poison damage over time if you are caught in it, BUT it is placed on the ground so very easy to avoid. All you have to do is step out of it and you are safe. This is also interruptible if you are fast."
+        ]
+      },
+      {"name" :  "Cutting Sphere",
+        "mechanics": [
+          "He is small, has a few adds around him which the tank NEEDS to pick up fast before they overwhelm the group and above all keep this guy as still as you possibly can. If he gets loose it is all over. Recommended for you to spread out a bit so you don’t all get hit by the same thing at once."
+        ],
+        "strategy" : [
+          "**Dart** – A really nasty long ranged heavy attack which must be blocked. This should only hit the tank but if the taunt is dropped or you don’t have one you MUST block this.",
+          "**Slam/Jump** – Occasionally the boss will jump up in the air and quickly slam back down again onto the ground. A small AOE will visually show its range but you do NOT want to get caught in this.",
+          "**Steam Attack** – Occasionally the boss will charge up a kind of swirling steam attack in a random direction, this is devastating to a dps so avoid it at all costs BUT this can be interrupted. You are looking for a small round AOE affect on the floor moving in a straight line. DON’T get hit!",
+          "**Spin** – The boss will go into a craze and spin for a few seconds, each tick of damage will hit anyone in the area and he will home in on the agroed target. The tank needs to keep the boss still and BLOCK the damage. If they catches a DD or Healer, they will die unless they kite the boss around."
+        ]
+      },
+      {"name" :  "Sentinel Of Rkugamz",
+        "mechanics": [
+          "The final boss in Darkshade caverns is pretty simple but all manner of things can go wrong. He has 3 basic mechanics which are VERY easy to determine which is which because they are colour coded by the lights on his body. The tank should keep this boss as central to the room as possible at all times and pay close attention to the colour changing."
+        ],
+        "strategy" : [
+          "**Decapitate** – This is the mechanic that happens when the boss is YELLOW. While he is yellow he will aim at whoever has agro and will do 3 heavy attacks. These heavy attacks have a cone affect on them too so ANYONE caught in it will get hit. The tank MUST block or it is dead. Do NOT spin the boss. Try to keep him still, and if you are a dps or healer do NOT stand in front of the boss.",
+          "**Lightning** – This phase happens when he is blue. He will raise his arm and fire shots into the air. These will land on the players head and the way to avoid the damage is very to keep close to the boss while keeping up your damage/heals and circle him slowly moving out of the way of each falling meteor shock pool.",
+          "**The Spin!** – When he turns RED, he will choose a random target. He will spin doing physical damage every tick inside the AOE and SLOW you down with a snare. So if you get hit once you are pretty much dead and **he cannot be taunted**. The trick to this is to keep moving",
+          "Whoever has his attention needs to move in a reasonable sized circle to keep him away from the teammates, try to gauge it so that the circle makes him deliberately stay INSIDE the damage already placed on the ground by your group.",
+          "**Spiders** – At 25% and under he will spawn dwemer spiders in the room. They are usually pretty spread out, and they just sit in little green circles. IF he touches the circles he will heal, IF he does not, he wont. So your call. Kill them if you want, or simply keep him away from them. They are not a real threat."
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/darkshade-caverns-1/"
   }
 ]
