@@ -619,7 +619,7 @@
     "link": "https://xynodegaming.com/cradle-of-shadows/"
   },
   {
-    "dungeon": "Crypt of Hearts",
+    "dungeon": "Crypt of Hearts I",
     "description": "This is one of the first dungeons you have access to at level 22 or if you travel to the opening yourself at lower levels.",
     "image": "https://i.imgur.com/lVtBtxo.jpg",
     "sets": [
@@ -689,5 +689,78 @@
       }
     ],
     "link": "https://xynodegaming.com/cryptofhearts1/"
+  },
+  {
+    "dungeon" : "Crypt Of Hearts II",
+    "description" : "Veteran Crypt of Hearts 2 can be challenging. The dungeon has a skeleton theme about it and with it a lot of Undead.",
+    "image" : "https://i.imgur.com/lVtBtxo.jpg",
+    "sets" : ["Shroud of The Lich", "Leviathan", "Ebon Armory", "Nerien’eth"],
+    "bosses" : [
+      {"name" :  "Ibelgast",
+        "mechanics": [
+          "This boss is very simple. The boss spawns adds through out the fight so the tank will need to keep with the boss but of course be able to grab them as and when they enter the fight. They are based on health however so the faster the burn the faster they spawn. So do NOT dance around the room or this will get messy quickly. The tank should try to hold the boss as central as possible."
+        ],
+        "strategy" : [
+          "**Adds** – Throughout the fight adds will spawn and these must be dealt with, the tank should try to taunt/chain as many as possible. FOCUS the healers and then go back to the boss. Be careful at low health of the boss however because a large flesh Atronach will come out of a portal to join the fight and he will need to be focused. He does have a nasty heavy attack which will need to be blocked if targeted.",
+          "**AOE Circle** – The boss will randomly choose a target to place a LARGE circular aoe on the floor under them. If this is you simple move out of it. It is extremely easy to see and doesn’t move, so don’t panic, just move to the side and carry on as you were.",
+          "**Heavy Attack** – The boss will wind up a HUGE heavy attack with a knock back added to it. Whether you are the tank or not, if this aims at YOU, you *must* block it! This will only aim at the person with agro, so if it is aimed at a dps or healer, the tank dropped the ball!"
+        ]
+      },
+      {"name" :  "Ruzozuzalpamaz",
+        "mechanics": [
+          "This is a simple one but does require some co-ordination and for people to relax and not panic running around the room UN-necessarily because that WILL cause a wipe. Focus and pay attention to the mechanics and you won’t have a problem. The tank should hold the boss in the middle of the room and the group should surround her. Spread out and stand still to start with."
+        ],
+        "strategy" : [
+          "**Chasing Aoe** – The boss will pick a player at random. A massive AoE will start chasing them. If you are not familiar with this do not worry, basically it means keep moving. If YOU are the target, step back about to the outer circle of your group and simple run around the room in a large circle to avoid it, and when it has gone come back into your position. Just be sure you do not overlap the AoE onto the group.",
+          "**Spiders** – Throughout the fight swarms of spiders will spawn. Stay in position, let  the spiders come to the middle. The tank can chain them, taunt them but if you start running around the room when you have agro they are incredibly difficult to control. So let the tank do their job, let the spiders come in and get as much AoE damage down as possible. They do not have a lot of health so are not hard to kill.",
+          "**Heavy Attack** – This is pretty simple stuff, she occasionally heavy attacks and this needs to be blocked. Even if you are a dps or a healer, if she is on you, be sure to block this, or you will get a nasty knock back and can make the fight a bit messy.",
+          "**Cocoon!** – During the fight the boss will randomly wrap up a member of the group in a web cocoon! This is when your group has to pay full attention. If anyone is in a cocoon this is when your group needs to run over to them and hit the synergy button to release them ASAP! This is a key mechanic above all."
+        ]
+      },
+      {"name" :  "Chamber Guardian",
+        "mechanics": [
+          "This boss is one of the easiest in the dungeon honestly BUT can get messy depending on the group’s experience. The tank should grab the boss and simply hold it in the middle of the room. Try to keep it as still as possible to not remove him from possible dps aoes on the floor."
+        ],
+        "strategy" : [
+          "**Heavy Attack** – Pretty simple stuff here, whoever has agro will occasionally get heavy attacked! As with every other heavy attack in the game, this needs to be BLOCKED!",
+          "**Skeletons** – Throughout the fight skeletons will spawn, these need to be killed quickly else they can overwhelm you with multiple spawns. They can be controlled by the tank and killed with low to mid aoe damage, BUT if your group is lacking damage overall, focus these down as soon as possible.",
+          "**Fear** – The boss will invoke a spirit throughout the fight to fear the group. You must break free as soon as possible. A lot of the time the fear is followed by a heavy attack so if you don’t break free fast enough it will hurt. Key points basically are, hold him still, and break free fast so you don’t run him around the room."
+        ]
+      },
+      {"name" :  "Illambris Amalgam",
+        "mechanics": [
+          "This boss looks worst than he is. To start with you will be greeted by the Ilambris twins, Killing ONE of them will result in them disappearing and spawning the boss from the pile on the ground. Get in a nice circle, make sure the tank has the agro of the boss and holds him STILL on the pile. NEVER move the boss."
+        ],
+        "strategy" : [
+          "**Skeletons** – As with most Bone Colossus types the boss will spawn 3 melee skeletons from time to time, these are very low health and AoE will kill them pretty fast, even low damage. But the tank CAN control these with talons/immobilize abilities/status effects and also taunt them. Simply hold them still, no need to run around.",
+          "**Larger skeletons** – Another spawn of adds will come into the fight occasionally. These have a fair amount more health than the basic skeletons. However, just like the basic ones, these can be taunted and controlled by the tank. Do NOT run around the room else these will kill you. They can die easily to AoE damage and/or ultimates but if you run, it is almost impossible to control.",
+          "**Stomp** – The boss will occasionally stomp the ground, when this happens, simply step out of it or block. Blocking will negate a HUGE proportion of the damage so is probably safer.",
+          "**Rain of Fire** – Low health the boss will enrage and constantly rain fire on the ground around the group. All you need to do here is step to one side before each one lands. Watch your feet and kill the boss."
+        ]
+      },
+      {"name" :  "Mezeluth",
+        "mechanics": [
+          "For this fight, the tank needs to be taunting the boss and keep agro at all times but above all, positioning is KEY! Look at the room as a clock face. You have 4 players. EACH player takes quarter of the clock. So, people stand at 12 o’clock, 3 o’clock, 6 o’clock, 9 o’clock. DO NOT move from these positions. everyone should have their OWN quarter of the clock! failure to do this WILL result in a wipe."
+        ],
+        "strategy" : [
+          "**Ground Fire** – Very so often the boss put her staff in the air channeling an ability, this will place a nasty AoE under the target of her choice and makes positioning difficult, so be sure when you see this to INTERRUPT her either with a bash or a skill that does such. Do not rely on everyone else to do it, EVERY player can interrupt targets.",
+          "**The Wipe** – The boss will pull everyone to her feet in mid air. A spreading AoE will appear under your feet and attach itself to you. Yes that means it follows YOU. During this phase an AoE will appear behind each player!THIS is why you must be in the quarter clock formation. AVOID landing in the ground aoe on their side and AVOID all other players. If your body overlaps another aoe, when they explode You will DIE."
+        ]
+      },
+      {"name" :  "Nerien'eth",
+        "mechanics": [
+          "The boss although taunted has SOME mechanics which are random. So everyone must be on their toes. The tank needs to keep a taunt on the boss at all times and the group should be in a nice circle around the boss as not to stack, if you stack it becomes a problem because random targeted players cannot tell WHO is the target. So give each other some room."
+        ],
+        "strategy" : [
+          "**Lich Crystals** – The boss will raise his hand in the air, when he does this he will spawn lich crystals around the room. A chain will come out of the ground and then a big AoE burst will come from them. These are extremely easy to avoid, simply step out of the AoE.",
+          "**Flying Skull** – Occasionally the boss will target a random player. He will start channeling for a brief moment and then let rip with a projectile flying skull at the player of his choice. If while channeling he is looking at YOU, then YOU are the target. Once it starts flying at you, dodge roll it. Failure to do so will result in MASSIVE damage and a knock down. Spread out so you can see who the target is!",
+          "**Teleport Blast** – The boss will teleport from time to time at a random player, when this happens you must get away from him ASAP! Wherever he lands he will cast a massive spreading AOE on the ground from his feet. It is large enough for a single dodge roll to not be enough if you are too slow. If this hits you, unless you are fairly tanky OR the tank you are pretty much dead in one shot.",
+          "**Ghosts** – There are 3 “well” type places on the map with a grill over them. When the boss teleports to these he will release two ghosts. Kill these fast as you will get overwhelmed. **If you are going for hardmode you MUST keep these alive**. In order to complete hard mode you MUST have 4 ghosts alive when the boss reaches for the sword! (35% health).",
+          "Taking The sword! – At 35% health the boss will reach for the sword in the center of the room. This is “go time!”. The group needs to stay close to the boss. The tank should hold the taunt and the group should have a tight circle close to the boss.",
+          "When the boss grabs the sword the group will be stunned. The boss will then choose a random player in the group and hold him/her in mid air and try to drain them. The player in question must synergies to resist the drain and at the same time the group must do as much damage as possible to remove the new damage shield from the boss and drop the player to safety."
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/cryptofhearts2/"
   }
 ]
