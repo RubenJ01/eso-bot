@@ -20,12 +20,14 @@ class Lookup(Cog, name="🌴 Lookup"):
     def __init__(self, bot):
         self.bot = bot
 
-    @command(description="`!dungeon`\n\nShows the dungeon list and boss' strategies.")
+    @command(
+        description="`!dungeon [dungeon]`\n\nShows the dungeon list and boss' strategies."
+    )
     async def dungeon(self, ctx, *, dungeon=None):
-        with open("eso_bot/assets/dungeons.json", "r", encoding="utf-8") as dungeons:
+        with open("assets/dungeons.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         if not dungeon:
-            reacts = ["🇦", "🇧", "🇨", "🇩", "🇪", "🇫", "🇬", "🇭"]
+            reacts = ["🇦", "🇧", "🇨", "🇩", "🇪", "🇫", "🇬", "🇭", "🇮", "🇯"]
             dungeonsList = ""
             i = 0
             for dungeon in data:
@@ -45,7 +47,7 @@ class Lookup(Cog, name="🌴 Lookup"):
                 await msg.add_reaction(number)
 
             def check(reaction, user):
-                reactCheck = ["🇦", "🇧", "🇨", "🇩", "🇪", "🇫", "🇬", "🇭", "📖"]
+                reactCheck = ["🇦", "🇧", "🇨", "🇩", "🇪", "🇫", "🇬", "🇭", "🇮", "🇯", "📖"]
                 return (
                     str(reaction.emoji) in reactCheck
                     and user == ctx.message.author
@@ -441,13 +443,13 @@ class Lookup(Cog, name="🌴 Lookup"):
                 reaction, user = await self.bot.wait_for("reaction_add", check=check3)
                 await handle_rotate3(reaction, msg, check, j)
 
-    @command(description="`!set`\n\nDisplays information on a specific set.")
+    @command(description="`!set [set]`\n\nDisplays information on a specific set.")
     async def set(self, ctx, *set):
         """
         Lookup information on any set.
         """
         await command_invoked(self.bot, "set", ctx.author.name)
-        with open("eso_bot/assets/sets.json", "r", encoding="utf-8") as dungeons:
+        with open("assets/sets.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         result = False
         set_ = " ".join(set)
@@ -456,12 +458,9 @@ class Lookup(Cog, name="🌴 Lookup"):
         for x in data:
             if set_.lower() == x["name"].lower():
                 result = True
-                description = ""
-                for index, effect in enumerate(x["effects"]):
-                    description += f"**{index + 2} items:** {effect}\n"
                 embed = discord.Embed(
                     title=x["name"],
-                    description=description,
+                    description=x["effects"],
                     url=x["link"],
                     colour=functions.embedColour(ctx.guild.id),
                 )
