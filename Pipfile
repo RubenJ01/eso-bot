@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pre-commit = "*"
+
+[packages]
+"discord.py" = "*"
+pytz = "*"
+buttons = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+start = "python -m eso_bot"
+lint = "pre-commit run --all-files"

@@ -14,5 +14,9 @@ async def command_invoked(bot, name, user):
     logging_channel = bot.get_channel(749940498885509190)
     timezone = pytz.timezone("Europe/Amsterdam")
     time = timezone.localize(datetime.datetime.now())
-    embed = discord.Embed(title="Command invoked", description=f"`!{name}` was used by `{user}`", timestamp=time)
+    embed = discord.Embed(
+        title="Command invoked",
+        description=f"`!{name}` was used by `{user}`",
+        timestamp=time,
+    )
     return await logging_channel.send(embed=embed)
