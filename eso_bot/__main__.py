@@ -1,31 +1,40 @@
+import pytz
+import sqlite3
+import traceback
+from datetime import datetime
+
 import discord
-import math
 from discord.ext import commands
 from discord.ext.commands import has_permissions
-import sqlite3
-from authentication import bot_token
-from datetime import datetime
-import pytz
-import traceback
+
+from eso_bot.authentication import bot_token
+
 
 now = int(datetime.now(pytz.timezone("Singapore")).timestamp())
 
-conn = sqlite3.connect('prefix.db', timeout=5.0)
+conn = sqlite3.connect("prefix.db", timeout=5.0)
 c = conn.cursor()
 conn.row_factory = sqlite3.Row
 
-startup_extensions = ['backend.functions', 'cogs.dungeon', 'logs']
-help_extensions = ['cogs.help']
 
-c.execute('''CREATE TABLE IF NOT EXISTS prefix (
+startup_extensions = [
+    "eso_bot.backend.functions",
+    "eso_bot.cogs.dungeon",
+    "eso_bot.logs",
+]
+help_extensions = ["eso_bot.cogs.help"]
+
+c.execute(
+    """CREATE TABLE IF NOT EXISTS prefix (
         `guild_id` INT PRIMARY KEY,
-        `prefix` TEXT)''')
+        `prefix` TEXT)"""
+)
 
 
 async def determine_prefix(bot, message):
     prefixDictionary = {}
 
-    for prefix in c.execute(f'SELECT guild_id, prefix FROM prefix'):
+    for prefix in c.execute("SELECT guild_id, prefix FROM prefix"):
         prefixDictionary.update({prefix[0]: f"{prefix[1]}"})
 
     currentPrefix = prefixDictionary[message.guild.id]
@@ -39,10 +48,10 @@ if __name__ == "__main__":
     for extension in startup_extensions:
         try:
             bot.load_extension(extension)
-            print(f'{extension}.py successfully loaded!')
+            print(f"{extension}.py successfully loaded!")
         except Exception as e:
-            exc = f'{type(e).__name__}: {e}'
-            print(f'Failed to load extension {extension}\n{exc}')
+            exc = f"{type(e).__name__}: {e}"
+            print(f"Failed to load extension {extension}\n{exc}")
             traceback.print_exc()
 
 
@@ -69,20 +78,26 @@ async def unload(ctx, extension_name: str):
 async def setprefix(ctx, new):
     guild = ctx.message.guild.id
     name = bot.get_guild(guild)
-    for key, value in c.execute('SELECT guild_id, prefix FROM prefix'):
+    for key, value in c.execute("SELECT guild_id, prefix FROM prefix"):
         if key == guild:
-            c.execute(''' UPDATE prefix SET prefix = ? WHERE guild_id = ? ''', (new, guild))
+            c.execute(
+                """ UPDATE prefix SET prefix = ? WHERE guild_id = ? """, (new, guild)
+            )
             conn.commit()
-            embed = discord.Embed(description=f"{name}'s Prefix has now changed to `{new}`.")
+            embed = discord.Embed(
+                description=f"{name}'s Prefix has now changed to `{new}`."
+            )
             await ctx.send(embed=embed)
 
 
 @bot.command()
 async def myprefix(ctx):
-    c.execute(f'SELECT prefix FROM prefix WHERE guild_id = {ctx.message.guild.id}')
+    c.execute(f"SELECT prefix FROM prefix WHERE guild_id = {ctx.message.guild.id}")
     currentPrefix = c.fetchall()[0][0]
     name = bot.get_guild(ctx.message.guild.id)
-    embed = discord.Embed(description=f"{name}'s Prefix currently is `{currentPrefix}`.")
+    embed = discord.Embed(
+        description=f"{name}'s Prefix currently is `{currentPrefix}`."
+    )
     await ctx.send(embed=embed)
 
 
@@ -98,13 +113,15 @@ async def on_ready():
 
     guild_id_database = []
 
-    for row in c.execute('SELECT guild_id FROM prefix'):
+    for row in c.execute("SELECT guild_id FROM prefix"):
         guild_id_database.append(row[0])
 
     async for guild in bot.fetch_guilds():
 
         if guild.id not in guild_id_database:
-            c.execute(''' INSERT OR REPLACE INTO prefix VALUES (?, ?)''', (guild.id, '!'))
+            c.execute(
+                """ INSERT OR REPLACE INTO prefix VALUES (?, ?)""", (guild.id, "!")
+            )
             conn.commit()
             print(f"Bot started up: Created a prefix database for {guild.id}: {guild}")
 
@@ -112,12 +129,14 @@ async def on_ready():
 @bot.event
 async def on_guild_join(guild):
     guild_id_database = []
-    for row in c.execute('SELECT guild_id FROM prefix'):
+    for row in c.execute("SELECT guild_id FROM prefix"):
         guild_id_database.append(row[0])
     if guild.id not in guild_id_database:
-        c.execute(''' INSERT OR REPLACE INTO prefix VALUES (?, ?)''', (guild.id, '!'))
+        c.execute(""" INSERT OR REPLACE INTO prefix VALUES (?, ?)""", (guild.id, "!"))
         conn.commit()
-        print(f"Bot joined a new server: Created a prefix database for {guild.id}: {guild}")
+        print(
+            f"Bot joined a new server: Created a prefix database for {guild.id}: {guild}"
+        )
 
 
 @bot.command()
@@ -126,14 +145,14 @@ async def ping(ctx):
     await ctx.send(embed=embed)
 
 
-bot.remove_command('help')
+bot.remove_command("help")
 
 if __name__ == "__main__":
     for extension in help_extensions:
         try:
             bot.load_extension(extension)
         except Exception as e:
-            exc = f'{type(e).__name__}: {e}'
-            print(f'Failed to load extension {extension}\n{exc}')
+            exc = f"{type(e).__name__}: {e}"
+            print(f"Failed to load extension {extension}\n{exc}")
 
-bot.run(f'{bot_token}', reconnect=True)
+bot.run(f"{bot_token}", reconnect=True)
