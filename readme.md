@@ -84,7 +84,3 @@ Volenfell\
 Wayrest Sewers I\
 Wayrest Sewerest II\
 White-Gold Tower
-### Sets
-All sets have been added :white_check_mark:
-### Skills
-All skills have been added :white_check_mark:
