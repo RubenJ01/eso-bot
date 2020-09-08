@@ -835,5 +835,75 @@
       }
     ],
     "link" : "https://xynodegaming.com/darkshade-caverns-1/"
+  },
+  {
+    "dungeon" : "Darkshade Caverns II",
+    "description" : "This dungeon you will have access to at level 42 or if you travel to the opening yourself at lower levels.",
+    "image" : "https://imgur.com/iAFPj32",
+    "sets" : ["Netch’s Touch", "Armor of Truth", "Strength of Automantons", "Engine Guardian "],
+    "bosses" : [
+      {"name" :  "The Fallen Foreman",
+        "mechanics": [
+          "This boss is very simple but the ONE major mechanic can wipe groups if not careful. The tank should position the boss in the center of the room and hold the agro while also pulling in as many of the adds as possible. There are lots of adds to deal with and general AoE should be able to kill these fast, but people must stay on top of interrupts if archers try to channel abilities."
+        ],
+        "strategy" : [
+          "**Fireball** – A simple basic attack which should only really be directed at the tank. Blocking will prevent this from being any real threat but to be honest the damage is so low that any healer or even a vigor will keep this from doing any serious damage to a tank.",
+          "**Spinning Flames** – The boss will raise his staff in the air and spin a flame ability slowly around his head. You have two options, follow it around from behind or in front and just circle the boss. So long as it doesn’t touch you, you are fine. Pay attention to it and don't get caught. This ability alone if not paid attention to is capable of wiping an entire group."
+        ]
+      },
+      {"name" :  "Transmuted Hive lord",
+        "mechanics": [
+          "This boss should be taunted at all time and turned away from the group. DPS and healers should NOT stand in the boss's face. In the mean time the tank should also control the 2 scribs that spawn with the boss. These can be tricky."
+        ],
+        "strategy" : [
+          "**Scrib stuns** – The Scribs can fire off heavy attacks which must be blocked but above all they do channel abilities. Keep your eyes peeled, if you do NOT interrupt the scribs, they will pin players to the ground and drown their resources. This is unbreakable too so you will literally have to go through the motions while being hit. Interrupting these is KEY. Killing them just makes them respawn.",
+          "**Slam** – The boss will occasionally slam the ground doing moderate AoE damage, heals should keep this from being a problem, it is not a one shot mechanic. However the tank should keep a taunt up as much as possible.",
+          "**Slam and damage shield** – At low health the boss will enrage, gain a damage shield and violently slam the floor repeatedly. This will continue to happen UNTIL you do enough damage to take his damage shield away. Your healer really needs to be on point here because in a low dps group although this is completely manageable, the longer the shield is up, the longer people have to be kept alive for."
+        ]
+      },
+      {"name" :  "Transmuted Alit",
+        "mechanics": [
+          "This boss is actually 3 bosses in one and they are connected, so you must pay attention to the fight. The tank must taunt all 3 of them and face them away from the group else they will get loose and start causing problems. Do not run away, they MUST stay together."
+        ],
+        "strategy" : [
+          "**Jump** – The boss jumps in the air and slam back down again in the form of a heavy attack. The tank you should block this to prevent knock down. If you are a dps or a healer and for some reason they are hitting you, the same applies, make sure you block.",
+          "**Breath** – A very small AOE effect will appear at the bosses feet and this will be aimed at whoever has agro. Again this should be on the tank and people should not be standing in front of the boss's, they are turned away from the group for a reason.",
+          "**Revive!** – The damage on these enemies must be EVEN. Do not over burn one target. When an Alit dies, after a few seconds if the rest are not dead they will Revive with around 25% hp. Kill them all together if you can to prevent constantly fighting the endless revive mechanic. Pace your single target per boss and keep up an even amount of AoE."
+        ]
+      },
+      {"name" :  "Grobull The Transmuted",
+        "mechanics": [
+          "This boss is the PUG killer and is not as hard as it looks once you break down the mechanics. The trick to this one is knowing WHAT to kill and WHEN."
+        ],
+        "strategy" : [
+          "**Lightning Shield** – This boss while floating around has a lightning shield surrounding it. ALL projectile damage will be reflected at the caster! The tank can taunt the boss since that is not reflected but the negative effects can be. So be careful. All damage will only hit Grobull for 10% if not reflected so don’t waste your time hitting him.",
+          "**Charge attack** – The boss will try to charge/shock players which will stun, you MUST break free from this.",
+          "**Ground lightning** – This very easy to spot large circle of lightning MUST be avoided, you can be slowed, stunned and killed inside of it, avoid it at all costs.",
+          "**Netch Swarms** – MANY small Netch swarms will come into the room, the tank should try to pin these as much as possible while the group throws down as much AOE as possible. You will have to move a lot to avoid the boss but stay together. Each killed add will hit the boss with a charged ability and once the boss has been hit by enough of them he will sit down for 10s. This is where you damage the boss as much as possible!"
+        ]
+      },
+      {"name" :  "Mech Army",
+        "mechanics": [
+          "A MASSIVE army of mechs sitting outside the door to the last boss! The tank and healer are under HIGH pressure on this particular encounter. Be aware of your surroundings, taunts and cc must be applied to pin and/or chain in the ranged targets and the group must NOT run around the room. Running will prevent you from getting heals and also make you pull increased amounts of enemies.",
+          "Position your group in a safe place away from the army, once you have agroed one of them from range, they will steadily come to you in waves. Fast but controlled. If however you go too close you will pull them all at once and it is game over."
+        ],
+        "strategy" : [
+          "**Spiders** – These are close ranged and can be controlled easily but they must die fast. These will charge up a lightning bubble and all mech army enemies can run over to these and charge themselves with lightning increasing their damage output. Do not let them do it!",
+          "**Spheres** – Ranged targets with nasty ground AoEs and darts that fire at the group. The tank needs to pull these in and pin them as fast as possible so they don’t pick off the dps.",
+          "**Centurions** – The BIG ones, these are easy to spot and they are easy to get taunts on but these must be grabbed fast, they can almost one shot a squishy dps and can cause wipes. The tank should ALWAYS make sure these are turned away from the group. If you are a dps/healer and these are on you, make sure you block until they are controlled."
+        ]
+      },
+      {"name" :  "The Engine Guardian",
+        "mechanics": [
+          "Your tank in this fight, plays debuffer, controller and protector! The boss cannot strictly be taunted and will run around the room in a circle in the direction of it’s choice. BUT you can still apply a taunt to debuff it with major fracture and breach to increase the damage done by your team. This boss moves all of the time apart from when it changes phases so your damage needs to be carefully applied."
+        ],
+        "strategy" : [
+          "**Poison** – The room goes green and everyone takes damage constantly, healers and shields from the tanks will help and are essential. During this phase you can get VERY close to the boss if you are doing damage and you will not be hit with any additional damage.",
+          "**Fire!** – The boss will spin his head while walking emitting a HUGE flame thrower in 360 degrees, do NOT go near him, stay ranged. In the mean time he will fire mortar shots at the ground and they will explode in large circle aoes of fire. Stay OUT of them. When he sits down AFTER the fire it is NOT safe. No matter what phase is next, he will still do one more final flame thrower spin, stay away until it is actually gone.",
+          "**Lightning + Spheres** – This phase the boss will zap anyone close by so do NOT stay near him else you will die fast, ranged damage only. Also during this phase 3x spheres will appear and these MUST be killed. The tank needs to chain/pull them together and pin them down while the group kills them fast. If you do NOT focus these you will get overwhelmed. They throw ground AoE effects and heavy attacks, if you see this, BLOCK!"
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/darkshadecaverns2/"
   }
 ]
