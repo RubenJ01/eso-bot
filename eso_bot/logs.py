@@ -30,7 +30,8 @@ class Logs(commands.Cog, name="🛠️ Settings"):
             "https://discord.com/oauth2/authorize?client_id=572365749780348928&permissions=0&scope=bot"
         )
 
-    @commands.command(description="`/embedsettings {colour code e.g. 0xffff0}`\n\n")
+    @commands.command(description="`/embedsettings {colour code e.g. 0xffff0}`\n\n Changes the color of the embeds "
+                                  "for a guild.")
     @commands.cooldown(1, 5, commands.BucketType.user)
     @has_permissions(administrator=True)
     async def embedsettings(self, ctx, colour):
@@ -59,7 +60,8 @@ class Logs(commands.Cog, name="🛠️ Settings"):
         date = '**Created on:** 30-9-2018'
         status_embed.description = '\n'.join(
             [f'Bot up and running in {len(self.bot.guilds)} guilds with {members} members.',
-             f'**Uptime:** {uptime}\n{date}'
+             f'**Uptime:** {uptime}\n{date}',
+             'For more help or information join our [support server](https://discord.gg/5xvAHhU)'
              ]
         )
         status_embed.set_author(name=f'{ctx.author}', icon_url=ctx.author.avatar_url)
@@ -78,41 +80,32 @@ class Logs(commands.Cog, name="🛠️ Settings"):
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
         if isinstance(error, commands.CommandOnCooldown):
-
             seconds = error.retry_after
             minutes = seconds / 60
             hours = seconds / 3600
-
             if seconds / 60 < 1:
-
                 embed = discord.Embed(
                     description=f"You're using this command too often! Try again in {str(int(seconds))} seconds!"
                 )
                 await ctx.send(embed=embed)
-
             elif minutes / 60 < 1:
-
                 embed = discord.Embed(
                     description=f"You're using this command too often! Try again in {math.floor(minutes)} minutes and "
                     f"{(int(seconds) - math.floor(minutes) * 60)} seconds!"
                 )
                 await ctx.send(embed=embed)
-
             else:
-
                 embed = discord.Embed(
                     description=f"You're using this command too often! Try again in {math.floor(hours)} hours, "
                     f"{(int(minutes) - math.floor(hours) * 60)} minutes, "
                     f"{(int(seconds) - math.floor(minutes) * 60)} seconds!"
                 )
                 await ctx.send(embed=embed)
-
         if isinstance(error, commands.CheckFailure):
             embed = discord.Embed(
                 description="You do not have the permission to do this!"
             )
             await ctx.send(embed=embed)
-
         if isinstance(error, commands.MissingRequiredArgument):
             embed = discord.Embed(
                 description="Missing arguments on your command! Please check and retry again!"

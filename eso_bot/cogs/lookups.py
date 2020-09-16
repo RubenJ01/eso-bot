@@ -584,6 +584,81 @@ class Lookup(Cog, name="🌴 Lookup"):
                 async with ctx.typing():
                     return await ctx.invoke(self.skill, skill)
 
+    @command(name="class", description="`!class {class}`\n\nDisplays information on a specific class.")
+    async def class_command(self, ctx, *class_):
+        """
+        Lookup information on any class.
+        """
+        await command_invoked(self.bot, "skill", ctx.author.name)
+        with open("assets/classes.json", "r", encoding="utf-8") as dungeons:
+            data = json.load(dungeons)
+        result = False
+        class_ = " ".join(class_)
+        if len(class_) < 3:
+            return await ctx.send("Your search request must be at least 3 characters.")
+        for x in data:
+            if class_.lower() == x["name"].lower():
+                result = True
+                embed = discord.Embed(
+                    title=x["name"],
+                    description=x["about"],
+                    url=x["link"],
+                    colour=functions.embedColour(ctx.guild.id),
+                )
+                skills = ""
+                for skill in x["skills"]:
+                    skills += f"[{skill['name']}]({skill['link']})\n{skill['description']}\n"
+                embed.add_field(name="Skills", value=skills)
+                embed.set_thumbnail(url=x["image"])
+                embed.set_footer(text="Classes and icons © by ZeniMax Online Studios")
+                return await ctx.send(embed=embed)
+        if result is False:
+            reference_classes = []
+            results = ""
+            timezone = pytz.timezone("Europe/Amsterdam")
+            time = timezone.localize(datetime.datetime.now())
+            for x in data:
+                if class_.lower() in x["name"].lower():
+                    reference_classes.append(x["name"])
+            if len(reference_classes) == 1:
+                return await ctx.invoke(self.class_command, reference_classes[0])
+            elif len(reference_classes) > 0:
+                loaded_sets = reference_classes
+            elif len(reference_classes) == 0:
+                return await ctx.send(
+                    f"No results were found matching your request: `{class_}`"
+                )
+            else:
+                loaded_sets = [x["name"] for x in data]
+            for index, x in enumerate(loaded_sets):
+                results += f"`{index + 1}` {x} \n"
+            embed = discord.Embed(
+                title="Sets",
+                description=f"`{class_}` was not found.\nDid you mean one of the following "
+                            f"classes:\n{results}\nReply "
+                            f"with a number for more information.",
+                colour=functions.embedColour(ctx.guild.id),
+                timestamp=time,
+            )
+            await ctx.send(embed=embed)
+
+            def check(m):
+                return (
+                        m.content in [str(i) for i in range(1, len(loaded_sets) + 1)]
+                        and m.channel == ctx.channel
+                        and ctx.author == m.author
+                )
+
+            try:
+                choice = await ctx.bot.wait_for("message", timeout=10.0, check=check)
+            except asyncio.TimeoutError:
+                return await ctx.send("Request timed out.")
+            if choice:
+                class_ = f"{loaded_sets[int(choice.content) - 1].lower()}"
+                await ctx.send(f"!skill {class_}")
+                async with ctx.typing():
+                    return await ctx.invoke(self.class_command, class_)
+
 
 def setup(bot):
     bot.add_cog(Lookup(bot))

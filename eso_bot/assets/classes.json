@@ -1,0 +1,140 @@
+[
+  {
+    "name" : "Dragonknight",
+    "about" : "These skillful masters-at-arms use the ancient Akaviri martial arts tradition of battle-spirit, and wield fearsome magic that pounds, shatters and physically alters the world around them.",
+    "image" : "https://images.uesp.net/7/76/ON-icon-class-Dragonknight.png",
+    "link" : "https://en.uesp.net/wiki/Online:Dragonknight",
+    "skills" : [
+      {
+        "name" : "Ardent Flame",
+        "description" : "Ardent Flame is geared towards fire damage.",
+        "link" : "https://en.uesp.net/wiki/Online:Ardent_Flame"
+      },
+      {
+        "name" : "Draconic Power",
+        "description" : "Draconic Power is geared mainly towards self-preservation and tanking.",
+        "link" : "https://en.uesp.net/wiki/Online:Draconic_Power"
+      },
+      {
+        "name" : "Earthen Heart",
+        "description" : "Earthen Heart is a mix of self-defense and support abilities.",
+        "link" : "https://en.uesp.net/wiki/Online:Earthen_Heart"
+      }
+    ]
+  },
+  {
+    "name" : "Nightblade",
+    "about" : "Nightblades are adventurers and opportunists with a gift for getting in and out of trouble. Relying variously on stealth, blades, and speed, Nightblades thrive on conflict and misfortune, trusting to their luck and cunning to survive.",
+    "image" : "https://images.uesp.net/d/dc/ON-icon-class-Nightblade.png",
+    "link" : "https://en.uesp.net/wiki/Online:Nightblade",
+    "skills" : [
+      {
+        "name" : "Assassination",
+        "description" : "The Assassination skill is orientated towards melee attackers, particularly dual-wielding, with abilities ranging from increasing your attack speed to teleporting to your target and damaging them at the same time.",
+        "link" : "https://en.uesp.net/wiki/Online:Assassination"
+      },
+      {
+        "name" : "Shadow",
+        "description" : "The Shadow skill is orientated towards self-preservation, with abilities ranging from inflicting fear on nearby enemies to becoming invisible and some crowd-control.",
+        "link" : "https://en.uesp.net/wiki/Online:Shadow"
+      },
+      {
+        "name" : "Siphoning",
+        "description" : "The Siphoning skill is oriented towards spell-casting assassins, with abilities that de-buff and damage enemies and provide healing and positive buffs to you. These abilities range from decreasing nearby enemies' attack power to casting a damage-over-time spell on a target that casts a healing spell on you for the same duration.",
+        "link" : "https://en.uesp.net/wiki/Online:Siphoning"
+      }
+    ]
+  },
+  {
+    "name" : "Sorcerer",
+    "about" : "Sorcerers can use conjuration and destruction spells to hurl lightning bolts and create shock fields, wield dark magic to snare and stun, and summon Daedric combat followers from Oblivion to assist them.",
+    "image" : "https://images.uesp.net/5/50/ON-icon-class-Sorcerer.png",
+    "link" : "https://en.uesp.net/wiki/Online:Sorcerer",
+    "skills" : [
+      {
+        "name" : "Dark Magic",
+        "description" : "Dark Magic is one of three class skill lines available to Sorcerer characters. Skills in this line focus on stuns and utility spells and are good for a supporting role.",
+        "link" : "https://en.uesp.net/wiki/Online:Dark_Magic"
+      },
+      {
+        "name" : "Daedric Summoning",
+        "description" : "Daedric Summoning is one of three class skill lines available to Sorcerer characters. This is very similar to Conjuration in that you summon Daedric creatures, such as atronachs and familiars.",
+        "link" : "https://en.uesp.net/wiki/Online:Daedric_Summoning"
+      },
+      {
+        "name" : "Storm Calling",
+        "description" : "Storm Calling is one of three class skill lines available to Sorcerer characters. Skills in this line focus on magical DPS (damage per second) and burst damage, mostly themed towards lightning magic.",
+        "link" : "https://en.uesp.net/wiki/Online:Storm_Calling"
+      }
+    ]
+  },
+  {
+    "name" : "Templar",
+    "about" : "These traveling knights call upon the powers of light and the burning sun to deal massive damage to their enemies while restoring health, magicka, and stamina to their allies.",
+    "image" : "https://images.uesp.net/3/3d/ON-icon-class-Templar.png",
+    "link" : "https://en.uesp.net/wiki/Online:Templar",
+    "skills" : [
+      {
+        "name" : "Aedric Spear",
+        "description" : "Aedric Spear uses the power of light to deal damage at any range and protect the caster with a powerful shield.",
+        "link" : "https://en.uesp.net/wiki/Online:Aedric_Spear"
+      },
+      {
+        "name" : "Dawn's Wrath",
+        "description" : "Dawn's Wrath represents the power of the sun, using light and fire to damage enemies directly, assist allies with their damage, or reflecting enemy damage.",
+        "link" : "https://en.uesp.net/wiki/Online:Dawn%27s_Wrath"
+      },
+      {
+        "name" : "Restoring Light",
+        "description" : "Restoring Light is focused towards magical support and strong healing abilities.",
+        "link" : "https://en.uesp.net/wiki/Online:Restoring_Light"
+      }
+    ]
+  },
+    {
+    "name" : "Warden",
+    "about" : "Wardens are defenders of the Green, master storytellers whose nature tales become magical reality. They wield frost spells against enemies and summon animals to aid them.",
+    "image" : "https://images.uesp.net/0/0e/ON-icon-class-Warden.png",
+    "link" : "https://en.uesp.net/wiki/Online:Warden",
+    "skills" : [
+      {
+        "name" : "Animal Companions",
+        "description" : "Animal Companions is geared towards summoning animals to aid you in battle.",
+        "link" : "https://en.uesp.net/wiki/Online:Animal_Companions"
+      },
+      {
+        "name" : "Green Balance",
+        "description" : "Green Balance is geared towards healing and buffs.",
+        "link" : "https://en.uesp.net/wiki/Online:Green_Balance"
+      },
+      {
+        "name" : "Winter's Embrace",
+        "description" : "Winter's Embrace is geared towards dealing Frost Damage and tanking.",
+        "link" : "https://en.uesp.net/wiki/Online:Winter%27s_Embrace"
+      }
+    ]
+  },
+    {
+    "name" : "Necromancer",
+    "about" : "Masters of death, Necromancers can call upon corpses to serve as undead thralls and weave ghastly spells to both harm and heal.",
+    "image" : "https://images.uesp.net/8/8d/ON-icon-class-Necromancer.png",
+    "link" : "https://en.uesp.net/wiki/Online:Necromancer",
+    "skills" : [
+      {
+        "name" : "Grave Lord",
+        "description" : "Grave Lord is elemental magic skill with pure damage dealing abilities.",
+        "link" : "https://en.uesp.net/wiki/Online:Grave_Lord"
+      },
+      {
+        "name" : "Bone Tyrant",
+        "description" : "Bone Tyrant is a set of abilities focused towards defense and tanking.",
+        "link" : "https://en.uesp.net/wiki/Online:Bone_Tyrant"
+      },
+      {
+        "name" : "Living Death",
+        "description" : "Living Death is a mix of healing and resurrecting abilities.",
+        "link" : "https://en.uesp.net/wiki/Online:Living_Death"
+      }
+    ]
+  }
+]
