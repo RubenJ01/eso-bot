@@ -21,7 +21,7 @@ class Lookup(Cog, name="🌴 Lookup"):
         self.bot = bot
 
     @command(
-        description="`!dungeon [dungeon]`\n\nShows the dungeon list and boss' strategies."
+        description="`!dungeon {dungeon}`\n\nShows the dungeon list and boss' strategies."
     )
     async def dungeon(self, ctx, *, dungeon=None):
         with open("assets/dungeons.json", "r", encoding="utf-8") as dungeons:
@@ -443,7 +443,7 @@ class Lookup(Cog, name="🌴 Lookup"):
                 reaction, user = await self.bot.wait_for("reaction_add", check=check3)
                 await handle_rotate3(reaction, msg, check, j)
 
-    @command(description="`!set [set]`\n\nDisplays information on a specific set.")
+    @command(description="`!set {set}`\n\nDisplays information on a specific set.")
     async def set(self, ctx, *set):
         """
         Lookup information on any set.
@@ -490,7 +490,7 @@ class Lookup(Cog, name="🌴 Lookup"):
             embed = discord.Embed(
                 title="Sets",
                 description=f"`{set_}` was not found.\nDid you mean one of the following "
-                f"dungeons:\n{results}\nReply "
+                f"sets:\n{results}\nReply "
                 f"with a number for more information.",
                 colour=functions.embedColour(ctx.guild.id),
                 timestamp=time,
@@ -513,6 +513,76 @@ class Lookup(Cog, name="🌴 Lookup"):
                 await ctx.send(f"!set {set}")
                 async with ctx.typing():
                     return await ctx.invoke(self.set, set)
+
+    @command(description="`!skill {skill}`\n\nDisplays information on a specific skill.")
+    async def skill(self, ctx, *skill):
+        """
+        Lookup information on any skill.
+        """
+        await command_invoked(self.bot, "skill", ctx.author.name)
+        with open("assets/skills.json", "r", encoding="utf-8") as dungeons:
+            data = json.load(dungeons)
+        result = False
+        skill = " ".join(skill)
+        if len(skill) < 3:
+            return await ctx.send("Your search request must be at least 3 characters.")
+        for x in data:
+            if skill.lower() == x["name"].lower():
+                result = True
+                embed = discord.Embed(
+                    title=x["name"],
+                    description=x["effect"],
+                    url=x["link"],
+                    colour=functions.embedColour(ctx.guild.id),
+                )
+                embed.set_thumbnail(url=x["image"])
+                embed.set_footer(text="Skills and icons © by ZeniMax Online Studios")
+                return await ctx.send(embed=embed)
+        if result is False:
+            reference_skills = []
+            results = ""
+            timezone = pytz.timezone("Europe/Amsterdam")
+            time = timezone.localize(datetime.datetime.now())
+            for x in data:
+                if skill.lower() in x["name"].lower():
+                    reference_skills.append(x["name"])
+            if len(reference_skills) == 1:
+                return await ctx.invoke(self.set, reference_skills[0])
+            elif len(reference_skills) > 0:
+                loaded_sets = reference_skills
+            elif len(reference_skills) == 0:
+                return await ctx.send(
+                    f"No results were found matching your request: `{skill}`"
+                )
+            else:
+                loaded_sets = [x["name"] for x in data]
+            for index, x in enumerate(loaded_sets):
+                results += f"`{index + 1}` {x} \n"
+            embed = discord.Embed(
+                title="Sets",
+                description=f"`{skill}` was not found.\nDid you mean one of the following "
+                            f"skills:\n{results}\nReply "
+                            f"with a number for more information.",
+                colour=functions.embedColour(ctx.guild.id),
+                timestamp=time,
+            )
+            await ctx.send(embed=embed)
+
+            def check(m):
+                return (
+                        m.content in [str(i) for i in range(1, len(loaded_sets) + 1)]
+                        and m.channel == ctx.channel
+                        and ctx.author == m.author
+                )
+            try:
+                choice = await ctx.bot.wait_for("message", timeout=10.0, check=check)
+            except asyncio.TimeoutError:
+                return await ctx.send("Request timed out.")
+            if choice:
+                skill = f"{loaded_sets[int(choice.content) - 1].lower()}"
+                await ctx.send(f"!skill {skill}")
+                async with ctx.typing():
+                    return await ctx.invoke(self.skill, skill)
 
 
 def setup(bot):

@@ -77,7 +77,6 @@ class Help(commands.Cog, name="Help"):
                 for comm in cog_commands:
                     commands_list += f"**{comm.name}** - {comm.description}\n"
                     help_embed.add_field(name=comm, value=comm.description, inline=True)
-                print(commands_list)
                 await msg.edit(embed=help_embed)
             else:
                 return

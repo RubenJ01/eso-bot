@@ -10,7 +10,7 @@ from discord.ext.commands import has_permissions
 from eso_bot.authentication import bot_token
 
 
-now = int(datetime.now(pytz.timezone("Singapore")).timestamp())
+now = int(datetime.now(pytz.timezone("Europe/Amsterdam")).timestamp())
 
 conn = sqlite3.connect("prefix.db", timeout=5.0)
 c = conn.cursor()
@@ -19,7 +19,7 @@ conn.row_factory = sqlite3.Row
 
 startup_extensions = [
     "eso_bot.backend.functions",
-    "eso_bot.cogs.dungeon",
+    "eso_bot.cogs.lookups",
     "eso_bot.logs",
 ]
 help_extensions = ["eso_bot.cogs.help"]
@@ -43,6 +43,8 @@ async def determine_prefix(bot, message):
 
 
 bot = commands.Bot(command_prefix=determine_prefix, help_command=None)
+bot.start_time = datetime.now()
+
 
 if __name__ == "__main__":
     for extension in startup_extensions:
