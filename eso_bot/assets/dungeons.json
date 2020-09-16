@@ -905,5 +905,100 @@
       }
     ],
     "link" : "https://xynodegaming.com/darkshadecaverns2/"
+  },
+  {
+    "dungeon" : "Depths of Malatar",
+    "description" : "This is a challenging dungeon in Veteran modes. Players should form a well-geared party at endgame level.",
+    "image" : "",
+    "sets" : ["Scavenging Demise", "Frozen Watcher", "Auroran’s Thunder", "Symphony Of Blades"],
+    "bosses" : [
+      {"name" :  "The Scavenging Maw",
+        "mechanics": [
+          "This can be simple or a complete mess! This will take some co-ordination. The tank will need to focus, be very careful of positioning, do NOT drop taunt, and above all collectively, stay together as a group during the mechanics. Splitting up is a BAD idea."
+        ],
+        "strategy" : [
+          "**Breath** – This boss does have a nasty frontal cone shaped breath attack. This does high damage over time and needs to be avoided. If you are dps or healers and you stand in this you WILL die. The tank must try to keep the boss faced away from the group and block this while staying alive. If you run around the breath will follow you and you will end up spinning this onto the group and they will wipe.",
+          "**Spit** – The boss fire a nasty poison spit at the tank (or whoever has agro). When this lands, anyone standing in it will take HUGE damage over time. Most tanks will not be able to stand up to this. Step backwards out of it with the boss (maintaining a taunt) and when the second one lands do the same (walk backwards). Once you are out of BOTH of the aoes you will be safe. The dps and healers should follow the tank’s path.",
+          "**Heavy attack** – The boss will Launch a heavy attack and if this is on the tank a simple block will suffice. If you miss you are going to be knocked down and most likely die.",
+          "**Shadow Jump** – The boss will vanish into the air and a heavy attack mechanic (white sparks) will be aimed at the group, presented by a spreading AoE under the feet of the players. When the AoE hits is peak and he is about to HIT, dodge roll out of it and you survive. If you don’t you will be killed!",
+          "**Hide and seek!** – The boss will disappear and you will need to find him, BUT aoes will spawn out of the ground, which you MUST avoid. Adds will spawn which need to be killed and if you FIND the boss. Whoever finds him will be fed on and pinned to the ground. Make your TANK lead the group and everyone must STAY TOGETHER! When someone finds the boss you must interrupt the boss to get them off of your team mate.",
+          "__Key points__: Stay together, kill adds, avoid AoEs, interrupt the boss when he jumps out and pins whoever finds him. If you stick to this, you will be fine."
+        ]
+      },
+      {"name" :  "The Weeping Woman",
+        "mechanics": [
+          "If you try to NUKE this boss and you don’t have good AoE damage, you will get overwhelmed with adds and these adds are NO picnic. These can heavy attack a dps and one shot them, they can even one shot a tank! So watch your feet."
+        ],
+        "strategy" : [
+          "**Geyser** – Multiple geysers will spray out of the ground. If you get hit by these you will be suspended in the air and take HUGE damage. Watch your feet and don’t stand in these!",
+          "**ICE** – This is extremely easy to see. You will get 2 types of AOE attacks in the room which look like big whirling ice effects. These must be avoided following the description of each type below and at low health you will get BOTH.",
+          "__Outside AOE__: This is a big ring around the outside of the room which you need to avoid by staying in the middle of the room.",
+          "__Inside AOE__: This is the same as the above but it is in the middle instead. Simply do the opposite of the above and stay on the outside.",
+          "__Execute AOE__: During low health you will get BOTH of these AoEs and there will be a thin strip between the two which you must stand in to avoid them both.",
+          "**Ice Atronach** – These adds must be focused. They have huge heavy attacks and put nasty stunning and immobilizing high damage based aoes on the ground. When these are up stop focusing the boss and kill them as soon as possible.",
+          "**Small Ice Aoes** – These are pretty much the same as the AoEs the Atronachs can place just a bit larger, watch your feet. These usually happen before the Geysers spawn.",
+          "**Watchers!** – These adds MUST die as a priority target at ALL costs and the tank must have these taunted at ALL times. They have high health, they have AoE attacks and their heavy attack can one shot even a tank if they are not blocking. DPS and healers CANNOT block their heavy attack. If one of these is swinging at you, time it well and dodge roll. They spawn at 75%, 55% and 35% health."
+        ]
+      },
+      {"name" :  "Dark Orb",
+        "mechanics": [
+          "There are 4 mechanics that have to be understood as well as a main target and SO many adds! Your tank has to be not only strong, but capable of holding agro on MULTIPLE targets and keeping them OFF the group. The main focus is of course the Dark Orb, but during the fight at health % the dark orb will introduce new mechanics which together you must focus before killing the main target."
+        ],
+        "strategy" : [
+          "**Basic adds** – During the fight different basic adds will spawn, melee, archer and mages and these are fairly low health. The tank should pull these together as soon as possible and they should be killed by the group. These are not a real threat but on top of the BIG adds that are coming, can get a little overwhelming, so be sure to kill these, and interrupt arrow spray type abilities!",
+          "**Aurorans** – These adds will spawn through out the fight and there are 4 different types: __Radiant Auroran__ (Jesus beam), __Phosphorescent Auroran__ (ice), __Blazing Auroran__ (fire), __Scintillating Auroran__ (lightning). Each one has different effects but all are deadly! They can cast dawn breakers, different elemental effects and frontal AoE. The tank MUST grab these and keep them faced away from the group at all times.",
+          "**ORBS!** – During the fight the Dark orb will spawn OTHER orbs in the room as well as the adds! This is when you need to take your focus off the main target and focus the orb in the room. There are 4 types of orbs:",
+          "__Radiant (yellow)__ – These can affect the group with healing debuffs.",
+          "__Phosphorescent (blue)__ – These cause ice damage and place ice AoEs on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack. The healer will need to focus heals to anyone close to these due to the amount of AoE damage they emit.",
+          "__Blazing (red)__ – These call down meteors to each player and when they land they burst into multiple floor based moving AoEs. You must avoid the meteor and THEN get in the gaps between the scattered AoEs. These are tricky and must be learnt to be dealt with FAST.",
+          "__Scintillating (purple)__ – These cause lightning damage and can cast multiple fast paced splashes on the ground coming from EACH player. Moving in a fast tight circle will make you avoid the damage and let them disburse but if you do not, you will get overwhelmed with damage and die fast!",
+          "**TACTICS!**: Focus the Dark orb, when the adds spawn get the tank to pull them all into the corner and focus them with AoE and ultimates. While orbs are present, KILL the orb and THEN kill remaining adds before going back to the main orb in the middle."
+        ]
+      },
+      {"name" :  "King Narilmor",
+        "mechanics": [
+          "This is where a completely new mechanic comes into play. You start off fighting the boss in the middle of the room with the tank turning the boss away and interrupt mechanics. The boss will split into 4. The tank needs to taunt ALL bosses and manipulate their positioning with range to get them as close to each other as possible while MAINTAINING taunts and interrupt them. This is gona get tricky!"
+        ],
+        "strategy" : [
+          "**The Split!** – The boss splits into x4 reflections each with a damage and only ONE of them is the real one. Each time the boss splits up, get the 2 dps to focus on ONE target. If the damage shield falls off and that target disappears, if is a fake one and move on to the next. HOWEVER, if the damage shield falls off and it continues to take damage STAY on THAT BOSS!",
+          "The tank at this point needs to keep taunts and interrupts while trying to carefully position them as close to each other as possible to prevent lots of running around the room.",
+          "**Against the elements!** – The boss and every reflection can have a RANDOM color (blue/red/yellow/purple) and yes unfortunately if you didn’t pay attention to the previous fight this will make NO sense.",
+          "__Yellow__ – Affects the group with (lifesteal) healing debuffs and can cast Radiant Oppression which can and MUST be interrupted.",
+          "__Blue__ – AOE Ice damage as well as a spreading ice blast (don’t stand in this) and place ice aoes on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack.",
+          "__Red__ – These call down meteors to each player and when they land they burst into multiple floor based moving aoes. You must avoid the meteor and THEN get in the gaps between the scattered AoEs.",
+          "__Purple__ – These cause lightning damage splashes and can cast multiple fast paced splashes on the ground coming from EACH player. Moving in a fast tight circle will make you avoid the damage and let them disburse but if you do not, you will get overwhelmed with damage and die fast!",
+          "**Power Of The Light** – This is pretty much the same as the Templar ability. This will be cast onto one player and over time it will absorb more damage before it explodes. Be sure to interrupt if you see the boss or any reflections channeling.",
+          "**Dawn Breaker!** – The boss/reflections will occasionally cast a dawn breaker sword slamming animation and will do HUGE damage to people in front of it. Do not stand infront of the bosses when this happens and if you are the tank, be sure to block.",
+          "**Tharayya and Quintus!** – During the fight Quintus and Tharayya are fighting! Keep heals on Tharayya to stop her from getting into trouble. If the Ghost gets the better of her, the bosses will get MASSIVE damage shields and the fight will get a LOT tougher. Be careful! The healer has a lot to do here keeping the group up and the NPC alive."
+        ]
+      },
+      {"name" :  "Symphony Of Blades",
+        "mechanics": [
+          "This boss is a simple fight IF you understand the colours mechanics. However above all this fight is 100% built on co-ordination and footwork. There is NO rush and there is NO dps requirement. This fight really is ALL about mechanics! The tank should hold the boss in the center of the room and the gorup should stand in a triangle formation BEHIND the boss. Never drop the taunt on that boss!"
+        ],
+        "strategy" : [
+          "**Heavy attack** – This is a very simple and obvious mechanic, the boss will hit with a large wound up heavy attack and this MUST be blocked. If for some reason you are not the tank and the heavy attack is coming to you, time it well and DODGE roll it. Do not run away do NOT try to block, you WILL die.",
+          "**AoE and Stun** – One player in the group will be picked at random and a spreading AoE will spawn under their feet and be connected to them. Simply block while it pops and when it does, break from from it.  Stay as still as possible and do not put it on top of your team mates. If someone else has this on them do NOT run into the aoe.",
+          "**SPIN!** – The boss spins his swords and has an AOE showing the distance in which the spin will reach. Prior to this you get a brief warning of the AoE spreading. Anyone caught in this spin will die unless they are a tank. Some tanks can stand still and block it, others may want to walk back wards holding block to slowly kite the boss until it is over. DPS and Healers should just stay out of the spin.",
+          "**Sword Throwing** – The boss will channel an ability where he will look like he is hugging himself. This can be interrupted but if NOT he will throw his swords spinning out in front of him and then they will return again. This deals moderate damage and is not too much of a threat to the tank but should be avoided by the dps and healers.",
+          "**THE WALL**– Boss will spawn a ghost wall. Basically if you touch it, you die. BUT you can KILL the ghosts! There will be two walls. One in front and one behind. Simply get your group to focus on ONE ghost and kill it, then get in the new gap to be safe and let the wall pass. The easiest option most of the time is to agree on the middle target. That way the tank really doesn’t ever have to move and you can continue as normal.",
+          "**Aurorans!** – During Health % stages of the boss, as well as the wall phase, the boss will go IMMUNE! When this happens there will be 4x slow walking Aurorans coming from each corner of the room. Red, purple, yellow and blue, each one represents the damage types and effects from previous bosses. You need to kill the Aurorans of YOUR choice. Each one that REACHES the boss will dissolve and buff him with THAT effect for 40s",
+          "If he consumes a yellow add he will be able to apply a heal debuff to the group and a Jesus beam to the tank.",
+          "If he consumes red he will apply meteors.",
+          "If he consumes blue he will spawn ice aoes and pillars and aoe ice damage.",
+          "If he consumes Purple he will spawn nasty lightning splashes.",
+          "**ORBS!** – During the fight the orbs from the “Dark Orb” boss will appear in the room with a random colour! This is when you need to take your focus off the boss and get the orb down as fast as possible. Orb ALWAYS takes priority! UNLESS there is a wall coming in which case, wall first, orb second, boss last!",
+          "__Yellow__ – These can affect the group with a healing debuffs",
+          "__Blue__ – These cause ice damage and place ice AoEs on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack. The healer will need to focus heals to anyone close to these due to the amount of aoe damage they emit.",
+          "__Red__ – These call down meteors to each player and when they land they burst into multiple floor based moving AoEs. You must avoid the meteor and THEN get in the gaps between the scattered aoes after wards. These are tricky and must be learnt to be dealt with FAST",
+          "__Purple__ – These cause lightning damage and can cast multiple fast paced splashes on the ground coming from EACH player. Moving in a fast tight circle will make you avoid the damage and let them disburse but if you do not, you will get overwhelmed with damage and die fast!",
+          "**THE FINAL FIGHT!** – At 11% health or below the boss will go into the Celestial Realm and drag you down with him. His MAX health doubles and his health goes up to 50%. So you have over 7million health to get through. The tank needs to taunt the boss at all times and keep the boss faced away from the group. When you first spawn into the other realm the boss is so busy putting down long ranged attacks that he in fact wont move.",
+          "The boss now has ALL 4 element type attacks: __Radiant__ 5 second heal debuff and jesus beam on the tank. __Lightning splashes__ tight circles away from people to kite your splashes away from you. __Meteors__ avoid the impact and then avoid the splash from the center of them. __Ice__ kill the pillar and don’t stand in the AoE",
+          "WHILE all of this is happening Orbs will enter the room with a random colour and these must be your 100% focus! Kill the orbs! The boss isn’t going anywhere, get them down at all costs.",
+          "The walls are back…they are smaller walls, so you can run AROUND them rather than killing the ghosts, but you are going to get  LOADS of them coming from many different directions."
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/depths-of-malatar/"
   }
 ]
