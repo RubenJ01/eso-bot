@@ -1000,5 +1000,77 @@
       }
     ],
     "link" : "https://xynodegaming.com/depths-of-malatar/"
+  },
+  {
+    "dungeon" : "Direfrost Keep",
+    "description" : "This dungeon you will have access to at level 24 or if you travel to the opening yourself at lower levels.",
+    "image" : "",
+    "sets" : ["Magicka Furnace", "Ice furnace", "Draugr Hulk", "Iceheart"],
+    "bosses" : [
+      {"name" :  "Teethnasher The Frostbound",
+        "mechanics": [
+          "This boss is quite possibly the easiest boss in the dungeon. Of course most of the time the first one is the easiest to get you into the swing of things but the main thing to remember with this boss especially as the tank is to keep him STILL."
+        ],
+        "strategy" : [
+          "**Charge** – The boss will do a charge attack in the direction of the tank or whoever has agro. This does NOT do a lot of damage and a simple block will be enough, just be sure to block it and you will be fine. Also he has a lot of light attacks which most tanks should be able to stand up to.",
+          "**Ice wind** - The boss has a constant wind AoE surrounding it which ticks with ice damage every second. This also applies a snare affect. You should keep this boss very still and burn him down. You have two options. Stand in it and do your damage as a dps while the healer stays out of it and helps you all survive. OR do your damage, step out of it, recover and then go back in again. Either method works fine."
+        ]
+      },
+      {"name" :  "Guardian Of The Flame",
+        "mechanics": [
+          "This boss is very simple IF the tank holds him still. The more you move the more difficult the fight gets. So find your positions and stay there unless the mechanics require you to move. Just get back into position after."
+        ],
+        "strategy" : [
+          "**Heavy Attack** – Long swing into a heavy attack which MUST be blocked else you will be knocked down and across the floor. The tank should look out for this and always block it. If the boss is on a dps/healer, same rule applies, block it.",
+          "**Charge** – Position is KEY! The furthest target will be charged by the boss and then hit with a nasty frontal AoE effect. He will randomly do this throughout the fight but generally it is due to people being too far away. If you are being charged you CAN block it. Running around will just get you killed.",
+          "**Breath** – Boss will cast a breath attack on the person whoever has agro. This is a cone shaped effect and should be blocked. The tank wont take too much damage but anyone else can take quite a bit so if it is facing a dps/healer they should either dodge roll from it or simply block. Keep behind the boss at all times if you are a dps/healer.",
+          "**Lightning splash** – The boss will occasionally aim at a random target and he will place an AoE on the ground under the feet of his target. Simply move out of the AoE and get back into a suitable position. Standing in the AoE WILL hurt a lot so don’t stay in it if you are not the tank."
+        ]
+      },
+      {"name" :  "Drodda's Dreadlord",
+        "mechanics": [
+          "This boss is simple but can cause wipes if people are not paying attention. The tank should stay with the boss in the middle of the room and hold him still and watch for incoming banekins. The rest of the group should stay fairly close and watch for banekins."
+        ],
+        "strategy" : [
+          "**Heavy attack** – This is a simple heavy attack. It is always aimed at the person who has agro. If it is on a dps/healer the same rules apply. BLOCK!",
+          "**Cleave** – He will occasionally spin his weapon around his head emitting a small AoE around himself. This does damage over time and should be avoided by the squishies but the tank should be fine with it. Do NOT run away, just step out of it and you will be fine.",
+          "**Exploding Banekins** – Periodically the boss will spawn exploding banekin adds, these do not have much health but be warned if they get CLOSE to a dps/healer they can almost oneshot a player. When these spawn the tank should try to chain/pin them as soon as possible to prevent them running at the group."
+        ]
+      },
+      {"name" :  "Drodda's Apprentice",
+        "mechanics": [
+          "This boss is what will prepare you for the last boss. There are lots of adds to start with so be sure your tank grabs them as fast as possible on top of the boss while holding the boss still. Setup a formation surrounding the boss (everyone has their own space) around the back of the boss. Pay CLOSE attention to his mechanics and do NOT run away!"
+        ],
+        "strategy" : [
+          "**Heavy Attack** – Occasionally the boss will heavy attack whoever has agro simple block this and you will be fine but if not you WILL be knocked down.",
+          "**Ice blast** – Watch for the spreading AoE effect that comes from underneath the boss! When this mechanic starts happening, get out of the area, it will hit really hard and apply a knock down. This mechanic is VERY important to get used to for the last boss.",
+          "**Drain** – The boss will pick a random target to attach a draining effect beam and the longer he holds the target in the air the more health he will gain back, you MUST break free from this.",
+          "**Blast** – The boss periodically channels a cast timed ability which will launch a blast in aoe of affect at a random target. This can be interrupted so pay close attention to this and it wont ever be a problem. However if it is cast, just move out of the way before it lands."
+        ]
+      },
+      {"name" :  "Iceheart",
+        "mechanics": [
+          "This boss is actually pretty simple and follows very similar rules to most standard Ice Atronahcs. The tank should position the boss and turn it away from the group. The group should always stay behind the boss and this will prevent them from taking damage from his most effective attacks."
+        ],
+        "strategy" : [
+          "**Cone aoe** – This cone shaped affect AoE ability is always aimed in the direction of the person who has agro. Simply block this and you will take minimal damage, however if you are a dps/healer and this is aiming at you simply block or step out of it.",
+          "**Ice blast** – Spreading AoE effect that comes from underneath the boss! When this mechanic starts happening, get out of the area it and once it is gone get back in again.",
+          "**Slam** – The boss will smash the ground with his fist and a small AoE damage circle will appear under each player, after it bursts a large frost spike will come out of the ground and out of the spikes will spawn Draugr type enemies. They have very low health and are easy to kill quickly."
+        ]
+      },
+      {"name" :  "Drodda Of Icereach",
+        "mechanics": [
+          "The boss has very simple mechanics but it can go so wrong so fast if people don’t pay attention. Key points for this fight are to make sure you do not run around, all find your own space and preserve your stamina, you WILL need it. This boss can be debuffed but NOT taunted, so the tank should keep up debuffs and grab adds. The tank is “protect mode” for this fight."
+        ],
+        "strategy" : [
+          "**Light Attacks** – The boss will hit a random target, this is why everyone should have their own positions. She will fire off frost light attacks at her chosen target. These HURT! If you are the target, shield/block if (magicka) or block/dodge roll if (stamina). The healer should focus the target and keep them up, as 2 of these light attacks in a row without a heal WILL kill you.",
+          "**Teleport and ice blast** – She will periodically teleport and spawn at a different location. The second she lands she will emit a very large AoE from under her and once it is at peak it will burst with ice shards from the ground. IF this hits a dps/healer, they are dead. One shot! Avoid this at all costs and THEN get back into position.",
+          "**Ice Wraiths** – At 50% and under she will spawn ice wraiths (x2) every so often, these have light attacks and can use a charge ability which will knock down players, these are easy to spot and should be avoided or blocked. Tank should taunt these and stick them on the boss. AoE damage alone should be able to dispatch these fast.",
+          "**Ice Atronachs** – Under 25% she will spawn 2x frost atronachs. They spawn spikes from the ground which should be avoided and they also attack with frontal cone attacks. The tank should treat these just like the wraiths and stack them on the boss so they can be killed with AoE. If they are on you and you are a dps/healer, just block. Let the tank grab control of them.",
+          "**Drain!**– Periodically she will attach a beam to the target and every second will drain their health and heal herself. She heals by a lot. The KEY point to this mechanic is you MUST “BREAK FREE!”. If you do not have enough stamina to do so you are in trouble! When the beam is on you, break free instantly! This is why you must preserve your stamina throughout the fight."
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/direfrost/"
   }
 ]
