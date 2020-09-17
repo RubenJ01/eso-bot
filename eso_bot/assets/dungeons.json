@@ -539,7 +539,7 @@
   {
     "dungeon": "Cradle of Shadows",
     "description": "Cradle of Shadows is a group dungeon located in Shadowfen in The Elder Scrolls Online. It is part of the Shadows of the Hist DLC. It features Normal and Veteran modes.",
-    "image": "https://imgur.com/rNiFY8e",
+    "image": "https://imgur.com/rNiFY8e.png",
     "sets": [
       "Gossamer",
       "Hand of Mephala",
@@ -767,7 +767,7 @@
   {
     "dungeon" : "Darkshade Caverns I",
     "description" : "This is one of the first dungeons you have access to at level 42  or if you travel to the opening yourself at lower levels.",
-    "image" : "https://imgur.com/iAFPj32",
+    "image" : "https://imgur.com/iAFPj32.png",
     "sets" : ["Netch’s Touch", "Armor of Truth", "Strength of Automantons", "Sentinel of Rkugamz"],
     "bosses" : [
       {"name" :  "Head Shepherd Neloren",
@@ -839,7 +839,7 @@
   {
     "dungeon" : "Darkshade Caverns II",
     "description" : "This dungeon you will have access to at level 42 or if you travel to the opening yourself at lower levels.",
-    "image" : "https://imgur.com/iAFPj32",
+    "image" : "https://imgur.com/iAFPj32.png",
     "sets" : ["Netch’s Touch", "Armor of Truth", "Strength of Automantons", "Engine Guardian "],
     "bosses" : [
       {"name" :  "The Fallen Foreman",
@@ -909,7 +909,7 @@
   {
     "dungeon" : "Depths of Malatar",
     "description" : "This is a challenging dungeon in Veteran modes. Players should form a well-geared party at endgame level.",
-    "image" : "",
+    "image" : "https://imgur.com/7Oc9xra.png",
     "sets" : ["Scavenging Demise", "Frozen Watcher", "Auroran’s Thunder", "Symphony Of Blades"],
     "bosses" : [
       {"name" :  "The Scavenging Maw",
