@@ -21,8 +21,8 @@ class Help(commands.Cog, name="Help"):
 
     @commands.command()
     async def help(self, ctx):
-        reactions = ["🛠️", "🌴"]
-        reactionsCogs = ["🛠️ Settings", "🌴 Lookup"]
+        reactions = ["🌴", "🛠️", "❓"]
+        reactionsCogs = ["🌴 Lookup", "🛠️ Settings", "❓ Information"]
         cogs = [cog for cog in self.bot.cogs.keys()]
         prefixDictionary = {}
         for prefix in c.execute("SELECT guild_id, prefix FROM prefix"):

@@ -21,6 +21,7 @@ startup_extensions = [
     "eso_bot.backend.functions",
     "eso_bot.cogs.lookups",
     "eso_bot.logs",
+    "eso_bot.cogs.information",
 ]
 help_extensions = ["eso_bot.cogs.help"]
 

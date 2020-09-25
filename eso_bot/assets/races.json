@@ -1,0 +1,113 @@
+[
+  {
+    "name" : "Altmer",
+    "subname" : "*High Elf*",
+    "image" : "https://images.uesp.net/thumb/5/5e/ON-icon-Altmer.png/100px-ON-icon-Altmer.png",
+    "description" : "The racial skills of the High Elves reflect their magical affinity by increasing their spell damage, resource recovery, base magicka, and experience gain. These innate bonuses help define the race as proud and powerful spell casters.",
+    "link" : "https://en.uesp.net/wiki/Online:Altmer",
+    "skills" : [
+      {
+        "name" : "Highborn",
+        "link" : "https://en.uesp.net/wiki/Online:Highborn",
+        "description" : "Increases your experience gain with the Destruction Staff skill line by 15%. Increases your experience gained by 1%.",
+        "emoji" : 756458677875113985,
+        "unlocks_at" : [1]
+      },
+      {
+        "name": "Spell Recharge",
+        "link": "https://en.uesp.net/wiki/Online:Spell_Recharge",
+        "description": "When you activate a class ability, you restore 200/400/640 Magicka or Stamina, based on whichever is lowest. This effect can occur once every 6 seconds. When you are using an ability with a channel or cast time, you take 1%/2%/5% less damage.",
+        "emoji" : 756458678411984896,
+        "unlocks_at" : [5, 15, 30]
+      },
+      {
+        "name": "Syrabane's Boon",
+        "link": "https://en.uesp.net/wiki/Online:Syrabane%27s_Boon",
+        "description": "Increases your Max Magicka by 600/1200/2000.",
+        "emoji" : 756458677791227987,
+        "unlocks_at" : [10, 20, 40]
+      },
+      {
+        "name": "Elemental Talent",
+        "link": "https://en.uesp.net/wiki/Online:Elemental_Talent",
+        "description": "Increases your Spell Damage by 86/172/258.",
+        "emoji" : 756458677795422249,
+        "unlocks_at" : [25, 35, 50]
+      }
+    ]
+  },
+  {
+    "name" : "Bosmer",
+    "subname" : "*Wood Elf*",
+    "image" : "https://images.uesp.net/thumb/d/d2/ON-icon-Bosmer.png/100px-ON-icon-Bosmer.png",
+    "description" : "The diversified racial skills of the Wood Elves reflect their woodland affinity. Improved archery, base stamina, stamina recovery, stealth detection, movement speed, reduced fall damage, and poison resistance make them dangerous foes and gifted hunters.",
+    "link" : "https://en.uesp.net/wiki/Online:Bosmer",
+    "skills" : [
+      {
+        "name" : "Acrobat",
+        "link" : "https://en.uesp.net/wiki/Online:Acrobat",
+        "description" : "\tIncreases your experience gain with the Bow skill line by 15%. Decreases your fall damage taken by 10%.",
+        "emoji" : 756464671606964325,
+        "unlocks_at" : [1]
+      },
+      {
+        "name" : "Hunter's Eye",
+        "link" : "https://en.uesp.net/wiki/Online:Hunter%27s_Eye",
+        "description" : "Increases your stealth detection radius by 1/2/3 meter(s). Increases your movement speed by 3%/6%/10% and your Physical and Spell Penetration by 400/900/1500 for 6 seconds after you use Roll Dodge.",
+        "emoji" : 756465464540004402,
+        "unlocks_at" : [5, 15, 30]
+      },
+      {
+        "name" : "Y'ffre's Endurance",
+        "link" : "https://en.uesp.net/wiki/Online:Y%27ffre%27s_Endurance",
+        "description" : "Increases your Stamina Recovery by 86/127/258.",
+        "emoji" : 756466164703428738,
+        "unlocks_at" : [10, 20, 40]
+      },
+      {
+        "name" : "Resist Affliction",
+        "link" : "https://en.uesp.net/wiki/Online:Resist_Affliction",
+        "description" : "Increases your Max Stamina by 600/1200/2000 and Poison Resistance by 660/1320/2310. Gain immunity to the Poisoned status effect.",
+        "emoji" : 756467012946886746,
+        "unlocks_at" : [25, 35, 50]
+      }
+    ]
+  },
+  {
+    "name" : "Khajiit",
+    "subname" : "",
+    "image" : "https://images.uesp.net/thumb/d/d1/ON-icon-Khajiit.png/100px-ON-icon-Khajiit.png",
+    "description" : "The racial skills of the feline Khajiit reflect their natural versatility and guile, giving them bonuses to pickpocketing, stealth, resource recovery, as well as base health, magicka, and stamina. These bonuses help them thrive in many ventures of life.",
+    "link" : "https://en.uesp.net/wiki/Online:Khajiit",
+    "skills" : [
+      {
+        "name" : "Cutpurse",
+        "link" : "https://en.uesp.net/wiki/Online:Cutpurse",
+        "description" : "Increases your experience gain with the Medium Armor skill line by 15%. Increases your chance to successfully pickpocket by 5%",
+        "emoji" : 756498093050167467,
+        "unlocks_at" : [1]
+      },
+      {
+        "name" : "Robustness",
+        "link" : "https://en.uesp.net/wiki/Online:Robustness",
+        "description" : "Increases your Health Recovery by 33/66/100 and your Stamina and Magicka Recovery by 25/50/85.",
+        "emoji" : 756498667124555826,
+        "unlocks_at" : [5, 15, 30]
+      },
+      {
+        "name" : "Lunar Blessings",
+        "link" : "https://en.uesp.net/wiki/Online:Lunar_Blessings",
+        "description" : "Increase your Maximum Health, Magicka, and Stamina by 250/500/825.",
+        "emoji" : 756499231862161498,
+        "unlocks_at" : [10, 20, 40]
+      },
+      {
+        "name" : "Feline Ambush",
+        "link": "https://en.uesp.net/wiki/Online:Feline_Ambush",
+        "description" : "Increases your Critical Damage and Critical Healing by 3%/6%/10%. Decreases your detection radius in Stealth by 1/2/3 meter.",
+        "emoji" : 756499975445151764,
+        "unlocks_at" : [25, 35, 50]
+      }
+    ]
+  }
+]

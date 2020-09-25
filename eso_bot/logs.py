@@ -30,8 +30,10 @@ class Logs(commands.Cog, name="🛠️ Settings"):
             "https://discord.com/oauth2/authorize?client_id=572365749780348928&permissions=0&scope=bot"
         )
 
-    @commands.command(description="`/embedsettings {colour code e.g. 0xffff0}`\n\n Changes the color of the embeds "
-                                  "for a guild.")
+    @commands.command(
+        description="`!embedsettings {colour code e.g. 0xffff0}`\n\n Changes the color of the embeds "
+        "for a guild."
+    )
     @commands.cooldown(1, 5, commands.BucketType.user)
     @has_permissions(administrator=True)
     async def embedsettings(self, ctx, colour):
@@ -52,20 +54,21 @@ class Logs(commands.Cog, name="🛠️ Settings"):
     @commands.command(description="`!status` \n\nSends the bots status.")
     async def status(self, ctx):
         status_embed = discord.Embed(
-            title='Status',
-            colour=functions.embedColour(ctx.guild.id))
+            title="Status", colour=functions.embedColour(ctx.guild.id)
+        )
         members = len(list(self.bot.get_all_members()))
         uptime = datetime.datetime.now() - self.bot.start_time
         uptime = datetime.timedelta(days=uptime.days, seconds=uptime.seconds)
-        date = '**Created on:** 30-9-2018'
-        status_embed.description = '\n'.join(
-            [f'Bot up and running in {len(self.bot.guilds)} guilds with {members} members.',
-             f'**Uptime:** {uptime}\n{date}',
-             'For more help or information join our [support server](https://discord.gg/5xvAHhU)'
-             ]
+        date = "**Created on:** 30-9-2018"
+        status_embed.description = "\n".join(
+            [
+                f"Bot up and running in {len(self.bot.guilds)} guilds with {members} members.",
+                f"**Uptime:** {uptime}\n{date}",
+                "For more help or information join our [support server](https://discord.gg/5xvAHhU)",
+            ]
         )
-        status_embed.set_author(name=f'{ctx.author}', icon_url=ctx.author.avatar_url)
-        status_embed.set_footer(text='Use !help to get a list of available commands.')
+        status_embed.set_author(name=f"{ctx.author}", icon_url=ctx.author.avatar_url)
+        status_embed.set_footer(text="Use !help to get a list of available commands.")
         return await ctx.send(embed=status_embed)
 
     @commands.Cog.listener()

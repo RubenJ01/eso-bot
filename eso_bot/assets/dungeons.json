@@ -1004,7 +1004,7 @@
   {
     "dungeon" : "Direfrost Keep",
     "description" : "This dungeon you will have access to at level 24 or if you travel to the opening yourself at lower levels.",
-    "image" : "",
+    "image" : "https://imgur.com/Fvmbdae.png",
     "sets" : ["Magicka Furnace", "Ice furnace", "Draugr Hulk", "Iceheart"],
     "bosses" : [
       {"name" :  "Teethnasher The Frostbound",

@@ -12,6 +12,7 @@ pre-commit = "*"
 pytz = "*"
 buttons = "*"
 beautifulsoup4 = "*"
+pathlib = "*"
 
 [requires]
 python_version = "3.8"
