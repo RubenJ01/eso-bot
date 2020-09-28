@@ -1,0 +1,506 @@
+[
+    {
+        "name": "Bashing Focus",
+        "unlock_level": "0",
+        "max_level": "35",
+        "min_stats": "Reduces the cost of Bash by 0%.",
+        "max_stats": "Reduces the cost of Bash by 35%."
+    },
+    {
+        "name": "Sprinter",
+        "unlock_level": "0",
+        "max_level": "35",
+        "min_stats": "Reduces the cost of Sprint by 0%.",
+        "max_stats": "Reduces the cost of Sprint by 35%."
+    },
+    {
+        "name": "Siphoner",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "When you deal damage with a Light or Heavy Attack, you decrease the enemy's Health, Magicka, and Stamina resource restore and Recovery by 0% for 3 seconds.",
+        "max_stats": "When you deal damage with a Light or Heavy Attack, you decrease the enemy's Health, Magicka, and Stamina resource restore and Recovery by 15% for 3 seconds."
+    },
+    {
+        "name": "Warlord",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Reduces the cost of Break Free by 0%.",
+        "max_stats": "Reduces the cost of Break Free by 25%."
+    },
+    {
+        "name": "Ensnare",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "When you use Bash, you have a 33% chance to reduce the enemy's Movement Speed by 20% for 3 seconds.",
+        "max_stats": "When you use Bash, you have a 33% chance to reduce the enemy's Movement Speed by 20% for 3 seconds."
+    },
+    {
+        "name": "Inspiration Boost",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "Increases your crafting inspiration gained by 20%.",
+        "max_stats": "Increases your crafting inspiration gained by 20%."
+    },
+    {
+        "name": "Mara's Gift",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "When you die, you heal all allies within 8 meters of you for 3300 Health.",
+        "max_stats": "When you die, you heal all allies within 8 meters of you for 3300 Health."
+    },
+    {
+        "name": "War Mount",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "Improves your mastery with mounts, removing all mount Stamina costs outside of combat.",
+        "max_stats": "Improves your mastery with mounts, removing all mount Stamina costs outside of combat."
+    },
+    {
+        "name": "Heavy Armor Focus",
+        "unlock_level": "0",
+        "max_level": "5280",
+        "min_stats": "Increases your Physical Resistance by 0 while wearing 5 or more pieces of Heavy Armor.",
+        "max_stats": "Increases your Physical Resistance by 5280 while wearing 5 or more pieces of Heavy Armor."
+    },
+    {
+        "name": "Bastion",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Increases the effectiveness of your damage shields by 0%.",
+        "max_stats": "Increases the effectiveness of your damage shields by 25%."
+    },
+    {
+        "name": "Expert Defender",
+        "unlock_level": "0",
+        "max_level": "35",
+        "min_stats": "Reduces your damage taken from player Light and Heavy Attacks by 0%.",
+        "max_stats": "Reduces your damage taken from player Light and Heavy Attacks by 35%."
+    },
+    {
+        "name": "Quick Recovery",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases your healing received by 0%.",
+        "max_stats": "Increases your healing received by 15%."
+    },
+    {
+        "name": "Field Physician",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "While you are resurrecting another player, your damage taken is reduced by 15%.",
+        "max_stats": "While you are resurrecting another player, your damage taken is reduced by 15%."
+    },
+    {
+        "name": "Infusion",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "When you resurrect another player, you increase their Magicka Recovery by 159 for 8 seconds.",
+        "max_stats": "When you resurrect another player, you increase their Magicka Recovery by 159 for 8 seconds."
+    },
+    {
+        "name": "Revival",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "When you are resurrected by another player, you gain a damage shield that absorbs 10230 damage for 5 seconds.",
+        "max_stats": "When you are resurrected by another player, you gain a damage shield that absorbs 10230 damage for 5 seconds."
+    },
+    {
+        "name": "Determination",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "When you drink a potion, you gain a damage shield that absorbs 1287 damage for 15 seconds.",
+        "max_stats": "When you drink a potion, you gain a damage shield that absorbs 1287 damage for 15 seconds."
+    },
+    {
+        "name": "Light Armor Focus",
+        "unlock_level": "0",
+        "max_level": "5280",
+        "min_stats": "Increases your Physical Resistance by 0 while wearing 5 or more pieces of Light Armor.",
+        "max_stats": "Increases your Physical Resistance by 5280 while wearing 5 or more pieces of Light Armor."
+    },
+    {
+        "name": "Thick Skinned",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Reduces your damage taken from damage over time effects by 0%.",
+        "max_stats": "Reduces your damage taken from damage over time effects by 25%."
+    },
+    {
+        "name": "Hardy",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Reduces your damage taken from Physical, Poison, and Disease Damage by 0%.",
+        "max_stats": "Reduces your damage taken from Physical, Poison, and Disease Damage by 15%."
+    },
+    {
+        "name": "Elemental Defender",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Reduces your damage taken from Flame, Frost, Shock, and Magic Damage by 0%.",
+        "max_stats": "Reduces your damage taken from Flame, Frost, Shock, and Magic Damage by 15%."
+    },
+    {
+        "name": "Spell Absorption",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "When you take Flame, Frost, Shock, Magic, or Oblivion Damage equal to 30% of your Max Health, you restore 3465 Magicka. This effect can occur once every 10 seconds.",
+        "max_stats": "When you take Flame, Frost, Shock, Magic, or Oblivion Damage equal to 30% of your Max Health, you restore 3465 Magicka. This effect can occur once every 10 seconds."
+    },
+    {
+        "name": "Bulwark",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "While you have a Shield or Frost Staff equipped, your Spell and Physical Resistance is increased by 1500.",
+        "max_stats": "While you have a Shield or Frost Staff equipped, your Spell and Physical Resistance is increased by 1500."
+    },
+    {
+        "name": "Critical Leech",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "When you deal Critical Damage, you heal for 330 Health. This effect can occur once every 5 seconds.",
+        "max_stats": "When you deal Critical Damage, you heal for 330 Health. This effect can occur once every 5 seconds."
+    },
+    {
+        "name": "Unchained",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "When you use Break Free, the cost of your next Stamina ability used within 5 seconds is reduced by 80%.",
+        "max_stats": "When you use Break Free, the cost of your next Stamina ability used within 5 seconds is reduced by 80%."
+    },
+    {
+        "name": "Medium Armor Focus",
+        "unlock_level": "0",
+        "max_level": "5280",
+        "min_stats": "Increases your Physical Resistance by 0 while wearing 5 or more pieces of Medium Armor.",
+        "max_stats": "Increases your Physical Resistance by 5280 while wearing 5 or more pieces of Medium Armor."
+    },
+    {
+        "name": "Ironclad",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Reduces your damage taken against direct damage attacks by 0%.",
+        "max_stats": "Reduces your damage taken against direct damage attacks by 25%."
+    },
+    {
+        "name": "Spell Shield",
+        "unlock_level": "0",
+        "max_level": "5280",
+        "min_stats": "Increases your Spell Resistance by 0.",
+        "max_stats": "Increases your Spell Resistance by 5280."
+    },
+    {
+        "name": "Resistant",
+        "unlock_level": "0",
+        "max_level": "1650",
+        "min_stats": "Increases your Critical Resistance by 0.",
+        "max_stats": "Increases your Critical Resistance by 1650."
+    },
+    {
+        "name": "Invigorating Bash",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "When you use Bash, you have a 20% chance to heal for 437 Health.",
+        "max_stats": "When you use Bash, you have a 20% chance to heal for 437 Health."
+    },
+    {
+        "name": "Phase",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "When you use Roll Dodge, your Physical and Spell Resistance is increased by 660 for 3 seconds.",
+        "max_stats": "When you use Roll Dodge, your Physical and Spell Resistance is increased by 660 for 3 seconds."
+    },
+    {
+        "name": "Resilient",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "When you take Critical Damage, you heal for 87 Health.",
+        "max_stats": "When you take Critical Damage, you heal for 87 Health."
+    },
+    {
+        "name": "Reinforced",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "When you begin Bracing, you gain a damage shield that absorbs 1254 damage for 3 seconds. This effect can occur once every 10 seconds.",
+        "max_stats": "When you begin Bracing, you gain a damage shield that absorbs 1254 damage for 3 seconds. This effect can occur once every 10 seconds."
+    },
+    {
+        "name": "Thaumaturge",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Increases your damage done with damage over time effects by 0%.",
+        "max_stats": "Increases your damage done with damage over time effects by 25%."
+    },
+    {
+        "name": "Precise Strikes",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Increases your Critical Damage and Critical Healing with Stamina abilities by 0%.",
+        "max_stats": "Increases your Critical Damage and Critical Healing with Stamina abilities by 25%."
+    },
+    {
+        "name": "Piercing",
+        "unlock_level": "0",
+        "max_level": "5280",
+        "min_stats": "Increases your Physical Penetration by 0.",
+        "max_stats": "Increases your Physical Penetration by 5280."
+    },
+    {
+        "name": "Mighty",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases your Physical, Poison, and Disease Damage done by 0%.",
+        "max_stats": "Increases your Physical, Poison, and Disease Damage done by 15%."
+    },
+    {
+        "name": "Opportunist",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "When you interrupt an enemy, your next Physical Damage ability used within 7 seconds deals 15% additional damage.",
+        "max_stats": "When you interrupt an enemy, your next Physical Damage ability used within 7 seconds deals 15% additional damage."
+    },
+    {
+        "name": "Perfect Strike",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "Increases your Weapon Critical by 9%.",
+        "max_stats": "Increases your Weapon Critical by 9%."
+    },
+    {
+        "name": "Exploiter",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "Increases your damage done against Off Balance enemies by 10%.",
+        "max_stats": "Increases your damage done against Off Balance enemies by 10%."
+    },
+    {
+        "name": "Last Stand",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "When you fall below 20% Health you gain Major Heroism, granting 3 Ultimate every 1.5 seconds for 9 seconds. This effect can occur once every 20 seconds.",
+        "max_stats": "When you fall below 20% Health you gain Major Heroism, granting 3 Ultimate every 1.5 seconds for 9 seconds. This effect can occur once every 20 seconds."
+    },
+    {
+        "name": "Physical Weapon Expert",
+        "unlock_level": "0",
+        "max_level": "35",
+        "min_stats": "Increases your damage done with Light and Heavy Attacks for Two Handed, One Hand and Shield, Dual Wield, and Bow weapons, as well as in Werewolf form by 0%.",
+        "max_stats": "Increases your damage done with Light and Heavy Attacks for Two Handed, One Hand and Shield, Dual Wield, and Bow weapons, as well as in Werewolf form by 35%."
+    },
+    {
+        "name": "Shattering Blows",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Increases your damage done to enemies with a damage shield by 0%.",
+        "max_stats": "Increases your damage done to enemies with a damage shield by 25%."
+    },
+    {
+        "name": "Master-at-Arms",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Increases your damage done with direct damage attacks by 0%.",
+        "max_stats": "Increases your damage done with direct damage attacks by 25%."
+    },
+    {
+        "name": "Staff Expert",
+        "unlock_level": "0",
+        "max_level": "35",
+        "min_stats": "Increases your damage done with Light and Heavy Attacks for Destruction and Restoration Staves, as well as Overload by 0%.",
+        "max_stats": "Increases your damage done with Light and Heavy Attacks for Destruction and Restoration Staves, as well as Overload by 35%."
+    },
+    {
+        "name": "Retaliation",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "When you block a Heavy Attack, your next Light Attack used within 7 seconds deals 30% additional damage.",
+        "max_stats": "When you block a Heavy Attack, your next Light Attack used within 7 seconds deals 30% additional damage."
+    },
+    {
+        "name": "Riposte",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "When you block a melee attack, you have a 15% chance to deal 0 Physical Damage to the enemy. This effect can occur once every 5 seconds.",
+        "max_stats": "When you block a melee attack, you have a 15% chance to deal 0 Physical Damage to the enemy. This effect can occur once every 5 seconds."
+    },
+    {
+        "name": "Butcher",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "Increases your damage done with Light and Heavy Attacks by 5% to enemies below 25% Health.",
+        "max_stats": "Increases your damage done with Light and Heavy Attacks by 5% to enemies below 25% Health."
+    },
+    {
+        "name": "Tactician",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "When you use Roll Dodge to dodge an attack, you set the enemy Off Balance.",
+        "max_stats": "When you use Roll Dodge to dodge an attack, you set the enemy Off Balance."
+    },
+    {
+        "name": "Elemental Expert",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases your Flame, Frost, Shock, and Magic Damage done by 0%.",
+        "max_stats": "Increases your Flame, Frost, Shock, and Magic Damage done by 15%."
+    },
+    {
+        "name": "Spell Erosion",
+        "unlock_level": "0",
+        "max_level": "5280",
+        "min_stats": "Increases your Spell Penetration by 0.",
+        "max_stats": "Increases your Spell Penetration by 5280."
+    },
+    {
+        "name": "Elfborn",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Increases your Critical Damage and Critical Healing with Magicka abilities by 0%.",
+        "max_stats": "Increases your Critical Damage and Critical Healing with Magicka abilities by 25%."
+    },
+    {
+        "name": "Blessed",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases your healing done by 0%.",
+        "max_stats": "Increases your healing done by 15%."
+    },
+    {
+        "name": "Vengeance",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "When you block three spells within 10 seconds of each other, your next damaging Magicka ability used within 5 seconds will always be a Critical Strike.",
+        "max_stats": "When you block three spells within 10 seconds of each other, your next damaging Magicka ability used within 5 seconds will always be a Critical Strike."
+    },
+    {
+        "name": "Spell Precision",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "Increases your Spell Critical by 9%.",
+        "max_stats": "Increases your Spell Critical by 9%."
+    },
+    {
+        "name": "Foresight",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "When you drink a potion, the cost of your next Magicka ability used within 7 seconds is reduced by 80%.",
+        "max_stats": "When you drink a potion, the cost of your next Magicka ability used within 7 seconds is reduced by 80%."
+    },
+    {
+        "name": "Arcane Well",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "When you kill an enemy, you have a 20% chance to restore 795 Magicka for up to 3 friendly targets within 2.5 meters of the enemy.",
+        "max_stats": "When you kill an enemy, you have a 20% chance to restore 795 Magicka for up to 3 friendly targets within 2.5 meters of the enemy."
+    },
+    {
+        "name": "Befoul",
+        "unlock_level": "0",
+        "max_level": "35",
+        "min_stats": "Increases the effectiveness of your healing reduction abilities by 0%.",
+        "max_stats": "Increases the effectiveness of your healing reduction abilities by 35%."
+    },
+    {
+        "name": "Shade",
+        "unlock_level": "0",
+        "max_level": "35",
+        "min_stats": "Reduces the cost of Sneak by 0%.",
+        "max_stats": "Reduces the cost of Sneak by 35%."
+    },
+    {
+        "name": "Shadow Ward",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Reduces the cost of Block by 0%.",
+        "max_stats": "Reduces the cost of Block by 25%."
+    },
+    {
+        "name": "Tumbling",
+        "unlock_level": "0",
+        "max_level": "25",
+        "min_stats": "Reduces the cost of Roll Dodge by 0%.",
+        "max_stats": "Reduces the cost of Roll Dodge by 25%."
+    },
+    {
+        "name": "Fortune Seeker",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "Increases the amount of gold you find in treasure chests and safeboxes by 50%.",
+        "max_stats": "Increases the amount of gold you find in treasure chests and safeboxes by 50%."
+    },
+    {
+        "name": "Merchant Favored",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "Reduces the cost of repairing your armor by 10%.",
+        "max_stats": "Reduces the cost of repairing your armor by 10%."
+    },
+    {
+        "name": "Treasure Hunter",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "Increases the quality of items you find in treasure chests.",
+        "max_stats": "Increases the quality of items you find in treasure chests."
+    },
+    {
+        "name": "Shadowstrike",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "When you kill an enemy with a Heavy Attack, you become invisible for 2.5 seconds. This effect can occur once every 5 seconds.",
+        "max_stats": "When you kill an enemy with a Heavy Attack, you become invisible for 2.5 seconds. This effect can occur once every 5 seconds."
+    },
+    {
+        "name": "Mooncalf",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases your Stamina Recovery by 0%.",
+        "max_stats": "Increases your Stamina Recovery by 15%."
+    },
+    {
+        "name": "Arcanist",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases your Magicka Recovery by 0%.",
+        "max_stats": "Increases your Magicka Recovery by 15%."
+    },
+    {
+        "name": "Healthy",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases your Health Recovery by 0%.",
+        "max_stats": "Increases your Health Recovery by 15%."
+    },
+    {
+        "name": "Tenacity",
+        "unlock_level": "0",
+        "max_level": "15",
+        "min_stats": "Increases the Magicka and Stamina your fully-charged Heavy Attacks restore by 0%.",
+        "max_stats": "Increases the Magicka and Stamina your fully-charged Heavy Attacks restore by 15%."
+    },
+    {
+        "name": "Plentiful Harvest",
+        "unlock_level": "10",
+        "max_level": "0",
+        "min_stats": "You have a 10% chance to gain double the yield from normal resource nodes.",
+        "max_stats": "You have a 10% chance to gain double the yield from normal resource nodes."
+    },
+    {
+        "name": "Synergizer",
+        "unlock_level": "30",
+        "max_level": "0",
+        "min_stats": "When you activate a synergy ability while in combat, you generate 2 Ultimate.",
+        "max_stats": "When you activate a synergy ability while in combat, you generate 2 Ultimate."
+    },
+    {
+        "name": "Master Gatherer",
+        "unlock_level": "75",
+        "max_level": "0",
+        "min_stats": "Reduces your gathering time by 50%.",
+        "max_stats": "Reduces your gathering time by 50%."
+    },
+    {
+        "name": "Windrunning",
+        "unlock_level": "120",
+        "max_level": "0",
+        "min_stats": "Increases your Movement Speed and Mounted Speed by 2%.  Increases your Health and Magicka Recovery by 10% while Sprinting.",
+        "max_stats": "Increases your Movement Speed and Mounted Speed by 2%.  Increases your Health and Magicka Recovery by 10% while Sprinting."
+    }
+]

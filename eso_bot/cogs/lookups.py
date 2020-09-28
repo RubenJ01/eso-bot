@@ -846,6 +846,87 @@ class Lookup(Cog, name="🌴 Lookup"):
                     return await ctx.invoke(self.race, race)
 
     @command(
+        description="`!championskill {championskill}`\n\nDisplays information on a specific champion skill."
+    )
+    async def championskill(self, ctx, *championskill):
+        """
+        Lookup information on any achievement.
+        """
+        await command_invoked(self.bot, "achievement", ctx.author.name)
+        with open(
+            "assets/champion_skills.json", "r", encoding="utf-8"
+        ) as championskills:
+            data = json.load(championskills)
+        result = False
+        championskill = " ".join(championskill)
+        if len(championskill) < 3:
+            return await ctx.send("Your search request must be at least 3 characters.")
+        for x in data:
+            if championskill.lower() == x["name"].lower():
+                result = True
+                desc = f"**Unlocks at:** level {x['unlock_level']}\n"
+                desc += f"**Max Level:** {x['max_level']}\n"
+                embed = discord.Embed(
+                    title=x["name"],
+                    description=desc,
+                    colour=functions.embedColour(ctx.guild.id),
+                )
+                embed.add_field(name="Effects at unlock", value=x["min_stats"])
+                if x["max_stats"] != x["min_stats"]:
+                    embed.add_field(name="Effects at max level", value=x["max_stats"])
+                embed.set_footer(text="Champion skills © by ZeniMax Online Studios")
+                return await ctx.send(embed=embed)
+        if result is False:
+            reference_championskills = []
+            results = ""
+            timezone = pytz.timezone("Europe/Amsterdam")
+            time = timezone.localize(datetime.datetime.now())
+            for x in data:
+                if championskill.lower() in x["name"].lower():
+                    reference_championskills.append(x["name"])
+            if len(reference_championskills) == 1:
+                return await ctx.invoke(self.championskill, reference_championskills[0])
+            elif len(reference_championskills) > 0:
+                loaded_championskills = reference_championskills
+            elif len(reference_championskills) == 0:
+                return await ctx.send(
+                    f"No results were found matching your request: `{championskill}`"
+                )
+            else:
+                loaded_championskills = [x["name"] for x in data]
+            for index, x in enumerate(loaded_championskills):
+                results += f"`{index + 1}` {x} \n"
+            embed = discord.Embed(
+                title="Races",
+                description=f"`{championskill}` was not found.\nDid you mean one of the following "
+                f"champion skills:\n{results}\nReply "
+                f"with a number for more information.",
+                colour=functions.embedColour(ctx.guild.id),
+                timestamp=time,
+            )
+            await ctx.send(embed=embed)
+
+            def check(m):
+                return (
+                    m.content
+                    in [str(i) for i in range(1, len(loaded_championskills) + 1)]
+                    and m.channel == ctx.channel
+                    and ctx.author == m.author
+                )
+
+            try:
+                choice = await ctx.bot.wait_for("message", timeout=10.0, check=check)
+            except asyncio.TimeoutError:
+                return await ctx.send("Request timed out.")
+            if choice:
+                championskill = (
+                    f"{loaded_championskills[int(choice.content) - 1].lower()}"
+                )
+                await ctx.send(f"!championskill {championskill}")
+                async with ctx.typing():
+                    return await ctx.invoke(self.championskill, championskill)
+
+    @command(
         description="`!achievement {achievement}`\n\nDisplays information on a specific achievement."
     )
     async def achievement(self, ctx, *achievement):

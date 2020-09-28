@@ -1,5 +1,7 @@
 import json
 import discord
+import datetime
+import pytz
 
 from backend import functions
 
@@ -35,6 +37,20 @@ class Information(Cog, name="❓ Information"):
         daily_rewards_2.set_footer(text=data["date"])
         await ctx.send(embed=daily_rewards_1)
         return await ctx.send(embed=daily_rewards_2)
+
+    @command(
+        description="`!links`\n\nSeveral helpfull links with valueable information."
+    )
+    async def links(self, ctx):
+        timezone = pytz.timezone("Europe/Amsterdam")
+        time = timezone.localize(datetime.datetime.now())
+        embed = discord.Embed(
+            title="Links",
+            description="https://eso-hub.com/\nhttps://elderscrollsonline.wiki.fextralife.com/Elder+Scrolls+Online+Wiki"
+            + "\nhttps://alcasthq.com/",
+            timestamp=time,
+        )
+        return await ctx.send(embed=embed)
 
 
 def setup(bot):
