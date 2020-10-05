@@ -1,4 +1,5 @@
 import discord
+from eso_bot.backend import functions
 from discord.ext import commands
 import sqlite3
 
@@ -32,6 +33,7 @@ class Help(commands.Cog, name="Help"):
             title="Bot Help Menu",
             description=f"`{currentPrefix}myprefix` for this server's prefix and `{currentPrefix}setprefix` "
             f"to change this server's prefix.",
+            colour=functions.embedColour(ctx.guild.id),
         )
         # embed.set_thumbnail(url="https://i.imgur.com/3Lgs39V.png")
         embed.set_footer(
@@ -64,7 +66,10 @@ class Help(commands.Cog, name="Help"):
             await msg.remove_reaction(reaction, ctx.message.author)
             reactionIndex = reactions.index(str(reaction.emoji))
             if str(reaction.emoji) == reactions[reactionIndex]:
-                help_embed = discord.Embed(title=f"{reactionsCogs[reactionIndex]} Help")
+                help_embed = discord.Embed(
+                    title=f"{reactionsCogs[reactionIndex]} Help",
+                    colour=functions.embedColour(ctx.guild.id),
+                )
                 help_embed.set_footer(
                     text=f"Requested by {ctx.message.author.name} :: {ctx.message.guild}'s prefix currently "
                     f"is {currentPrefix}",

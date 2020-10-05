@@ -3,7 +3,7 @@ import discord
 import datetime
 import pytz
 
-from backend import functions
+from eso_bot.backend import functions
 
 from discord.ext.commands import Cog, command
 
@@ -49,6 +49,7 @@ class Information(Cog, name="❓ Information"):
             description="https://eso-hub.com/\nhttps://elderscrollsonline.wiki.fextralife.com/Elder+Scrolls+Online+Wiki"
             + "\nhttps://alcasthq.com/",
             timestamp=time,
+            colour=functions.embedColour(ctx.guild.id),
         )
         return await ctx.send(embed=embed)
 
