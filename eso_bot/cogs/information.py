@@ -14,7 +14,7 @@ class Information(Cog, name="❓ Information"):
 
     @command(description="`!dailies`\n\nAll of the daily rewards this month.")
     async def dailies(self, ctx):
-        with open("assets/dailies.json", "r", encoding="utf-8") as dailies:
+        with open("eso_bot/assets/dailies.json", "r", encoding="utf-8") as dailies:
             data = json.load(dailies)[0]
         daily_rewards_1 = discord.Embed(
             title="Daily Rewards (Day 1-15)", colour=functions.embedColour(ctx.guild.id)

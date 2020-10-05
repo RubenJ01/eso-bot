@@ -23,7 +23,7 @@ class Lookup(Cog, name="🌴 Lookup"):
 
     @command(description="`!dungeon`\n\nShows the dungeon list and boss' strategies!")
     async def dungeon(self, ctx, *, dungeon=None):
-        with open("assets/dungeons.json", "r", encoding="utf-8") as dungeons:
+        with open("eso_bot/assets/dungeons.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         try:
             if not dungeon:
@@ -540,7 +540,7 @@ class Lookup(Cog, name="🌴 Lookup"):
         Lookup information on any set.
         """
         await command_invoked(self.bot, "set", ctx.author.name)
-        with open("assets/sets.json", "r", encoding="utf-8") as dungeons:
+        with open("eso_bot/assets/sets.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         result = False
         set_ = " ".join(set)
@@ -613,7 +613,7 @@ class Lookup(Cog, name="🌴 Lookup"):
         Lookup information on any skill.
         """
         await command_invoked(self.bot, "skill", ctx.author.name)
-        with open("assets/skills.json", "r", encoding="utf-8") as dungeons:
+        with open("eso_bot/assets/skills.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         result = False
         skill = " ".join(skill)
@@ -687,7 +687,7 @@ class Lookup(Cog, name="🌴 Lookup"):
         Lookup information on any class.
         """
         await command_invoked(self.bot, "skill", ctx.author.name)
-        with open("assets/classes.json", "r", encoding="utf-8") as dungeons:
+        with open("eso_bot/assets/classes.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         result = False
         class_ = " ".join(class_)
@@ -764,7 +764,7 @@ class Lookup(Cog, name="🌴 Lookup"):
         Lookup information on any race.
         """
         await command_invoked(self.bot, "race", ctx.author.name)
-        with open("assets/races.json", "r", encoding="utf-8") as dungeons:
+        with open("eso_bot/assets/races.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         result = False
         race = " ".join(race)
@@ -854,7 +854,7 @@ class Lookup(Cog, name="🌴 Lookup"):
         """
         await command_invoked(self.bot, "achievement", ctx.author.name)
         with open(
-            "assets/champion_skills.json", "r", encoding="utf-8"
+            "eso_bot/assets/champion_skills.json", "r", encoding="utf-8"
         ) as championskills:
             data = json.load(championskills)
         result = False
@@ -934,7 +934,9 @@ class Lookup(Cog, name="🌴 Lookup"):
         Lookup information on any achievement.
         """
         await command_invoked(self.bot, "achievement", ctx.author.name)
-        with open("assets/achievements.json", "r", encoding="utf-8") as dungeons:
+        with open(
+            "eso_bot/assets/achievements.json", "r", encoding="utf-8"
+        ) as dungeons:
             data = json.load(dungeons)
         result = False
         achievement = " ".join(achievement)
