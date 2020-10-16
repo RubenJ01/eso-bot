@@ -4,12 +4,11 @@ import pytz
 import math
 import sqlite3
 import traceback
-from discord.ext import commands
+from discord.ext import commands, tasks
 from discord.ext.commands import has_permissions
 
 from eso_bot.backend import functions
 from eso_bot.authentication import logsChannel
-
 
 conn = sqlite3.connect("bot.db", timeout=5.0)
 c = conn.cursor()
@@ -22,6 +21,109 @@ time = timezone.localize(datetime.datetime.now())
 class Logs(commands.Cog, name="🛠️ Settings"):
     def __init__(self, bot):
         self.bot = bot
+        self.loggingChecker.start()
+
+    @tasks.loop(seconds=5)
+    async def loggingChecker(self):
+        timezone_ = pytz.timezone("Europe/Amsterdam")
+        lastMidnight = (
+            datetime.datetime.now(timezone_)
+            .replace(hour=0, minute=0, second=0, microsecond=0)
+            .timestamp()
+        )
+        now = int(datetime.datetime.now(timezone_).timestamp())
+        c.execute(""" SELECT command, times, nextReset FROM dailyLogging """)
+        result = c.fetchall()
+        if not result:
+            pass
+        else:
+            if lastMidnight + 5 > now > lastMidnight:
+                descriptionList = ""
+                for commandProperties in result:
+                    nextReset = commandProperties[2]
+                    if now > nextReset:
+                        descriptionList += f"`{commandProperties[0]}`. Used {commandProperties[1]} times.\n"
+                        c.execute(
+                            """ DELETE FROM dailyLogging WHERE command = ? """,
+                            (commandProperties[0],),
+                        )
+                        conn.commit()
+                yesterday = datetime.datetime.now(timezone_) - datetime.timedelta(1)
+                embed = discord.Embed(
+                    title=f"{yesterday.date()}",
+                    description=f"{descriptionList}",
+                    timestamp=datetime.datetime.now(timezone_),
+                )
+
+                def sortSecond(val):
+                    return val[1]
+
+                result.sort(key=sortSecond, reverse=True)
+                embed.add_field(
+                    name="Most Used Command", value=f"{result[0][0]}", inline=False
+                )
+                channelObject = self.bot.get_channel(logsChannel)
+                await channelObject.send(embed=embed)
+
+    @loggingChecker.before_loop
+    async def before_status(self):
+        print("Waiting to handle loggings...")
+        await self.bot.wait_until_ready()
+
+    @commands.command(description="`!profile`\n\nShows profile of the user!")
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def profile(self, ctx, user: discord.Member = None):
+        if user:
+            id = user.id
+        else:
+            id = ctx.author.id
+
+        descriptionList = ""
+        c.execute(""" SELECT command, times FROM logging WHERE user_id = ? """, (id,))
+        result = c.fetchall()
+
+        for command in result:
+            descriptionList += f"`{command[0]}`: used {command[1]} times\n"
+
+        c.execute(
+            """ SELECT command FROM mostRecent WHERE user_id = ? """, (ctx.author.id,)
+        )
+        mostRecentCommand = c.fetchall()
+
+        if user:
+            embed = discord.Embed(
+                description=f"{descriptionList}",
+                colour=functions.embedColour(ctx.message.guild.id),
+            )
+        else:
+            embed = discord.Embed(
+                description=f"{descriptionList}",
+                colour=functions.embedColour(ctx.message.guild.id),
+            )
+
+        if not result:
+            embed.add_field(name="Most Used Command", value="None", inline=False)
+        else:
+
+            def sortSecond(val):
+                return val[1]
+
+            result.sort(key=sortSecond, reverse=True)
+            embed.add_field(
+                name="Most Used Command", value=f"{result[0][0]}", inline=False
+            )
+
+        if mostRecentCommand:
+            commandUsed = mostRecentCommand[0][0]
+            embed.add_field(
+                name="Most Recent Command", value=f"{commandUsed}", inline=False
+            )
+        else:
+            embed.add_field(name="Most Recent Command", value="None", inline=False)
+
+        embed.set_author(name=ctx.author, icon_url=ctx.author.avatar_url)
+        embed.set_thumbnail(url=ctx.author.avatar_url)
+        await ctx.send(embed=embed)
 
     @commands.command(description="`!invite`\n\nSends the invite link for the bot!")
     @commands.cooldown(1, 5, commands.BucketType.user)
@@ -29,6 +131,42 @@ class Logs(commands.Cog, name="🛠️ Settings"):
         await ctx.send(
             "https://discord.com/oauth2/authorize?client_id=572365749780348928&permissions=0&scope=bot"
         )
+        await functions.dailyCommandCounter("invite")
+        await functions.globalCommandCounter("invite")
+        await functions.commandCounter(ctx.author.id, "invite")
+
+    @commands.command(
+        description="`!counter`\n\nShows the global counter for commands used. Administrator Only."
+    )
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def counter(self, ctx):
+        descriptionList = ""
+        c.execute(""" SELECT command, times FROM globalLogging """)
+        result = c.fetchall()
+
+        for command in result:
+            descriptionList += f"`{command[0]}`: used {command[1]} times\n"
+
+        embed = discord.Embed(
+            description=f"{descriptionList}",
+            colour=functions.embedColour(ctx.message.guild.id),
+        )
+
+        if not result:
+            embed.add_field(name="Most Used Command", value="None", inline=False)
+        else:
+
+            def sortSecond(val):
+                return val[1]
+
+            result.sort(key=sortSecond, reverse=True)
+            embed.add_field(
+                name="Most Used Command", value=f"{result[0][0]}", inline=False
+            )
+
+        embed.set_author(name=ctx.guild, icon_url=ctx.guild.icon_url)
+        embed.set_thumbnail(url=ctx.guild.icon_url)
+        await ctx.send(embed=embed)
 
     @commands.command(
         description="`!embedsettings {colour code e.g. 0xffff0}`\n\n Changes the color of the embeds "
@@ -53,6 +191,9 @@ class Logs(commands.Cog, name="🛠️ Settings"):
 
     @commands.command(description="`!status` \n\nSends the bots status.")
     async def status(self, ctx):
+        await functions.dailyCommandCounter("status")
+        await functions.globalCommandCounter("status")
+        await functions.commandCounter(ctx.author.id, "status")
         status_embed = discord.Embed(
             title="Status", colour=functions.embedColour(ctx.guild.id)
         )
