@@ -23,6 +23,9 @@ class Lookup(Cog, name="🌴 Lookup"):
 
     @command(description="`!dungeon`\n\nShows the dungeon list and boss' strategies!")
     async def dungeon(self, ctx, *, dungeon=None):
+        await functions.dailyCommandCounter("dungeon")
+        await functions.globalCommandCounter("dungeon")
+        await functions.commandCounter(ctx.author.id, "dungeon")
         with open("eso_bot/assets/dungeons.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         try:
@@ -539,6 +542,9 @@ class Lookup(Cog, name="🌴 Lookup"):
         """
         Lookup information on any set.
         """
+        await functions.dailyCommandCounter("set")
+        await functions.globalCommandCounter("set")
+        await functions.commandCounter(ctx.author.id, "set")
         await command_invoked(self.bot, "set", ctx.author.name)
         with open("eso_bot/assets/sets.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
@@ -612,6 +618,9 @@ class Lookup(Cog, name="🌴 Lookup"):
         """
         Lookup information on any skill.
         """
+        await functions.dailyCommandCounter("skill")
+        await functions.globalCommandCounter("skill")
+        await functions.commandCounter(ctx.author.id, "skill")
         await command_invoked(self.bot, "skill", ctx.author.name)
         with open("eso_bot/assets/skills.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
@@ -686,7 +695,10 @@ class Lookup(Cog, name="🌴 Lookup"):
         """
         Lookup information on any class.
         """
-        await command_invoked(self.bot, "skill", ctx.author.name)
+        await functions.dailyCommandCounter("class")
+        await functions.globalCommandCounter("class")
+        await functions.commandCounter(ctx.author.id, "class")
+        await command_invoked(self.bot, "class", ctx.author.name)
         with open("eso_bot/assets/classes.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
         result = False
@@ -763,6 +775,9 @@ class Lookup(Cog, name="🌴 Lookup"):
         """
         Lookup information on any race.
         """
+        await functions.dailyCommandCounter("race")
+        await functions.globalCommandCounter("race")
+        await functions.commandCounter(ctx.author.id, "race")
         await command_invoked(self.bot, "race", ctx.author.name)
         with open("eso_bot/assets/races.json", "r", encoding="utf-8") as dungeons:
             data = json.load(dungeons)
@@ -852,7 +867,10 @@ class Lookup(Cog, name="🌴 Lookup"):
         """
         Lookup information on any achievement.
         """
-        await command_invoked(self.bot, "achievement", ctx.author.name)
+        await functions.dailyCommandCounter("championskill")
+        await functions.globalCommandCounter("championskill")
+        await functions.commandCounter(ctx.author.id, "championskill")
+        await command_invoked(self.bot, "championskill", ctx.author.name)
         with open(
             "eso_bot/assets/champion_skills.json", "r", encoding="utf-8"
         ) as championskills:
@@ -933,6 +951,9 @@ class Lookup(Cog, name="🌴 Lookup"):
         """
         Lookup information on any achievement.
         """
+        await functions.dailyCommandCounter("achievement")
+        await functions.globalCommandCounter("achievement")
+        await functions.commandCounter(ctx.author.id, "achievement")
         await command_invoked(self.bot, "achievement", ctx.author.name)
         with open(
             "eso_bot/assets/achievements.json", "r", encoding="utf-8"

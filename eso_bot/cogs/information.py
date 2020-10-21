@@ -14,6 +14,9 @@ class Information(Cog, name="❓ Information"):
 
     @command(description="`!dailies`\n\nAll of the daily rewards this month.")
     async def dailies(self, ctx):
+        await functions.dailyCommandCounter("dailies")
+        await functions.globalCommandCounter("dailies")
+        await functions.commandCounter(ctx.author.id, "dailies")
         with open("eso_bot/assets/dailies.json", "r", encoding="utf-8") as dailies:
             data = json.load(dailies)[0]
         daily_rewards_1 = discord.Embed(
@@ -42,6 +45,9 @@ class Information(Cog, name="❓ Information"):
         description="`!links`\n\nSeveral helpfull links with valueable information."
     )
     async def links(self, ctx):
+        await functions.dailyCommandCounter("links")
+        await functions.globalCommandCounter("links")
+        await functions.commandCounter(ctx.author.id, "links")
         timezone = pytz.timezone("Europe/Amsterdam")
         time = timezone.localize(datetime.datetime.now())
         embed = discord.Embed(

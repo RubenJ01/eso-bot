@@ -22,6 +22,9 @@ class Help(commands.Cog, name="Help"):
 
     @commands.command()
     async def help(self, ctx):
+        await functions.dailyCommandCounter("help")
+        await functions.globalCommandCounter("help")
+        await functions.commandCounter(ctx.author.id, "help")
         reactions = ["🌴", "🛠️", "❓"]
         reactionsCogs = ["🌴 Lookup", "🛠️ Settings", "❓ Information"]
         cogs = [cog for cog in self.bot.cogs.keys()]
