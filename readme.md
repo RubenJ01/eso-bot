@@ -1,4 +1,5 @@
 # Eso-Bot
+![Bot Icon](https://raw.githubusercontent.com/RubenJ01/eso-bot/master/eso_bot/media/bot_icon.png) \
 Your Elder Scrolls online companion brought to discord. \
 You are welcome to join our [support server](https://discord.gg/5xvAHhU).
 
