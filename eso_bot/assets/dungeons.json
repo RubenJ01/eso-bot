@@ -608,7 +608,14 @@
           "**Flurry** – The boss cast a very small frontal cone aoe in the form of a flurry, simply block this and all will be fine but because of this the tank should NOT spin the boss on the group. A dps or healer can die fast to this.",
           "**Adds** – During the fight melee and ranged adds will spawn. These must be focused! The ranged need interrupting when they channel abilities and the melee must be watched carefully else they will uppercut you. If the tank can grab these and hold them on the boss without spinning her around this makes things a lot easier. Kill the adds first and then move on to her!",
           "**Don’t Move A Muscle!** – If she starts to climb into the ceiling, she will shout “don’t move a muscle” **Do NOT MOVE!** No matter what happens, do NOT move! Once the room starts to go light again she will jump down to the floor again. Look up at the celing, as soon as you see her wiggle, dodge roll immediately! If you dodge roll or move early, you are dead. Same goes for when you dodge too late",
-          "**Devour** – Do not save your ultimates. Velidreth will look for the person saving up ultimate and draw them in. She will devour your ultimate pool rendering whatever ultimate you thought you were holding on to, USELESS. So the tip for this is, use your ultimates as soon as they are ready and/or use the cheapest ultimates you possibly can.",
+          "**Devour** – Do not save your ultimates. Velidreth will look for the person saving up ultimate and draw them in. She will devour your ultimate pool rendering whatever ultimate you thought you were holding on to, USELESS. So the tip for this is, use your ultimates as soon as they are ready and/or use the cheapest ultimates you possibly can."
+        ]
+      },
+      {
+        "name" : "Velidreth",
+        "mechanics" : [
+        ],
+        "strategy": [
           "**Draining orbs** – There are orbs flying around the room which sometimes change colour. Basically each ball will drain the resources relevant to the colour they are if you touch them. Green will drain your stamina, blue will drain you magicka, and red will of course drain your health. Avoid these at all costs!",
           "**Atronachs** – These are KEY for the catacombs. When the atronachs spawn 81% and around 51% you MUST focus them. Don’t push the boss, kill them fast. Each one will drop a light on the floor. Asign two members of your group to pick on up each. You will be split into two groups at random and one person of each group will be holding the light. If you don’t pick these up you are very unlikely to complete the next phase.",
           "**Banished to the catacombs** – The boss will banish the group to the catacombs and this will happen TWICE in the fight. Once at 66% and again at 31%. Both groups of two will be sent off, each with 1 light. What you need to do here is stay together and find your way through the map back to the middle. Find the open door ways and make your way to safety.",
@@ -755,7 +762,13 @@
         "strategy" : [
           "**Lich Crystals** – The boss will raise his hand in the air, when he does this he will spawn lich crystals around the room. A chain will come out of the ground and then a big AoE burst will come from them. These are extremely easy to avoid, simply step out of the AoE.",
           "**Flying Skull** – Occasionally the boss will target a random player. He will start channeling for a brief moment and then let rip with a projectile flying skull at the player of his choice. If while channeling he is looking at YOU, then YOU are the target. Once it starts flying at you, dodge roll it. Failure to do so will result in MASSIVE damage and a knock down. Spread out so you can see who the target is!",
-          "**Teleport Blast** – The boss will teleport from time to time at a random player, when this happens you must get away from him ASAP! Wherever he lands he will cast a massive spreading AOE on the ground from his feet. It is large enough for a single dodge roll to not be enough if you are too slow. If this hits you, unless you are fairly tanky OR the tank you are pretty much dead in one shot.",
+          "**Teleport Blast** – The boss will teleport from time to time at a random player, when this happens you must get away from him ASAP! Wherever he lands he will cast a massive spreading AOE on the ground from his feet. It is large enough for a single dodge roll to not be enough if you are too slow. If this hits you, unless you are fairly tanky OR the tank you are pretty much dead in one shot."
+        ]
+      },
+      {"name" :  "Nerien'eth",
+        "mechanics": [
+        ],
+        "strategy" : [
           "**Ghosts** – There are 3 “well” type places on the map with a grill over them. When the boss teleports to these he will release two ghosts. Kill these fast as you will get overwhelmed. **If you are going for hardmode you MUST keep these alive**. In order to complete hard mode you MUST have 4 ghosts alive when the boss reaches for the sword! (35% health).",
           "Taking The sword! – At 35% health the boss will reach for the sword in the center of the room. This is “go time!”. The group needs to stay close to the boss. The tank should hold the taunt and the group should have a tight circle close to the boss.",
           "When the boss grabs the sword the group will be stunned. The boss will then choose a random player in the group and hold him/her in mid air and try to drain them. The player in question must synergies to resist the drain and at the same time the group must do as much damage as possible to remove the new damage shield from the boss and drop the player to safety."
@@ -948,7 +961,14 @@
           "**Basic adds** – During the fight different basic adds will spawn, melee, archer and mages and these are fairly low health. The tank should pull these together as soon as possible and they should be killed by the group. These are not a real threat but on top of the BIG adds that are coming, can get a little overwhelming, so be sure to kill these, and interrupt arrow spray type abilities!",
           "**Aurorans** – These adds will spawn through out the fight and there are 4 different types: __Radiant Auroran__ (Jesus beam), __Phosphorescent Auroran__ (ice), __Blazing Auroran__ (fire), __Scintillating Auroran__ (lightning). Each one has different effects but all are deadly! They can cast dawn breakers, different elemental effects and frontal AoE. The tank MUST grab these and keep them faced away from the group at all times.",
           "**ORBS!** – During the fight the Dark orb will spawn OTHER orbs in the room as well as the adds! This is when you need to take your focus off the main target and focus the orb in the room. There are 4 types of orbs:",
-          "__Radiant (yellow)__ – These can affect the group with healing debuffs.",
+          "__Radiant (yellow)__ – These can affect the group with healing debuffs."
+        ]
+      },
+      {
+        "name" : "Dark Orb",
+        "mechanics" : [
+        ],
+        "strategy" : [
           "__Phosphorescent (blue)__ – These cause ice damage and place ice AoEs on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack. The healer will need to focus heals to anyone close to these due to the amount of AoE damage they emit.",
           "__Blazing (red)__ – These call down meteors to each player and when they land they burst into multiple floor based moving AoEs. You must avoid the meteor and THEN get in the gaps between the scattered AoEs. These are tricky and must be learnt to be dealt with FAST.",
           "__Scintillating (purple)__ – These cause lightning damage and can cast multiple fast paced splashes on the ground coming from EACH player. Moving in a fast tight circle will make you avoid the damage and let them disburse but if you do not, you will get overwhelmed with damage and die fast!",
@@ -964,7 +984,14 @@
           "The tank at this point needs to keep taunts and interrupts while trying to carefully position them as close to each other as possible to prevent lots of running around the room.",
           "**Against the elements!** – The boss and every reflection can have a RANDOM color (blue/red/yellow/purple) and yes unfortunately if you didn’t pay attention to the previous fight this will make NO sense.",
           "__Yellow__ – Affects the group with (lifesteal) healing debuffs and can cast Radiant Oppression which can and MUST be interrupted.",
-          "__Blue__ – AOE Ice damage as well as a spreading ice blast (don’t stand in this) and place ice aoes on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack.",
+          "__Blue__ – AOE Ice damage as well as a spreading ice blast (don’t stand in this) and place ice aoes on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack."
+        ]
+      },
+      {
+        "name" : "King Narilmor",
+        "mechanics" : [
+        ],
+        "strategy" : [
           "__Red__ – These call down meteors to each player and when they land they burst into multiple floor based moving aoes. You must avoid the meteor and THEN get in the gaps between the scattered AoEs.",
           "__Purple__ – These cause lightning damage splashes and can cast multiple fast paced splashes on the ground coming from EACH player. Moving in a fast tight circle will make you avoid the damage and let them disburse but if you do not, you will get overwhelmed with damage and die fast!",
           "**Power Of The Light** – This is pretty much the same as the Templar ability. This will be cast onto one player and over time it will absorb more damage before it explodes. Be sure to interrupt if you see the boss or any reflections channeling.",
@@ -980,7 +1007,14 @@
           "**Heavy attack** – This is a very simple and obvious mechanic, the boss will hit with a large wound up heavy attack and this MUST be blocked. If for some reason you are not the tank and the heavy attack is coming to you, time it well and DODGE roll it. Do not run away do NOT try to block, you WILL die.",
           "**AoE and Stun** – One player in the group will be picked at random and a spreading AoE will spawn under their feet and be connected to them. Simply block while it pops and when it does, break from from it.  Stay as still as possible and do not put it on top of your team mates. If someone else has this on them do NOT run into the aoe.",
           "**SPIN!** – The boss spins his swords and has an AOE showing the distance in which the spin will reach. Prior to this you get a brief warning of the AoE spreading. Anyone caught in this spin will die unless they are a tank. Some tanks can stand still and block it, others may want to walk back wards holding block to slowly kite the boss until it is over. DPS and Healers should just stay out of the spin.",
-          "**Sword Throwing** – The boss will channel an ability where he will look like he is hugging himself. This can be interrupted but if NOT he will throw his swords spinning out in front of him and then they will return again. This deals moderate damage and is not too much of a threat to the tank but should be avoided by the dps and healers.",
+          "**Sword Throwing** – The boss will channel an ability where he will look like he is hugging himself. This can be interrupted but if NOT he will throw his swords spinning out in front of him and then they will return again. This deals moderate damage and is not too much of a threat to the tank but should be avoided by the dps and healers."
+        ]
+      },
+      {
+        "name": "Symphony Of Blades",
+        "mechanics": [
+        ],
+        "strategy" : [
           "**THE WALL**– Boss will spawn a ghost wall. Basically if you touch it, you die. BUT you can KILL the ghosts! There will be two walls. One in front and one behind. Simply get your group to focus on ONE ghost and kill it, then get in the new gap to be safe and let the wall pass. The easiest option most of the time is to agree on the middle target. That way the tank really doesn’t ever have to move and you can continue as normal.",
           "**Aurorans!** – During Health % stages of the boss, as well as the wall phase, the boss will go IMMUNE! When this happens there will be 4x slow walking Aurorans coming from each corner of the room. Red, purple, yellow and blue, each one represents the damage types and effects from previous bosses. You need to kill the Aurorans of YOUR choice. Each one that REACHES the boss will dissolve and buff him with THAT effect for 40s",
           "If he consumes a yellow add he will be able to apply a heal debuff to the group and a Jesus beam to the tank.",
@@ -989,7 +1023,14 @@
           "If he consumes Purple he will spawn nasty lightning splashes.",
           "**ORBS!** – During the fight the orbs from the “Dark Orb” boss will appear in the room with a random colour! This is when you need to take your focus off the boss and get the orb down as fast as possible. Orb ALWAYS takes priority! UNLESS there is a wall coming in which case, wall first, orb second, boss last!",
           "__Yellow__ – These can affect the group with a healing debuffs",
-          "__Blue__ – These cause ice damage and place ice AoEs on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack. The healer will need to focus heals to anyone close to these due to the amount of aoe damage they emit.",
+          "__Blue__ – These cause ice damage and place ice AoEs on the ground which MUST be avoided however they do spawn an ice pillar in the middle of them and they can be killed with JUST a light attack. The healer will need to focus heals to anyone close to these due to the amount of aoe damage they emit."
+        ]
+      },
+      {
+        "name" : "Symphony Of Blades",
+        "mechanics": [
+        ],
+        "strategy": [
           "__Red__ – These call down meteors to each player and when they land they burst into multiple floor based moving AoEs. You must avoid the meteor and THEN get in the gaps between the scattered aoes after wards. These are tricky and must be learnt to be dealt with FAST",
           "__Purple__ – These cause lightning damage and can cast multiple fast paced splashes on the ground coming from EACH player. Moving in a fast tight circle will make you avoid the damage and let them disburse but if you do not, you will get overwhelmed with damage and die fast!",
           "**THE FINAL FIGHT!** – At 11% health or below the boss will go into the Celestial Realm and drag you down with him. His MAX health doubles and his health goes up to 50%. So you have over 7million health to get through. The tank needs to taunt the boss at all times and keep the boss faced away from the group. When you first spawn into the other realm the boss is so busy putting down long ranged attacks that he in fact wont move.",

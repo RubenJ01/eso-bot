@@ -146,12 +146,17 @@ class Lookup(Cog, name="🌴 Lookup"):
                             colour=functions.embedColour(ctx.guild.id),
                         )
                         setList = ""
+                        nameListTemp = []
                         nameList = ""
                         for sets in everyPage[reactionIndex]["sets"]:
                             setList += f"{sets}\n"
                         editEmbed.add_field(name="Sets", value=f"{setList}")
-                        for names in everyPage[reactionIndex]["bosses"]:
-                            nameList += f'{names["name"]}\n'
+                        bossNames = everyPage[reactionIndex]["bosses"]
+                        for names in bossNames:
+                            nameListTemp.append(f'{names["name"]}')
+                        nameListTemp = list(set(nameListTemp))
+                        for name in nameListTemp:
+                            nameList += f"{name}\n"
                         editEmbed.set_image(url=f"{everyPage[reactionIndex]['image']}")
                         editEmbed.add_field(name="Bosses", value=f"{nameList}")
                         editEmbed.set_footer(
@@ -177,7 +182,19 @@ class Lookup(Cog, name="🌴 Lookup"):
                             mechanics += f"{mechanic}\n"
                         for strategy in bossesStrategy[j]:
                             strategies += f"{strategy}\n"
-                        if len(mechanics) < 1024 and len(strategies) < 1024:
+                        if len(strategies) == 0:
+                            bossEmbed = discord.Embed(
+                                title=f"{bossesName[j]}",
+                                description=f"**Mechanics**\n{mechanics}",
+                                colour=functions.embedColour(ctx.guild.id),
+                            )
+                        elif len(mechanics) == 0:
+                            bossEmbed = discord.Embed(
+                                title=f"{bossesName[j]}",
+                                description=f"**Strategy**\n{strategies}",
+                                colour=functions.embedColour(ctx.guild.id),
+                            )
+                        elif len(mechanics) < 1024 and len(strategies) < 1024:
                             bossEmbed = discord.Embed(
                                 title=f"{bossesName[j]}",
                                 colour=functions.embedColour(ctx.guild.id),
@@ -225,7 +242,21 @@ class Lookup(Cog, name="🌴 Lookup"):
                                         mechanics += f"{mechanic}\n"
                                     for strategy in bossesStrategy[j]:
                                         strategies += f"{strategy}\n"
-                                    if len(mechanics) < 1024 and len(strategies) < 1024:
+                                    if len(strategies) == 0:
+                                        bossEmbed = discord.Embed(
+                                            title=f"{bossesName[j]}",
+                                            description=f"**Mechanics**\n{mechanics}",
+                                            colour=functions.embedColour(ctx.guild.id),
+                                        )
+                                    elif len(mechanics) == 0:
+                                        bossEmbed = discord.Embed(
+                                            title=f"{bossesName[j]}",
+                                            description=f"**Strategy**\n{strategies}",
+                                            colour=functions.embedColour(ctx.guild.id),
+                                        )
+                                    elif (
+                                        len(mechanics) < 1024 and len(strategies) < 1024
+                                    ):
                                         bossEmbed = discord.Embed(
                                             title=f"{bossesName[j]}",
                                             colour=functions.embedColour(ctx.guild.id),
@@ -272,7 +303,21 @@ class Lookup(Cog, name="🌴 Lookup"):
                                         mechanics += f"{mechanic}\n"
                                     for strategy in bossesStrategy[j]:
                                         strategies += f"{strategy}\n"
-                                    if len(mechanics) < 1024 and len(strategies) < 1024:
+                                    if len(strategies) == 0:
+                                        bossEmbed = discord.Embed(
+                                            title=f"{bossesName[j]}",
+                                            description=f"**Mechanics**\n{mechanics}",
+                                            colour=functions.embedColour(ctx.guild.id),
+                                        )
+                                    elif len(mechanics) == 0:
+                                        bossEmbed = discord.Embed(
+                                            title=f"{bossesName[j]}",
+                                            description=f"**Strategy**\n{strategies}",
+                                            colour=functions.embedColour(ctx.guild.id),
+                                        )
+                                    elif (
+                                        len(mechanics) < 1024 and len(strategies) < 1024
+                                    ):
                                         bossEmbed = discord.Embed(
                                             title=f"{bossesName[j]}",
                                             colour=functions.embedColour(ctx.guild.id),
