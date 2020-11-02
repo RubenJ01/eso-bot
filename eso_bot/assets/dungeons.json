@@ -1076,7 +1076,7 @@
   {
     "dungeon" : "Elden Hollow I",
     "description" : "This is one of the first dungeons you have access to at level 14 or if you travel to the opening yourself at lower levels. This is located at the center of the Grahtwood map.",
-    "image" : "",
+    "image" : "https://imgur.com/OvBH2bn.png",
     "sets" : ["Light Speaker", "Barkskin", "Undaunted Bastion", "Chokethorn"],
     "bosses" : [
       {"name" :  "Akash Gra-mal",
@@ -1142,5 +1142,5 @@
       }
     ],
     "link" : "https://xynodegaming.com/elden-hollow-1/"
-  },
+  }
 ]
