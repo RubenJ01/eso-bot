@@ -109,5 +109,42 @@
         "unlocks_at" : [25, 35, 50]
       }
     ]
+  },
+  {
+    "name" : "Breton",
+    "subname" : "",
+    "image" : "https://images.uesp.net/thumb/9/94/ON-icon-Breton.png/100px-ON-icon-Breton.png",
+    "description" : "The racial skills of the Bretons reflect their affinity for the arcane, increasing their base magicka, magicka recovery, light armor, alliance point gain, spell resistance, and cost reduction of spells, allowing them to cast spells with little pause.",
+    "link" : "https://en.uesp.net/wiki/Online:Breton",
+    "skills" : [
+      {
+        "name" : "Opportunist",
+        "link" : "https://en.uesp.net/wiki/Online:Opportunist",
+        "description" : "Increases your experience gain with the Light Armor skill line by 15%. Increases your Alliance Points gained by 1%.",
+        "emoji" : 772956241982914600,
+        "unlocks_at" : [1]
+      },
+      {
+        "name" : "Gift of Magnus",
+        "link" : "https://en.uesp.net/wiki/Online:Gift_of_Magnus",
+        "description" : "Increases your Max Magicka by 600/1200/2000.",
+        "emoji" : 772956287352045629,
+        "unlocks_at" : [5, 15, 30]
+      },
+      {
+        "name" : "Spell Attunement",
+        "link" : "https://en.uesp.net/wiki/Online:Spell_Attunement",
+        "description" : "Increases your Spell Resistance by 660/1320/2310. This effect is doubled if you are afflicted with Burning, Chilled, or Concussed. Increases your Magicka Recovery by 33/66/100.",
+        "emoji" : 772956242267865128,
+        "unlocks_at" : [10, 20, 40]
+      },
+      {
+        "name" : "Magicka Mastery",
+        "link" : "https://en.uesp.net/wiki/Online:Magicka_Mastery",
+        "description" : "Reduces the Magicka cost of your abilities by 2%/4%/7%.",
+        "emoji" : 772956287562022922,
+        "unlocks_at" : [25, 35, 50]
+      }
+    ]
   }
 ]
