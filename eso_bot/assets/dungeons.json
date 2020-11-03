@@ -1142,5 +1142,76 @@
       }
     ],
     "link" : "https://xynodegaming.com/elden-hollow-1/"
-  }
+  },
+  {
+    "dungeon" : "Elden Hollow II",
+    "description" : "This dungeon you will have access to at level 37 or if you travel to the opening yourself at lower levels. This is located at the center of the Grahtwood.",
+    "image" : "https://imgur.com/OvBH2bn.png",
+    "sets" : ["Light Speaker", "Barkskin", "Undaunted Bastion", "Nightflame"],
+    "bosses" : [
+      {"name" :  "Dubroze The Infestor",
+        "mechanics": [
+          "This boss follows pretty much the same rules as the rest of the in game variants. He has lots of light attacks which really hurt and he has a flame breathe. This is a very simple fight. As the tank, grab it, hold a taunt, turn it away from the group and STAND STILL. Do not run around, do not try dodge rolling."
+        ],
+        "strategy" : [
+          "**Casters** – This boss spawns set of ranged adds, be sure to chain these in as the tank and AOE should manage them but interrupts will be required so they don’t overwhelm the group with ranged damage. Stack them on the boss asap.",
+          "**Flame Breath** – Every so often the boss will breath fire in the direction of his choice, usually at the tank. As dps or healers you need to be sure to step out of this asap! As the tank simply block it and you will be fine. This has high damage but also applies a stun so be careful. If you get stunned break free fast!"
+        ]
+      },
+      {"name" :  "Dark Root",
+        "mechanics": [
+          "This is a very simple fight and can be killed fairly fast if you follow the mechanics but stacking is DANGEROUS. Be sure to have a nice tight formation planned for this and be sure that the tank holds her still. No spinning, no running, just hold it still and keep that taunt up!"
+        ],
+        "strategy" : [
+          "**Radiated Beam** – The boss will rain down a beam onto targets of her choice, a big white flash from above is what you are looking for. This is the reason you do NOT stack. If you do stack and two people get hit and they have low resists they will die. It has AOE splash damage so be sure to be at least 3-5meters away from each other if you can help it unless you have a nova on the ground to negate some of the damage.",
+          "**Hoavars OP!** – These tiny little adds spawn near the boss. One blue one and one green one. These represent the bonus they give when they die. The tank can pin these next to the boss, they have VERY low damage and health. These should be focused.",
+          "Once they die, get any stamina character to stand in the left over green effect from the green one and get any magicka to stand in the blue effect left by the dead blue one.",
+          "They give a MASSIVE boost to max resources and recovery so that you can full out NUKE the boss while the buffs are present. It is physically impossible to run out of resources so spam away!"
+        ]
+      },
+      {"name" :  "Azura The Frightener",
+        "mechanics": [
+          "She looks a lot scarier than she actually is but this is the first place in which you will see some VERY relevant mechanics as far as the last boss is concerned so you must pay attention. The tank should hold her in the middle of the room and maintain a taunt while holding her still. The group should stand behind the boss at all times with enough room to see what each player is doing."
+        ],
+        "strategy" : [
+          "**Casters** – There will be a couple of magblade type casters using ranged effects. These can be interrupted. The adds should be pulled in with the boss and focused only with AOE, they have extremely low health so do not pose much of a threat so long as the tank can manage them.",
+          "**Heavy attack** – This is extremely simple, look for the heavy attack as the tank and be sure to block it else she will knock you a long way backwards. If the boss is on the dps or healer for any reason, same applies, be sure to block it!",
+          "**Shadows** – These shadows are the key points of the fight and crucial for the last boss. They will spawn and mind control/fear players at random. You MUST kill these else it is absolute chaos. They don’t have a huge amount of health and can be managed with AOE in a high damage group. Kill the shadows!"
+        ]
+      },
+      {"name" :  "Murklight",
+        "mechanics": [
+          "This boss is a very unique one in terms of it’s mechanics. The boss has 3 adds to start with before he spawns. Kill these and he will come through the portal. The tank should hold the boss as still as possible either at the bottom of the stairs or the middle of the room. The dps and healers should stay behind the boss and spread out a little so that they do not stack."
+        ],
+        "strategy" : [
+          "**Heavy Attack** – A simple heavy attack which should be blocked or else you will get knocked down. This is fine for even a dps to block as it does barely any damage.",
+          "**Cleave** – As a dps you do not want to be in his face, he can swipe in front of him. It isn’t devastating but it applies a tiny stifle/knock back effect.",
+          "**Double purpose aoe!** – The boss will place AOEs on the ground, which you MUST stay out of. They do a LOT of damage so you must move out of them fast. However, The boss will go into a phase where the room will change color/tone and the AOEs on the ground will change to WHITE. When this happens you must get INSIDE the aoe to protect yourself. Once the screen goes back to normal and they are no longer white, get OUT again asap."
+        ]
+      },
+      {"name" :  "The Shadow Guard",
+        "mechanics": [
+          "This boss is a bit of a stack and burn fest to some extent. The boss doesn’t need to move at all, as with most of the bosses in this dungeon you can simple hold him still and beat on him. However of course there are mechanics you need to be aware of."
+        ],
+        "strategy" : [
+          "**Casters** – There are 4 adds in the room, all of which can cast ranged abilities to fear/damage the group. The tank can chain these in onto the boss and stack them up and interrupt their casts so pay close attention to these while killing them with AOE. If any get CC’d at range you may have to focus it down to save it being an annoyance, but generally these die really fast.",
+          "**Heavy attack** – Very simple, regardless of who has agro if you are targeted by this heavy attack you MUST block it. Don’t run, just block. ",
+          "**Ground AOE** – The boss will place ground AOEs on the ground which do nasty poison damage. Simply stay out of these, they are very easy to see and stay out of. No need to run around the room just watch your feet."
+        ]
+      },
+      {"name" :  "Bogdan The Nightflame",
+        "mechanics": [
+          "The final boss in this dungeon can be quite challenging. This is a big target in a small space and yes you CAN fall off the cliff. So watch your feet! The tank needs to grab Bogdan and hold him still at all costs. Do NOT run around the room and focus what you are doing. It helps if you spread out a little as dps and healers and don’t stack on each others feet."
+        ],
+        "strategy" : [
+          "**Heavy attack** – This is very simple and easy to spot. Bogdan will wind up a huge punch/slap and knock you over. This MUST be blocked. Even if you are a dps and this for some reason hits you, you MUST block.",
+          "**Flames** – The boss will raise head into the air and launch a fireball which will cover an area of the ground usually aimed at the dps/healers. When this lands, simply stand out of it and carry on doing what you are doing. Don’t run around headless, just step aside.",
+          "**Shadows** – This is the important mechanic mentioned above for the twilight boss. These shadows will spawn around the boss and if you do not kill them they will mind control/fear members of the group and YES they can mind control you OFF the cliff and INTO fire! If you do not kill these fast enough, more will spawn and you will get overwhelmed. These are KEY targets and must be killed at all costs.",
+          "**Healers** – Just like the shadows, some white versions of them will spawn. However these do NOT fear/mind control you, instead these heal the boss. You have two choices here. You can interrupt them every time they heal and keep focus on the boss OR you can simply kill them. If you do not kill them, you can have more than one in the room and unless you are good at interrupts you will end up in trouble. The boss will heal far too much.",
+          "**JUMP** – During the fight the room will be somewhat filled with fire, do not panic. The boss will jump into the air. When he does this be sure you are NOT in fire and that you are BLOCKING. A successful block will allow you to live, but at the same time all flames, all shadows and all healers will be removed. The fight is rinse repeat from there."
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/elden-hollow-2/"
+  },
 ]
