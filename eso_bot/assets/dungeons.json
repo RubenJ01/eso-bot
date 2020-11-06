@@ -1213,5 +1213,77 @@
       }
     ],
     "link" : "https://xynodegaming.com/elden-hollow-2/"
-  }
+  },
+  {
+    "dungeon" : "Falkreath Hold",
+    "description" : "This dungeons you will have access to at level 45 or if you travel to the opening yourself at lower levels.This is located in the East of the Craglorn map.",
+    "image" : "",
+    "sets" : ["Ironblood", "Draugr’s Rest", "Pillar of Nirn", "Domihaus"],
+    "bosses" : [
+      {"name" :  "Morrigh Bullblood",
+        "mechanics": [
+          "This boss is easy when it comes to mechanics. The tank should hold the boss and minotaur on the center of the room and face it away from the group. Focus down the Minotaur first then proceed to beat down the boss."
+        ],
+        "strategy" : [
+          "**Heavy Attack** – The boss will occasionally heavy attack. This simply needs to be blocked regardless of who the target is. The tank should keep the taunt up.",
+          "**Siege** – The boss cast an ability at 50% health which will create a siege shield type effect for protection while all around is chaos. Barrages of trebuchet type damage will be surrounding the room after a brief knock back attack. Simply get inside the shield and burn the boss.",
+          "**Ground AOE** – The boss will occasionally put a negative AOE on the ground. This is a pretty small circle and can be easily avoided by simply stepping out of it. No need to dodge roll, just move out of it and you will be safe."
+        ]
+      },
+      {"name" :  "Siege Mammoth",
+        "mechanics": [
+          "This boss is hard to keep still, has plenty of AOE effects and some nasty oneshots if you are not careful. An easy way to manage this boss is for the tank to hold it near the gate with their back to the gate itself. The tank should hold still while the group surrounds the mammoth from behind."
+        ],
+        "strategy" : [
+          "**Trample** – During the fight the mammoth will try to trample/charge down it’s opponents with a long ranged ground AOE charge ability. So long as the tank has the mammoth faced to the gate, it pretty much has no where to go so the rest of the group is safe. The tank should block this. If for some reason the boss goes loose and this is aimed a different direction, the group MUST avoid it.",
+          "**Headbutt/Heavy Attack** – During the fight the boss will attempt to heavy attack the person with agro with a big swinging headbutt trying to hit with his tusks. This is quite a lot animation so easy to spot. When this happens the tank MUST block.",
+          "**Flames!** – The whole way through this encounter there are minions up on the mountains which you cannot kill. They will constantly cast ground moving flame AOEs at the group from the left and the right. Don’t panic, simply step out of them and weave between them as they come towards you.",
+          "**STOMP!** – This mechanic is crucial! At low health (under 50% or so depending on dps and overlapping mechanics) the mammoth will rise up onto his back legs and do a massive stomp! Every member of the group needs to BLOCK or take a one shot! Do not miss this mechanic!"
+        ]
+      },
+      {"name" :  "Cernunnon",
+        "mechanics": [
+          "This boss is a tricky one, there are some key points that must be payed attention to or else it is a guaranteed wipe. The tank should try to agro all 3 adds to start with and hold them together as much as possible. Since 2 of them are ranged this becomes difficult to manipulate so the tank should grab the melee add, and place it on top of the archer! This stops the fight being too split up."
+        ],
+        "strategy" : [
+          "**Circle of death** – The area is a swirling circle of nastiness. Do NOT leave the circle. If you do, you will die from HEAVY damage. This is where running away will kill you!",
+          "**Mini bosses** – There are 3 mini bosses, an archer, a mage and a melee enemy. The melee should be stacked on the archer and the mage dealt with separately (kill this one first). Each enemy has interruptible mechanics which MUST be interrupted. The mage will cause high damage and cc, and the archer can cause a VERY nasty flame dot. The melee on the other hand has a huge AOE that must be avoided. If you do not kill them fast enough they will enrage and get much stronger.",
+          "**Lights** – Each of the 3 mini bosses you knock down to 0% health they will sit down and have a green circle under their feet. This must be picked up by a player by walking over it. Once picked up it must be deposited into one of the 3 lights surrounding the area. Each pick up will put out ONE light. Once you have all 3, pay attention to the middle of the room where the bone colossus (main boss) will come out from the middle.",
+          "**Heavy attack** – The main boss has a heavy attack with a knock back. This must be blocked! The tank should have the taunt up at all times because if a dps or healer receives this attack they are likely to die.",
+          "**Ghosts** – Ghosts will spawn and spin around the room, if you touch these they will fear you. So watch your feet. These are immune to all damage.",
+          "**Skeleton** – During the fight with the main boss, skeletons will appear, be sure to kill these as soon as possible, they do a LOT of damage. Lay off the boss and get the adds, down.",
+          "**Ice Comet!** – During the fight the boss will raise his hands and each member of the group will be followed by a massive AOE. You must spread out and hold block until the ice comet lands on each player. If you fail to block you will be killed or take huge damage and be stunned. Be careful, spacial awareness is required here.",
+          "Once the boss reaches 51% health he will de-spawn, and the original mini bosses will re-appear in their original locations. Repeat the whole starting process again until they are all down, and all the lights have been put out (just as you already did at the beginning). The boss will come back out of the middle and it is just a case of now killing him. No more additional mechanics to the ones you have already seen."
+        ]
+      },
+      {"name" :  "Deathlord Bjarfrud Skjoralmor",
+        "mechanics": [
+          "This boss is extremely simple but can be messy if not controlled. The boss should be held still by the tank and turned away from the group at all times! The group can then stand behind the boss in a semi circle while attempting to kill it. DO NOT run around the room. Running around will make a mess of this fight very quickly once the adds come in."
+        ],
+        "strategy" : [
+          "**Breath** – The boss will cast a negative frontal cone shaped AOE, does high damage over time to anyone caught in it. A tank can block it but dps and healers need to avoid this.",
+          "**Adds** – There will be MANY undead adds entering the fight. The tank will need to pull these in as soon as possible and you want them to die CLOSE to the boss. If players run around the room, the adds will be misplaced, die in stupid places and the next phase becomes almost impossible to manage. Kill all adds quickly and CLOSE to the main boss.",
+          "**Cleanse!** – During when the adds die they will have a beam of light sticking out of their corpses. You need to assign one member of your group to go to the urns at the back of the room and pick up the cleanse synergy, then run back and cleanse as many bodies as possible. If all of the bodies are close to the tank then this can be done very fast.",
+          "**BIG BOOM!** – Once enough enemies are in the room (dead or not) the boss will start to channel an ability and each player will have a spreading AOE under their feet. Do NOT stack up. IF the cleanses were done correctly you will survive and no explosion will happen BUT, if more than 1/2+ bodies are not cleansed by the time the AOE hits its peek and you die! Get those cleanses in. Follow te mechanics!"
+        ]
+      },
+      {"name" :  "Domihaus The Bloody-Horned",
+        "mechanics": [
+          "The room is tiny and co-ordination is KEY! Stay together as much as possible and you will do this in no time. The tank MUST have a taunt on the boss at all times else he WILL one shot group members. So pay attention! He never moves so he will not start chasing people but he will hit from range. The trick to co-coordinating is to decide which way around the room you are going to go. Generally most go left. when it counts, remember which pillar is on the left and you will need to travel to it together (more info coming up)."
+        ],
+        "strategy" : [
+          "**Heavy attack** – During the fight the boss will heavy attack whoever has agro with a long ranged attack. THIS is why the tank must NEVER drop taunt. If the tank blocks this, they will live. But if not blocking, or it hits anyone else, they WILL die. If you see it coming as a dps/healer and are quick enough to dodge roll you can survive it.",
+          "**Flames (aka corners)** – The boss will call up flames from the ground AROUND the room. There is a small square platform on the floor, each member needs to get in the middle as soon as possible and separate on to each one of the four corners so NO ONE is standing on anyone else. This is because the next mechanic is coming and requires your to NOT stack.",
+          "**Suck in and melt** – Once in the middle in position as explained above, the boss will do a large breathe mechanic which will pull all members to him and you will hover in the air for a split second. When he drops you, you will ALL have your own dot effect on you which will drop multiple AOEs on the ground about a second apart. EACH member must walk backwards from their corners SLOWLY to place each AOE neatly on the ground.",
+          "While moving backwards if you have no where to go and you are going to end up hitting the fire wall, continue walking but instead of backwards go to your RIGHT, ALL players must do the same. “back back back right”. If ONE member messes this up and goes the opposite direction, you will stack on a friend and kill them. This is crucial. Basically at this point we have clearly established that you pretty much hug your corner spots when the fire is on the outside of the room, and the rest of the time, hug your pillar.",
+          "**Adds** – During the fight the boss will turn to stone and 4 elemental atronachs will spawn. These MUST be focused. Highly recommended to use ultimates at this stage to kill them fast before the boss wakes up.",
+          "**SHOUT!!!** – Pay attention to that pillar you chose because you are going to need it! At 70%, 50%, 30%, 10% and 5% health the boss will “SHOUT” when he does this you will ALL have to hide behind a pillar. The trick to this is co-ordination. Each pillar that has a player behind it will be destroyed when he shouts, so all stay behind the same one and you will only lose one pillar at a time. Once the pillar is down, you go to the NEXT pillar to your left as the NEXT safe spot of the fight.",
+          "Two things to note. Hard mode removes two pillars in the room from the beginning. And also, if you do not hide during the shout you are DEAD!",
+          "Execute – At very low health the boss will gain a damage shield and spawn adds. THIS is crucial. Adds will spawn every minute from now on so you MUST focus them down, all mechanics are in play, fire, corners, ground slam and fire balls. The tank is under serious pressure here. Hold the boss taunt and grab the adds. The group needs to kill all adds as fast as possible. Each time the damage shield of the boss falls off he will try to re-apply it.",
+          "The trick to this is passive damage while clearing out the trash. Keep your dots up and the boss will gradually go down as the adds do. Especially if you have ultimates at this stage."          
+        ]
+      }
+    ],
+    "link" : "https://xynodegaming.com/falkreath-hold/"
+  },
 ]
